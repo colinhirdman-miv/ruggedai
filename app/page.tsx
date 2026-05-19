@@ -44,7 +44,7 @@ export default function HomePage() {
               className="block text-white"
               style={{ fontSize: "clamp(3rem, 8vw, 6.5rem)" }}
             >
-              The AI Built for
+              AI Built for
             </span>
             <span
               className="block text-brand-red"
@@ -64,8 +64,6 @@ export default function HomePage() {
           </p>
           <div className="flex flex-col sm:flex-row flex-wrap gap-4">
             <PrimaryBtn href="/ruggedgenius">Join RuggedGenius — $997</PrimaryBtn>
-            <OutlineBtn href="/apply">Apply for 1:1 Consulting</OutlineBtn>
-            <OutlineBtn href="/apply">Get Started</OutlineBtn>
           </div>
         </div>
       </section>
