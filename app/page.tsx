@@ -2,9 +2,12 @@ import Link from "next/link";
 
 function RedLabel({ children }: { children: React.ReactNode }) {
   return (
-    <p className="font-display font-bold text-xs uppercase tracking-[0.3em] text-brand-red mb-4">
-      {children}
-    </p>
+    <div className="flex items-center gap-3 mb-5">
+      <span className="w-1 h-5 bg-brand-red flex-shrink-0" />
+      <p className="font-display font-bold text-xs uppercase tracking-[0.3em] text-brand-red">
+        {children}
+      </p>
+    </div>
   );
 }
 
@@ -23,7 +26,7 @@ function OutlineBtn({ href, children }: { href: string; children: React.ReactNod
   return (
     <Link
       href={href}
-      className="inline-block font-display font-black text-base uppercase tracking-widest border-2 border-brand-iron text-brand-iron px-8 py-4 hover:border-white hover:text-white transition-colors"
+      className="inline-block font-display font-black text-base uppercase tracking-widest border-2 border-white text-white px-8 py-4 hover:bg-white hover:text-brand-black transition-colors"
     >
       {children}
     </Link>
@@ -36,15 +39,25 @@ export default function HomePage() {
       {/* ─── HERO ─── */}
       <section className="pt-36 pb-24 px-6 bg-brand-black">
         <div className="max-w-5xl mx-auto">
-          <RedLabel>AI for the Trades</RedLabel>
-          <h1
-            className="font-display font-black uppercase leading-none text-white mb-6"
-            style={{ fontSize: "clamp(3rem, 8vw, 6.5rem)", letterSpacing: "-0.01em" }}
-          >
-            Your Business Should Work As Hard As You Do.
+          <h1 className="font-display font-black uppercase leading-none mb-4" style={{ letterSpacing: "-0.01em" }}>
+            <span
+              className="block text-white"
+              style={{ fontSize: "clamp(3rem, 8vw, 6.5rem)" }}
+            >
+              The AI Built for
+            </span>
+            <span
+              className="block text-brand-red"
+              style={{ fontSize: "clamp(3rem, 8vw, 6.5rem)" }}
+            >
+              The Trades.
+            </span>
           </h1>
+          <p className="font-display font-bold text-sm uppercase tracking-[0.2em] text-brand-steel mb-8">
+            HVAC &nbsp;·&nbsp; Plumbing &nbsp;·&nbsp; Pest Control &nbsp;·&nbsp; Electrical &nbsp;·&nbsp; Garage Doors &nbsp;·&nbsp; Landscaping
+          </p>
           <p className="font-display font-bold text-xl md:text-2xl text-brand-steel uppercase tracking-wide mb-6 max-w-3xl">
-            AI built for the home service business owner who&apos;s done leaving money on the table.
+            Your Business Should Work As Hard As You Do.
           </p>
           <p className="text-brand-steel text-base md:text-lg max-w-2xl mb-10 leading-relaxed">
             You built something real. You show up every day, run a crew, and handle things nobody else will touch. Your business should work the same way. RuggedAI brings AI to the trades — not the watered-down, built-for-a-startup version. The real thing. Built for you.
@@ -57,15 +70,12 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ─── DIVIDER ─── */}
-      <div className="h-px bg-brand-iron opacity-10" />
-
       {/* ─── PROBLEM ─── */}
-      <section className="py-24 px-6 bg-brand-dark">
+      <section className="py-24 px-6 bg-brand-light">
         <div className="max-w-5xl mx-auto">
           <RedLabel>The Problem</RedLabel>
           <h2
-            className="font-display font-black uppercase leading-none text-white mb-4"
+            className="font-display font-black uppercase leading-none text-brand-black mb-4"
             style={{ fontSize: "clamp(2.25rem, 5.5vw, 4.5rem)", letterSpacing: "-0.01em" }}
           >
             88% of Home Service Businesses Haven&apos;t Touched AI Yet.
@@ -73,49 +83,37 @@ export default function HomePage() {
           <p className="font-display font-bold text-xl md:text-2xl text-brand-steel uppercase tracking-wide mb-8 max-w-3xl">
             The ones who move first are already pulling ahead.
           </p>
-          <p className="text-brand-steel text-base md:text-lg max-w-3xl mb-16 leading-relaxed">
+          <p className="text-[#374151] text-base md:text-lg max-w-3xl mb-16 leading-relaxed">
             Every week your phone rings after hours and goes to voicemail. Estimates go out and nobody follows up. Customers finish a job and never get asked for a review. You know you should do something about it. You don&apos;t have the time or the expertise to figure out how. And every week you wait, a competitor who did figure it out is getting the jobs you should have closed.
           </p>
 
-          {/* Stats */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-px bg-[#1a1a1a]">
+          {/* Stats — dark cards on light bg for contrast */}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
-              {
-                stat: "88%",
-                label: "of trades businesses haven't adopted AI",
-              },
-              {
-                stat: "$50K–$150K",
-                label: "in recoverable revenue lost annually",
-              },
-              {
-                stat: "80%+",
-                label: "lead-to-job conversion for businesses using AI agents",
-              },
+              { stat: "88%", label: "of trades businesses haven't adopted AI" },
+              { stat: "$50K–$150K", label: "in recoverable revenue lost annually" },
+              { stat: "80%+", label: "lead-to-job conversion for businesses using AI agents" },
             ].map(({ stat, label }) => (
-              <div key={stat} className="bg-brand-dark px-8 py-10">
+              <div key={stat} className="bg-brand-black px-8 py-10 border-t-4 border-brand-red">
                 <p
                   className="font-display font-black text-brand-red uppercase leading-none mb-3"
                   style={{ fontSize: "clamp(2.25rem, 4vw, 3.5rem)" }}
                 >
                   {stat}
                 </p>
-                <p className="text-brand-steel text-sm uppercase tracking-wide leading-snug">{label}</p>
+                <p className="text-brand-iron text-sm uppercase tracking-wide leading-snug">{label}</p>
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* ─── DIVIDER ─── */}
-      <div className="h-px bg-brand-iron opacity-10" />
-
       {/* ─── SOLUTION ─── */}
-      <section className="py-24 px-6 bg-brand-black">
+      <section className="py-24 px-6 bg-white border-t border-brand-iron/20">
         <div className="max-w-5xl mx-auto">
           <RedLabel>The Solution</RedLabel>
           <h2
-            className="font-display font-black uppercase leading-none text-white mb-4"
+            className="font-display font-black uppercase leading-none text-brand-black mb-4"
             style={{ fontSize: "clamp(2.25rem, 5.5vw, 4.5rem)", letterSpacing: "-0.01em" }}
           >
             We Build AI That Works The Way You Do. Hard.
@@ -123,11 +121,11 @@ export default function HomePage() {
           <p className="font-display font-bold text-xl md:text-2xl text-brand-steel uppercase tracking-wide mb-6 max-w-3xl">
             No corporate software. No generic tools built for someone else. Custom AI built specifically for your business.
           </p>
-          <p className="text-brand-steel text-base md:text-lg max-w-3xl mb-16 leading-relaxed">
+          <p className="text-[#374151] text-base md:text-lg max-w-3xl mb-16 leading-relaxed">
             RuggedAI works with home service business owners to build AI systems that run in the background while you do the real work. Calls get answered. Estimates get followed up. Reviews get requested. Jobs get closed. All without hiring anyone new.
           </p>
 
-          {/* Offering cards */}
+          {/* Offering cards — dark on white for strong contrast */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {[
               {
@@ -166,7 +164,7 @@ export default function HomePage() {
                 className={`flex flex-col p-8 border ${
                   offer.primary
                     ? "border-brand-red bg-[#130000]"
-                    : "border-[#1a1a1a] bg-brand-dark"
+                    : "border-[#1a1a1a] bg-brand-black"
                 }`}
               >
                 {offer.primary && (

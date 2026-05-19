@@ -29,7 +29,7 @@ export default function Nav() {
             <Link
               key={link.href}
               href={link.href}
-              className="font-display font-700 text-sm uppercase tracking-widest text-brand-iron hover:text-white transition-colors"
+              className="font-display font-semibold text-sm uppercase tracking-widest text-brand-iron hover:text-white transition-colors"
             >
               {link.label}
             </Link>
