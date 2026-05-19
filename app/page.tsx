@@ -74,7 +74,10 @@ export default function HomePage() {
               })()}
             </div>
           </div>
-          <p className="font-display font-bold text-xl md:text-2xl text-brand-steel uppercase tracking-wide mb-6 max-w-3xl">
+          <p
+            className="font-display font-black uppercase leading-none text-brand-steel mb-6 max-w-4xl"
+            style={{ fontSize: "clamp(2rem, 5vw, 4rem)", letterSpacing: "-0.01em" }}
+          >
             Your Business Should Work As Hard As You Do.
           </p>
           <p className="text-brand-steel text-base md:text-lg max-w-2xl mb-10 leading-relaxed">
