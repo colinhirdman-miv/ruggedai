@@ -131,7 +131,7 @@ export default function HomePage() {
                 price: "$997",
                 period: "one-time",
                 description:
-                  "Learn to build AI agents in your business in four weeks. Live, hands-on, specific to your trade. You leave with working systems — not slides.",
+                  "Learn to build AI agents in your business in four weeks. Live, hands-on, specific to your trade. You leave with real AI running in your operation.",
                 cta: "Join RuggedGenius →",
                 href: "/ruggedgenius",
                 primary: true,

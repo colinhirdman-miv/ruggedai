@@ -161,7 +161,7 @@ export default function WorkWithUsPage() {
                 step: "03",
                 title: "Build",
                 description:
-                  "Week by week, you get working systems. Not plans. Not slide decks. Actual AI running in your business, tested against real calls and real customers.",
+                  "Week by week, you get working systems. Actual AI running in your business, tested against real calls and real customers.",
               },
               {
                 step: "04",
