@@ -28,7 +28,7 @@ export default function WorkWithUsPage() {
             Your highest-impact AI opportunities, built together.
           </p>
           <p className="text-brand-steel text-base md:text-lg max-w-2xl mb-10 leading-relaxed">
-            This isn&apos;t a course. It&apos;s not a template. Colin sits down with you, learns your operation, and builds custom AI systems that work for your specific business — in your specific market, with your specific problems.
+            You already know where your business is bleeding — the calls that go to voicemail, the estimates that go cold, the reviews you never got around to asking for. This is about fixing those specific holes in your specific operation. Not a course. Not a template. Your business, built to close more.
           </p>
           <Link
             href="/apply"
@@ -106,7 +106,7 @@ export default function WorkWithUsPage() {
                 <span className="text-brand-steel text-sm ml-2 uppercase tracking-wide">pricing</span>
               </div>
               <p className="text-brand-steel text-sm leading-relaxed mb-6">
-                For businesses that want a full-service solution. Our development team builds your custom AI infrastructure from the ground up — designed around your operation, integrated with your existing systems.
+                You hand us the keys. We build the full system — call handling, follow-up sequences, review automation, job-closing workflows — and integrate everything into the way your business already runs. You don&apos;t touch the technology. You just watch the operation tighten up.
               </p>
               <ul className="space-y-3 mb-8 flex-1">
                 {[
@@ -149,25 +149,25 @@ export default function WorkWithUsPage() {
                 step: "01",
                 title: "Apply",
                 description:
-                  "Fill out the application. We need to know your business, your operation, and where you think the biggest opportunities are.",
+                  "Tell us about your business — what you run, how it operates, and where you think you're losing the most. Five minutes. No fluff.",
               },
               {
                 step: "02",
                 title: "Strategy Call",
                 description:
-                  "Colin jumps on a call. We map your business, identify the highest-impact AI opportunities, and build a plan.",
+                  "You talk, Colin listens. By the end of the call you'll know exactly which three or four systems will have the biggest impact on your revenue — and in what order to build them.",
               },
               {
                 step: "03",
                 title: "Build",
                 description:
-                  "We build. Together. Week by week, system by system, until your business runs differently than it did before.",
+                  "Week by week, you get working systems. Not plans. Not slide decks. Actual AI running in your business, tested against real calls and real customers.",
               },
               {
                 step: "04",
                 title: "Operate",
                 description:
-                  "Your AI systems are live. Calls answered. Estimates followed up. Reviews requested. Jobs closed. You focus on the real work.",
+                  "The calls get answered. The estimates get followed up. The reviews come in. You run your business the same way you always have — just without the holes.",
               },
             ].map((s) => (
               <div key={s.step} className="bg-brand-light px-8 py-8 flex gap-8 items-start border-l-4 border-brand-red">

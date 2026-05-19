@@ -137,15 +137,15 @@ export default function RuggedGeniusPage() {
             {[
               {
                 title: "Working AI In Your Business",
-                body: "Not theory. Not homework. Before the four weeks are up, you have AI systems running live in your operation.",
+                body: "Before the four weeks are up, you have real systems running. Calls answered. Estimates followed up. Reviews coming in. Not theory — your actual operation, running better.",
               },
               {
                 title: "No New Hires Needed",
-                body: "Your AI handles what a part-time employee would — calls, follow-ups, reviews — without the payroll.",
+                body: "The AI handles what you&apos;d otherwise pay a part-timer for — without the payroll, the scheduling, or the management.",
               },
               {
-                title: "Built for Your Trade",
-                body: "Not a generic template. Every system is built around how your specific business operates, in your market.",
+                title: "Built Around How You Work",
+                body: "Not a generic template dropped into your business. Every system is built around your trade, your market, and the way your operation actually runs.",
               },
             ].map((pillar) => (
               <div key={pillar.title} className="bg-brand-black p-8">
@@ -170,7 +170,7 @@ export default function RuggedGeniusPage() {
             What We Build Together Over 4 Weeks
           </h2>
           <p className="text-[#374151] text-base md:text-lg max-w-2xl mb-12 leading-relaxed">
-            Every session is live, recorded, and specific to the trades. You&apos;re not watching someone else&apos;s business — you&apos;re building yours.
+            You already know how to solve problems on the job. This teaches you to solve them in software. Every session is live, specific to your trade, and ends with something working in your business — not homework to do later.
           </p>
           <div className="space-y-px bg-brand-iron/20">
             {[

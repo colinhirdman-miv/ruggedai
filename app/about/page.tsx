@@ -25,7 +25,7 @@ export default function AboutPage() {
             Built for the People Who Do the Real Work.
           </h1>
           <p className="text-brand-steel text-base md:text-lg max-w-2xl leading-relaxed">
-            RuggedAI was built for one reason: the home service business owner has been left behind in the AI revolution. Every new tool, every new platform, every new &ldquo;AI solution&rdquo; is designed for tech companies and corporate offices — not the guy running a crew of five HVAC techs at 6am.
+            You get up early. You run a crew. You bid jobs, deal with customers, and keep it all together. The businesses beating you to jobs right now aren&apos;t working harder — they have better systems. AI that follows up when you&apos;re on a ladder. AI that answers calls at 10pm. AI that turns a finished job into a five-star review before you&apos;ve packed up the truck. That&apos;s what this is about.
           </p>
         </div>
       </section>
@@ -42,10 +42,10 @@ export default function AboutPage() {
               Close the Gap.
             </h2>
             <p className="text-[#374151] text-base leading-relaxed mb-4">
-              Fortune 500 companies have entire teams deploying AI to cut costs, win customers, and outmaneuver competition. Home service businesses have none of that. RuggedAI levels the field.
+              You&apos;re not competing with Fortune 500 companies. You&apos;re competing with the HVAC guy down the street who stopped losing jobs to voicemail. The plumber whose estimates follow up automatically. The pest control company that gets five-star reviews without ever asking.
             </p>
             <p className="text-[#374151] text-base leading-relaxed">
-              We build practical AI systems — not demos, not experiments. Systems that answer your phones, follow up on your estimates, request reviews, and close jobs. Real work. Real results.
+              That gap is closeable. It doesn&apos;t take a tech team or a big budget. It takes the right systems built for the way you actually operate.
             </p>
           </div>
           <div>
@@ -136,10 +136,10 @@ export default function AboutPage() {
                 Founder, RuggedAI
               </p>
               <p className="text-brand-steel text-base md:text-lg max-w-2xl leading-relaxed mb-4">
-                Colin has spent years at the intersection of AI technology and real-world business operations. He built RuggedAI after seeing the same pattern over and over: hardworking business owners with serious operations getting left behind while tech-savvy competitors pulled ahead.
+                Colin has spent years watching the same thing happen: trades business owners with serious operations — real revenue, real crews, real customers — getting outmaneuvered by competitors who figured out how to use AI first. Not because they were smarter. Because they moved faster.
               </p>
               <p className="text-brand-steel text-base md:text-lg max-w-2xl leading-relaxed mb-10">
-                His approach is direct. No fluff. No jargon. He identifies where AI creates leverage in your specific business and builds it — fast.
+                His approach is direct. He sits down with your operation, finds the three or four places AI creates the most leverage, and builds them. No jargon. No theory. No wasted time.
               </p>
               <Link
                 href="/apply"
