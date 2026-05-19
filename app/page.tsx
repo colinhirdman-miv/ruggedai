@@ -53,9 +53,27 @@ export default function HomePage() {
               The Trades.
             </span>
           </h1>
-          <p className="font-display font-bold text-sm uppercase tracking-[0.2em] text-brand-steel mb-8">
-            HVAC &nbsp;·&nbsp; Plumbing &nbsp;·&nbsp; Pest Control &nbsp;·&nbsp; Electrical &nbsp;·&nbsp; Garage Doors &nbsp;·&nbsp; Landscaping
-          </p>
+          <div className="overflow-hidden mb-8 -mx-6">
+            <div className="animate-marquee flex whitespace-nowrap">
+              {[
+                "HVAC", "Plumbing", "Pest Control", "Electrical", "Garage Doors",
+                "Landscaping", "Roofing", "Window Cleaning", "Pressure Washing",
+                "Pool Service", "Painting", "Handyman", "Tree Service",
+                "Gutters", "Carpet Cleaning", "Appliance Repair", "Locksmith", "Fencing",
+                "HVAC", "Plumbing", "Pest Control", "Electrical", "Garage Doors",
+                "Landscaping", "Roofing", "Window Cleaning", "Pressure Washing",
+                "Pool Service", "Painting", "Handyman", "Tree Service",
+                "Gutters", "Carpet Cleaning", "Appliance Repair", "Locksmith", "Fencing",
+              ].map((trade, i) => (
+                <span
+                  key={i}
+                  className="font-display font-bold text-sm uppercase tracking-[0.2em] text-brand-steel flex-shrink-0 px-4"
+                >
+                  {trade} <span className="text-brand-red mx-2">·</span>
+                </span>
+              ))}
+            </div>
+          </div>
           <p className="font-display font-bold text-xl md:text-2xl text-brand-steel uppercase tracking-wide mb-6 max-w-3xl">
             Your Business Should Work As Hard As You Do.
           </p>
