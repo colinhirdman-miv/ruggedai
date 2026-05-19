@@ -57,7 +57,7 @@ export default function WorkWithUsPage() {
                 Most Popular
               </p>
               <h3 className="font-display font-black text-3xl uppercase text-white mb-2">
-                Rugged 1:1 Consulting
+                <span className="text-brand-red">Rugged</span> 1:1 Consulting
               </h3>
               <div className="mb-6">
                 <span
@@ -94,7 +94,7 @@ export default function WorkWithUsPage() {
             {/* Rugged Builds */}
             <div className="border border-brand-iron/40 bg-brand-black p-10 flex flex-col border-t-4 border-t-brand-steel">
               <h3 className="font-display font-black text-3xl uppercase text-white mb-2">
-                Rugged Builds
+                <span className="text-brand-red">Rugged</span> Builds
               </h3>
               <div className="mb-6">
                 <span

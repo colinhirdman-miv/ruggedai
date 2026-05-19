@@ -133,7 +133,7 @@ export default function AboutPage() {
                 Colin Hirdman
               </h2>
               <p className="font-display font-bold text-xs uppercase tracking-[0.3em] text-brand-red mb-6">
-                Founder, RuggedAI
+                Founder, Rugged<span className="text-white">AI</span>
               </p>
               <p className="text-brand-steel text-base md:text-lg max-w-2xl leading-relaxed mb-4">
                 Colin has spent years watching the same thing happen: trades business owners with serious operations — real revenue, real crews, real customers — getting outmaneuvered by competitors who figured out how to use AI first. Not because they were smarter. Because they moved faster.

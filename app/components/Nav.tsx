@@ -18,9 +18,9 @@ export default function Nav() {
       <div className="max-w-7xl mx-auto px-6 flex items-center justify-between h-16">
         <Link
           href="/"
-          className="font-display font-black text-2xl uppercase tracking-wider text-brand-red"
+          className="font-display font-black text-2xl uppercase tracking-wider"
         >
-          RuggedAI
+          <span className="text-brand-red">Rugged</span><span className="text-white">AI</span>
         </Link>
 
         {/* Desktop nav */}
@@ -31,7 +31,9 @@ export default function Nav() {
               href={link.href}
               className="font-display font-semibold text-sm uppercase tracking-widest text-brand-iron hover:text-white transition-colors"
             >
-              {link.label}
+              {link.label.startsWith("Rugged") ? (
+                <><span className="text-brand-red">Rugged</span>{link.label.slice(6)}</>
+              ) : link.label}
             </Link>
           ))}
           <Link
@@ -64,7 +66,9 @@ export default function Nav() {
               onClick={() => setOpen(false)}
               className="font-display font-bold text-base uppercase tracking-widest text-brand-iron hover:text-white transition-colors"
             >
-              {link.label}
+              {link.label.startsWith("Rugged") ? (
+                <><span className="text-brand-red">Rugged</span>{link.label.slice(6)}</>
+              ) : link.label}
             </Link>
           ))}
           <Link

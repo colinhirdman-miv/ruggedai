@@ -74,7 +74,7 @@ export default function RuggedGeniusPage() {
             className="font-display font-black uppercase leading-none text-white mb-6"
             style={{ fontSize: "clamp(3rem, 8vw, 6rem)", letterSpacing: "-0.01em" }}
           >
-            RuggedGenius
+            <span className="text-brand-red">Rugged</span>Genius
           </h1>
           <p className="font-display font-bold text-xl md:text-2xl text-brand-steel uppercase tracking-wide mb-6 max-w-3xl">
             We&apos;ll build AI agents in your business — together — over four weeks.
@@ -247,7 +247,7 @@ export default function RuggedGeniusPage() {
             <div>
               <h3 className="font-display font-black text-3xl uppercase text-white mb-1">Colin Hirdman</h3>
               <p className="font-display font-bold text-xs uppercase tracking-[0.2em] text-brand-red mb-4">
-                Founder, RuggedAI
+                Founder, Rugged<span className="text-white">AI</span>
               </p>
               <p className="text-brand-steel text-base leading-relaxed mb-4 max-w-xl">
                 Colin has spent years working directly with business owners at the intersection of AI and real operations. He started RuggedGenius after watching the same thing happen over and over: trades owners with serious businesses getting outrun by competitors who just had better systems — and no one was helping them close that gap.
@@ -391,7 +391,7 @@ export default function RuggedGeniusPage() {
             className="font-display font-black uppercase leading-none text-white mb-4"
             style={{ fontSize: "clamp(2.25rem, 5vw, 4rem)" }}
           >
-            Join RuggedGenius
+            Join <span className="text-brand-red">Rugged</span>Genius
           </h2>
           <div className="flex items-baseline justify-center gap-3 mb-6">
             <span

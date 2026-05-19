@@ -192,7 +192,9 @@ export default function HomePage() {
                   </span>
                 )}
                 <h3 className="font-display font-black text-2xl uppercase text-white leading-tight mb-2">
-                  {offer.name}
+                  {offer.name.startsWith("Rugged") ? (
+                    <><span className="text-brand-red">Rugged</span>{offer.name.slice(6)}</>
+                  ) : offer.name}
                 </h3>
                 <div className="mb-6">
                   <span className="font-display font-black text-3xl text-brand-red">{offer.price}</span>
@@ -239,8 +241,8 @@ export default function HomePage() {
       {/* ─── FOOTER ─── */}
       <footer className="bg-brand-black border-t border-[#1a1a1a] py-10 px-6">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
-          <span className="font-display font-black text-xl uppercase tracking-wider text-brand-red">
-            RuggedAI
+          <span className="font-display font-black text-xl uppercase tracking-wider">
+            <span className="text-brand-red">Rugged</span><span className="text-white">AI</span>
           </span>
           <p className="text-brand-steel text-xs uppercase tracking-widest">
             AI that works as hard as you do.
