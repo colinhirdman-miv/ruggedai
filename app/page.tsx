@@ -54,24 +54,24 @@ export default function HomePage() {
             </span>
           </h1>
           <div className="overflow-hidden mb-8 -mx-6">
-            <div className="animate-marquee flex whitespace-nowrap">
-              {[
-                "HVAC", "Plumbing", "Pest Control", "Electrical", "Garage Doors",
-                "Landscaping", "Roofing", "Window Cleaning", "Pressure Washing",
-                "Pool Service", "Painting", "Handyman", "Tree Service",
-                "Gutters", "Carpet Cleaning", "Appliance Repair", "Locksmith", "Fencing",
-                "HVAC", "Plumbing", "Pest Control", "Electrical", "Garage Doors",
-                "Landscaping", "Roofing", "Window Cleaning", "Pressure Washing",
-                "Pool Service", "Painting", "Handyman", "Tree Service",
-                "Gutters", "Carpet Cleaning", "Appliance Repair", "Locksmith", "Fencing",
-              ].map((trade, i) => (
-                <span
-                  key={i}
-                  className="font-display font-bold text-sm uppercase tracking-[0.2em] text-brand-steel flex-shrink-0 px-4"
-                >
-                  {trade} <span className="text-brand-red mx-2">·</span>
-                </span>
-              ))}
+            <div className="animate-marquee flex whitespace-nowrap" style={{ width: "max-content" }}>
+              {(() => {
+                const trades = [
+                  "HVAC", "Plumbing", "Pest Control", "Electrical", "Garage Doors",
+                  "Landscaping", "Roofing", "Window Cleaning", "Pressure Washing",
+                  "Pool Service", "Painting", "Handyman", "Tree Service",
+                  "Gutters", "Carpet Cleaning", "Appliance Repair", "Locksmith", "Fencing",
+                ];
+                return [...trades, ...trades].map((trade, i) => (
+                  <span
+                    key={i}
+                    className="font-display font-bold text-sm uppercase tracking-[0.2em] text-brand-steel flex-shrink-0"
+                    style={{ padding: "0 1.5rem" }}
+                  >
+                    {trade}&nbsp;<span className="text-brand-red">·</span>
+                  </span>
+                ));
+              })()}
             </div>
           </div>
           <p className="font-display font-bold text-xl md:text-2xl text-brand-steel uppercase tracking-wide mb-6 max-w-3xl">
