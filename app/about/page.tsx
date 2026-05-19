@@ -45,7 +45,7 @@ export default function AboutPage() {
               You&apos;re not competing with Fortune 500 companies. You&apos;re competing with the HVAC guy down the street who stopped losing jobs to voicemail. The plumber whose estimates follow up automatically. The pest control company that gets five-star reviews without ever asking.
             </p>
             <p className="text-[#374151] text-base leading-relaxed">
-              That gap is closeable. It doesn&apos;t take a tech team or a big budget. It takes the right systems built for the way you actually operate.
+              That gap is closeable. And we close it together — no tech team required, no big budget, no learning a new industry. Just the right systems built around the way you already operate.
             </p>
           </div>
           <div>

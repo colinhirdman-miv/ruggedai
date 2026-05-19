@@ -77,7 +77,7 @@ export default function RuggedGeniusPage() {
             RuggedGenius
           </h1>
           <p className="font-display font-bold text-xl md:text-2xl text-brand-steel uppercase tracking-wide mb-6 max-w-3xl">
-            Learn to build AI agents in your business in four weeks.
+            We&apos;ll build AI agents in your business — together — over four weeks.
           </p>
           <p className="text-brand-steel text-base md:text-lg max-w-2xl mb-8 leading-relaxed">
             Live. Hands-on. Specific to your trade. You leave with working systems — not slides.
@@ -250,7 +250,7 @@ export default function RuggedGeniusPage() {
                 Founder, RuggedAI
               </p>
               <p className="text-brand-steel text-base leading-relaxed mb-4 max-w-xl">
-                Colin has spent years at the intersection of AI and real-world business operations. He built RuggedAI after seeing the same pattern over and over: hardworking trades business owners watching tech-savvy competitors pull ahead — not because they worked harder, but because they had better systems.
+                Colin has spent years working directly with business owners at the intersection of AI and real operations. He started RuggedGenius after watching the same thing happen over and over: trades owners with serious businesses getting outrun by competitors who just had better systems — and no one was helping them close that gap.
               </p>
               <p className="text-brand-steel text-base leading-relaxed max-w-xl">
                 His approach is direct. No fluff. No jargon. Every session is specific, practical, and focused on getting your systems live before the workshop ends.
@@ -334,8 +334,8 @@ export default function RuggedGeniusPage() {
                 body: "Every session recorded and available immediately. Lifetime access — rewatch anytime.",
               },
               {
-                title: "RuggedAI Trade Playbook",
-                body: "The complete playbook for AI in your specific trade. HVAC, plumbing, pest control, electrical, and more.",
+                title: "Your Trade Playbook",
+                body: "The complete playbook for AI in your specific trade. Built around how your industry actually operates.",
               },
               {
                 title: "AI Agent Templates",

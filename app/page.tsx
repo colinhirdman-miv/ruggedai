@@ -127,7 +127,7 @@ export default function HomePage() {
       {/* ─── SOLUTION ─── */}
       <section className="py-24 px-6 bg-white border-t border-brand-iron/20">
         <div className="max-w-5xl mx-auto">
-          <RedLabel>Here's what we do about it</RedLabel>
+          <RedLabel>Here's what we build, together</RedLabel>
           <h2
             className="font-display font-black uppercase leading-none text-brand-black mb-4"
             style={{ fontSize: "clamp(2.25rem, 5.5vw, 4.5rem)", letterSpacing: "-0.01em" }}
@@ -138,7 +138,7 @@ export default function HomePage() {
             No corporate software. No generic tools built for someone else. Custom AI built specifically for your business.
           </p>
           <p className="text-[#374151] text-base md:text-lg max-w-3xl mb-16 leading-relaxed">
-            RuggedAI works with home service business owners to build AI systems that run in the background while you do the real work. Calls get answered. Estimates get followed up. Reviews get requested. Jobs get closed. All without hiring anyone new.
+            Together, we build AI systems that run in the background while you do the real work. Calls get answered. Estimates get followed up. Reviews get requested. Jobs get closed. All without hiring anyone new.
           </p>
 
           {/* Offering cards — dark on white for strong contrast */}
@@ -159,7 +159,7 @@ export default function HomePage() {
                 price: "$2,000–$3,000",
                 period: "per month",
                 description:
-                  "Colin works directly with you to identify your highest-impact AI opportunities and build them together.",
+                  "You and Colin work directly together to find your highest-impact AI opportunities and build them — fast.",
                 cta: "Apply for 1:1 →",
                 href: "/apply",
                 primary: false,
@@ -169,7 +169,7 @@ export default function HomePage() {
                 price: "Custom",
                 period: "pricing",
                 description:
-                  "Custom AI infrastructure built for your business by our development team.",
+                  "You tell us what your operation needs. We build the full infrastructure around it — integrated into the way you already work.",
                 cta: "Get Started →",
                 href: "/apply",
                 primary: false,

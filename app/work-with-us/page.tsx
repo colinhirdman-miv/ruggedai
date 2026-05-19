@@ -198,7 +198,7 @@ export default function WorkWithUsPage() {
             Let&apos;s Build Something That Actually Works.
           </h2>
           <p className="text-brand-steel text-base max-w-xl mx-auto mb-10 leading-relaxed">
-            Limited spots available. Colin works with a small number of businesses at a time to keep the work high-quality and high-impact.
+            We work with a small number of businesses at a time. That&apos;s intentional — the work only gets done right when we&apos;re fully in it together.
           </p>
           <Link
             href="/apply"
