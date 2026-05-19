@@ -82,14 +82,25 @@ export default function RuggedGeniusPage() {
           <p className="text-brand-steel text-base md:text-lg max-w-2xl mb-8 leading-relaxed">
             Live. Hands-on. Specific to your trade. You leave with working systems — not slides.
           </p>
-          <div className="flex items-baseline gap-3 mb-10">
+          <div className="flex items-baseline gap-3 mb-6">
             <span
               className="font-display font-black text-brand-red"
               style={{ fontSize: "clamp(2.5rem, 5vw, 4rem)" }}
             >
               $997
             </span>
-            <span className="text-brand-steel uppercase tracking-wide text-sm">one-time · lifetime access</span>
+            <span className="text-brand-steel uppercase tracking-wide text-sm">one-time</span>
+          </div>
+          <div className="border border-brand-red bg-[#130000] px-6 py-4 mb-10 max-w-xl flex items-start gap-4">
+            <span className="text-brand-red font-black text-xl flex-shrink-0 mt-0.5">★</span>
+            <div>
+              <p className="font-display font-black text-white text-sm uppercase tracking-wide mb-1">
+                Lifetime Cohort Access Included
+              </p>
+              <p className="text-brand-steel text-sm leading-relaxed">
+                Enroll once and you&apos;re in every future RuggedGenius cohort. The curriculum evolves with AI — and so will you.
+              </p>
+            </div>
           </div>
           <Link
             href="/apply"
@@ -337,6 +348,10 @@ export default function RuggedGeniusPage() {
               {
                 title: "30-Day Post-Workshop Support",
                 body: "Direct access to Colin for 30 days after the workshop ends. Get unstuck, dial in your systems.",
+              },
+              {
+                title: "Lifetime Cohort Access",
+                body: "Enroll once, attend every future RuggedGenius cohort. The curriculum evolves with AI — and so will you.",
               },
             ].map((item) => (
               <div key={item.title} className="border border-brand-iron/30 p-6">
