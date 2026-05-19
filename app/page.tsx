@@ -71,7 +71,7 @@ export default function HomePage() {
       {/* ─── PROBLEM ─── */}
       <section className="py-24 px-6 bg-brand-light">
         <div className="max-w-5xl mx-auto">
-          <RedLabel>The Problem</RedLabel>
+          <RedLabel>Sound familiar?</RedLabel>
           <h2
             className="font-display font-black uppercase leading-none text-brand-black mb-4"
             style={{ fontSize: "clamp(2.25rem, 5.5vw, 4.5rem)", letterSpacing: "-0.01em" }}
@@ -109,7 +109,7 @@ export default function HomePage() {
       {/* ─── SOLUTION ─── */}
       <section className="py-24 px-6 bg-white border-t border-brand-iron/20">
         <div className="max-w-5xl mx-auto">
-          <RedLabel>The Solution</RedLabel>
+          <RedLabel>Here's what we do about it</RedLabel>
           <h2
             className="font-display font-black uppercase leading-none text-brand-black mb-4"
             style={{ fontSize: "clamp(2.25rem, 5.5vw, 4.5rem)", letterSpacing: "-0.01em" }}
@@ -197,7 +197,7 @@ export default function HomePage() {
       {/* ─── FINAL CTA ─── */}
       <section className="py-24 px-6 bg-brand-dark border-t border-[#1a1a1a]">
         <div className="max-w-4xl mx-auto text-center">
-          <RedLabel>The Window Is Open</RedLabel>
+          <RedLabel>Don't wait on this</RedLabel>
           <h2
             className="font-display font-black uppercase leading-none text-white mb-6"
             style={{ fontSize: "clamp(2.25rem, 5.5vw, 4.5rem)", letterSpacing: "-0.01em" }}
