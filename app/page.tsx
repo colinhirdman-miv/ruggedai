@@ -60,7 +60,7 @@ export default function HomePage() {
             Your Business Should Work As Hard As You Do.
           </p>
           <p className="text-brand-steel text-base md:text-lg max-w-2xl mb-10 leading-relaxed">
-            You built something real. You show up every day, run a crew, and handle things nobody else will touch. Your business should work the same way. RuggedAI brings AI to the trades — not the watered-down, built-for-a-startup version. The real thing. Built for you.
+            The same mindset that gets you through a 12-hour service day — showing up, solving problems, handling what nobody else will touch — now works in software. Learn to build AI that answers your phones after hours, follows up on every estimate, requests reviews automatically, and closes more jobs. No technical background needed. No developers. Just you and systems that actually work.
           </p>
           <div className="flex flex-col sm:flex-row flex-wrap gap-4">
             <PrimaryBtn href="/ruggedgenius">Join RuggedGenius — $997</PrimaryBtn>
