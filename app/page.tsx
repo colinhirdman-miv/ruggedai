@@ -138,7 +138,7 @@ export default function HomePage() {
             We Build AI That Works The Way You Do. Hard.
           </h2>
           <p className="font-display font-bold text-xl md:text-2xl text-brand-steel uppercase tracking-wide mb-6 max-w-3xl">
-            No corporate software. No generic tools built for someone else. Custom AI built specifically for your business.
+            Custom AI built specifically for your business.
           </p>
           <p className="text-[#374151] text-base md:text-lg max-w-3xl mb-16 leading-relaxed">
             Together, we build AI systems that run in the background while you do the real work. Calls get answered. Estimates get followed up. Reviews get requested. Jobs get closed. All without hiring anyone new.
