@@ -51,7 +51,7 @@ export default function GraphicsPage() {
                   style={{ fontFamily: FONT }}
                 >RUGGED</text>
                 <text x="100" y="150" textAnchor="middle" dominantBaseline="middle"
-                  fill="rgba(255,255,255,0.75)" fontSize="10" fontWeight="700" letterSpacing="3"
+                  fill="rgba(255,255,255,0.75)" fontSize="8" fontWeight="700" letterSpacing="2"
                   style={{ fontFamily: FONT }}>For the Trades</text>
               </svg>
               <BadgeLabel>Red · Word</BadgeLabel>
@@ -77,7 +77,7 @@ export default function GraphicsPage() {
                   style={{ fontFamily: FONT }}
                 >AI</text>
                 <text x="100" y="147" textAnchor="middle" dominantBaseline="middle"
-                  fill="rgba(255,255,255,0.45)" fontSize="10" fontWeight="700" letterSpacing="3"
+                  fill="rgba(255,255,255,0.45)" fontSize="8" fontWeight="700" letterSpacing="2"
                   style={{ fontFamily: FONT }}>For the Trades</text>
               </svg>
               <BadgeLabel>Dark · Full Mark</BadgeLabel>
@@ -102,7 +102,7 @@ export default function GraphicsPage() {
                   style={{ fontFamily: FONT }}
                 >AI</text>
                 <text x="100" y="147" textAnchor="middle" dominantBaseline="middle"
-                  fill="rgba(255,255,255,0.5)" fontSize="10" fontWeight="700" letterSpacing="3"
+                  fill="rgba(255,255,255,0.5)" fontSize="8" fontWeight="700" letterSpacing="2"
                   style={{ fontFamily: FONT }}>For the Trades</text>
               </svg>
               <BadgeLabel>Red · Full Mark</BadgeLabel>
