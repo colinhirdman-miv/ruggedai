@@ -38,58 +38,58 @@ export default function GraphicsPage() {
           <Label>01 — Hex Bolt Head</Label>
           <div className="grid grid-cols-3 gap-16 items-end">
 
-            {/* A: Red, single R */}
+            {/* A: Red — RUGGED fills hex, no AI */}
             <div className="flex flex-col items-center">
               <svg viewBox="0 0 200 200" className="w-48 h-48" xmlns="http://www.w3.org/2000/svg">
                 <polygon points={HEX_OUTER} fill="#C41E1E" />
-                <polygon points={HEX_INNER} fill="none" stroke="rgba(255,255,255,0.18)" strokeWidth="1.5" />
+                <polygon points={HEX_INNER} fill="none" stroke="rgba(255,255,255,0.15)" strokeWidth="1.5" />
                 <text
                   x="100" y="100"
                   textAnchor="middle" dominantBaseline="middle"
-                  fill="white" fontSize="78" fontWeight="900"
+                  fill="white" fontSize="36" fontWeight="900" letterSpacing="1"
                   style={{ fontFamily: FONT }}
-                >R</text>
+                >RUGGED</text>
               </svg>
-              <BadgeLabel>Red · Monogram</BadgeLabel>
+              <BadgeLabel>Red · Word</BadgeLabel>
             </div>
 
-            {/* B: Dark, red outline, RUGGED / AI stacked */}
+            {/* B: Dark — RUGGED dominant, AI secondary */}
             <div className="flex flex-col items-center">
               <svg viewBox="0 0 200 200" className="w-48 h-48" xmlns="http://www.w3.org/2000/svg">
                 <polygon points={HEX_OUTER} fill="#0A0A0A" stroke="#C41E1E" strokeWidth="3" />
-                <polygon points={HEX_INNER} fill="none" stroke="#C41E1E" strokeWidth="1" opacity="0.35" />
+                <polygon points={HEX_INNER} fill="none" stroke="#C41E1E" strokeWidth="1" opacity="0.3" />
                 <text
-                  x="100" y="87"
+                  x="100" y="90"
                   textAnchor="middle" dominantBaseline="middle"
-                  fill="#C41E1E" fontSize="16" fontWeight="900" letterSpacing="5"
+                  fill="#C41E1E" fontSize="36" fontWeight="900" letterSpacing="1"
                   style={{ fontFamily: FONT }}
                 >RUGGED</text>
-                <line x1="62" y1="100" x2="138" y2="100" stroke="#C41E1E" strokeWidth="0.75" opacity="0.45" />
+                <line x1="58" y1="106" x2="142" y2="106" stroke="#C41E1E" strokeWidth="0.75" opacity="0.4" />
                 <text
-                  x="100" y="120"
+                  x="100" y="122"
                   textAnchor="middle" dominantBaseline="middle"
-                  fill="white" fontSize="50" fontWeight="900"
+                  fill="rgba(255,255,255,0.7)" fontSize="16" fontWeight="700" letterSpacing="6"
                   style={{ fontFamily: FONT }}
                 >AI</text>
               </svg>
-              <BadgeLabel>Dark · Wordmark</BadgeLabel>
+              <BadgeLabel>Dark · Full Mark</BadgeLabel>
             </div>
 
-            {/* C: Red, full wordmark */}
+            {/* C: Red — RUGGED dominant, AI secondary */}
             <div className="flex flex-col items-center">
               <svg viewBox="0 0 200 200" className="w-48 h-48" xmlns="http://www.w3.org/2000/svg">
                 <polygon points={HEX_OUTER} fill="#C41E1E" />
                 <text
-                  x="100" y="87"
+                  x="100" y="90"
                   textAnchor="middle" dominantBaseline="middle"
-                  fill="rgba(255,255,255,0.88)" fontSize="16" fontWeight="900" letterSpacing="5"
+                  fill="white" fontSize="36" fontWeight="900" letterSpacing="1"
                   style={{ fontFamily: FONT }}
                 >RUGGED</text>
-                <line x1="55" y1="100" x2="145" y2="100" stroke="rgba(255,255,255,0.28)" strokeWidth="0.75" />
+                <line x1="58" y1="106" x2="142" y2="106" stroke="rgba(255,255,255,0.3)" strokeWidth="0.75" />
                 <text
-                  x="100" y="120"
+                  x="100" y="122"
                   textAnchor="middle" dominantBaseline="middle"
-                  fill="white" fontSize="50" fontWeight="900"
+                  fill="rgba(255,255,255,0.7)" fontSize="16" fontWeight="700" letterSpacing="6"
                   style={{ fontFamily: FONT }}
                 >AI</text>
               </svg>
@@ -106,28 +106,29 @@ export default function GraphicsPage() {
             {/* A: Dark, red ring */}
             <div className="flex flex-col items-center">
               <svg viewBox="0 0 300 300" className="w-48 h-48" xmlns="http://www.w3.org/2000/svg">
-                <defs>
-                  <path id="arcA" d="M 42,150 A 108,108 0 0,1 258,150" />
-                </defs>
                 <circle cx="150" cy="150" r="135" fill="#0A0A0A" stroke="#C41E1E" strokeWidth="3" />
-                <circle cx="150" cy="150" r="120" fill="none" stroke="#C41E1E" strokeWidth="1" opacity="0.55" />
-                <text fill="#C41E1E" fontSize="20" fontWeight="900" letterSpacing="12" style={{ fontFamily: FONT }}>
-                  <textPath href="#arcA" startOffset="50%" textAnchor="middle">RUGGED</textPath>
-                </text>
+                <circle cx="150" cy="150" r="120" fill="none" stroke="#C41E1E" strokeWidth="1" opacity="0.5" />
+                <circle cx="30" cy="150" r="3" fill="#C41E1E" opacity="0.5" />
+                <circle cx="270" cy="150" r="3" fill="#C41E1E" opacity="0.5" />
                 <text
-                  x="150" y="148"
+                  x="150" y="132"
                   textAnchor="middle" dominantBaseline="middle"
-                  fill="white" fontSize="92" fontWeight="900"
+                  fill="#C41E1E" fontSize="60" fontWeight="900" letterSpacing="2"
+                  style={{ fontFamily: FONT }}
+                >RUGGED</text>
+                <line x1="45" y1="155" x2="255" y2="155" stroke="#C41E1E" strokeWidth="0.75" opacity="0.4" />
+                <text
+                  x="150" y="174"
+                  textAnchor="middle" dominantBaseline="middle"
+                  fill="rgba(255,255,255,0.65)" fontSize="20" fontWeight="700" letterSpacing="10"
                   style={{ fontFamily: FONT }}
                 >AI</text>
                 <text
-                  x="150" y="222"
+                  x="150" y="215"
                   textAnchor="middle" dominantBaseline="middle"
-                  fill="#6B7280" fontSize="12" fontWeight="700" letterSpacing="4"
+                  fill="#6B7280" fontSize="11" fontWeight="700" letterSpacing="4"
                   style={{ fontFamily: FONT }}
                 >FOR THE TRADES</text>
-                <circle cx="50" cy="194" r="2.5" fill="#C41E1E" opacity="0.55" />
-                <circle cx="250" cy="194" r="2.5" fill="#C41E1E" opacity="0.55" />
               </svg>
               <BadgeLabel>Dark · Red Ring</BadgeLabel>
             </div>
@@ -135,57 +136,60 @@ export default function GraphicsPage() {
             {/* B: Red filled */}
             <div className="flex flex-col items-center">
               <svg viewBox="0 0 300 300" className="w-48 h-48" xmlns="http://www.w3.org/2000/svg">
-                <defs>
-                  <path id="arcB" d="M 42,150 A 108,108 0 0,1 258,150" />
-                </defs>
                 <circle cx="150" cy="150" r="135" fill="#C41E1E" />
                 <circle cx="150" cy="150" r="120" fill="none" stroke="rgba(255,255,255,0.3)" strokeWidth="1.5" />
-                <text fill="white" fontSize="20" fontWeight="900" letterSpacing="12" style={{ fontFamily: FONT }}>
-                  <textPath href="#arcB" startOffset="50%" textAnchor="middle">RUGGED</textPath>
-                </text>
+                <circle cx="30" cy="150" r="3" fill="rgba(255,255,255,0.4)" />
+                <circle cx="270" cy="150" r="3" fill="rgba(255,255,255,0.4)" />
                 <text
-                  x="150" y="148"
+                  x="150" y="132"
                   textAnchor="middle" dominantBaseline="middle"
-                  fill="white" fontSize="92" fontWeight="900"
+                  fill="white" fontSize="60" fontWeight="900" letterSpacing="2"
+                  style={{ fontFamily: FONT }}
+                >RUGGED</text>
+                <line x1="45" y1="155" x2="255" y2="155" stroke="rgba(255,255,255,0.3)" strokeWidth="0.75" />
+                <text
+                  x="150" y="174"
+                  textAnchor="middle" dominantBaseline="middle"
+                  fill="rgba(255,255,255,0.65)" fontSize="20" fontWeight="700" letterSpacing="10"
                   style={{ fontFamily: FONT }}
                 >AI</text>
                 <text
-                  x="150" y="222"
+                  x="150" y="215"
                   textAnchor="middle" dominantBaseline="middle"
-                  fill="rgba(255,255,255,0.6)" fontSize="12" fontWeight="700" letterSpacing="4"
+                  fill="rgba(255,255,255,0.5)" fontSize="11" fontWeight="700" letterSpacing="4"
                   style={{ fontFamily: FONT }}
                 >FOR THE TRADES</text>
-                <circle cx="50" cy="194" r="2.5" fill="rgba(255,255,255,0.45)" />
-                <circle cx="250" cy="194" r="2.5" fill="rgba(255,255,255,0.45)" />
               </svg>
               <BadgeLabel>Red · Fill</BadgeLabel>
             </div>
 
-            {/* C: Outlined only */}
+            {/* C: Outlined */}
             <div className="flex flex-col items-center">
               <svg viewBox="0 0 300 300" className="w-48 h-48" xmlns="http://www.w3.org/2000/svg">
-                <defs>
-                  <path id="arcC" d="M 42,150 A 108,108 0 0,1 258,150" />
-                </defs>
                 <circle cx="150" cy="150" r="135" fill="none" stroke="#C41E1E" strokeWidth="3" />
-                <circle cx="150" cy="150" r="120" fill="none" stroke="#C41E1E" strokeWidth="1" opacity="0.45" />
-                <text fill="#C41E1E" fontSize="20" fontWeight="900" letterSpacing="12" style={{ fontFamily: FONT }}>
-                  <textPath href="#arcC" startOffset="50%" textAnchor="middle">RUGGED</textPath>
-                </text>
+                <circle cx="150" cy="150" r="120" fill="none" stroke="#C41E1E" strokeWidth="1" opacity="0.4" />
+                <circle cx="30" cy="150" r="3" fill="#C41E1E" opacity="0.5" />
+                <circle cx="270" cy="150" r="3" fill="#C41E1E" opacity="0.5" />
                 <text
-                  x="150" y="148"
+                  x="150" y="132"
                   textAnchor="middle" dominantBaseline="middle"
-                  fill="#C41E1E" fontSize="92" fontWeight="900"
+                  fill="#C41E1E" fontSize="60" fontWeight="900" letterSpacing="2"
+                  style={{ fontFamily: FONT }}
+                >RUGGED</text>
+                <line x1="45" y1="155" x2="255" y2="155" stroke="#C41E1E" strokeWidth="0.75" opacity="0.35" />
+                <text
+                  x="150" y="174"
+                  textAnchor="middle" dominantBaseline="middle"
+                  fill="#C41E1E" fontSize="20" fontWeight="700" letterSpacing="10"
+                  opacity="0.65"
                   style={{ fontFamily: FONT }}
                 >AI</text>
                 <text
-                  x="150" y="222"
+                  x="150" y="215"
                   textAnchor="middle" dominantBaseline="middle"
-                  fill="#6B7280" fontSize="12" fontWeight="700" letterSpacing="4"
+                  fill="#6B7280" fontSize="11" fontWeight="700" letterSpacing="4"
                   style={{ fontFamily: FONT }}
                 >FOR THE TRADES</text>
-                <circle cx="50" cy="194" r="2.5" fill="#C41E1E" opacity="0.55" />
-                <circle cx="250" cy="194" r="2.5" fill="#C41E1E" opacity="0.55" />
               </svg>
               <BadgeLabel>Outlined</BadgeLabel>
             </div>
