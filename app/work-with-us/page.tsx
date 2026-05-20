@@ -17,7 +17,7 @@ export default function WorkWithUsPage() {
       {/* Hero */}
       <section className="pt-36 pb-24 px-6 bg-brand-black">
         <div className="max-w-5xl mx-auto">
-          <RedLabel>1:1 Consulting</RedLabel>
+          <RedLabel>Consulting</RedLabel>
           <h1
             className="font-display font-black uppercase leading-none text-white mb-6"
             style={{ fontSize: "clamp(3rem, 8vw, 6rem)", letterSpacing: "-0.01em" }}
@@ -34,7 +34,7 @@ export default function WorkWithUsPage() {
             href="/apply"
             className="inline-block font-display font-black text-base uppercase tracking-widest bg-brand-red text-white px-10 py-4 hover:bg-red-700 transition-colors"
           >
-            Apply for 1:1 →
+            Apply Now →
           </Link>
         </div>
       </section>
@@ -57,7 +57,7 @@ export default function WorkWithUsPage() {
                 Most Popular
               </p>
               <h3 className="font-display font-black text-3xl uppercase text-white mb-2">
-                <span className="text-brand-red">Rugged</span> 1:1 Consulting
+                <span className="text-brand-red">Rugged</span>Consulting
               </h3>
               <div className="mb-6">
                 <span
@@ -87,7 +87,7 @@ export default function WorkWithUsPage() {
                 href="/apply"
                 className="font-display font-black text-sm uppercase tracking-widest bg-brand-red text-white px-6 py-3 text-center hover:bg-red-700 transition-colors"
               >
-                Apply for 1:1 →
+                Apply Now →
               </Link>
             </div>
 

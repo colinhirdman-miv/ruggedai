@@ -145,7 +145,7 @@ export default function HomePage() {
           </p>
 
           {/* Offering cards — dark on white for strong contrast */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {[
               {
                 name: "RuggedGenius Workshop",
@@ -158,23 +158,13 @@ export default function HomePage() {
                 primary: true,
               },
               {
-                name: "Rugged 1:1 Consulting",
+                name: "RuggedConsulting",
                 price: "$2,000–$3,000",
                 period: "per month",
                 description:
                   "You and Colin work directly together to find your highest-impact AI opportunities and build them — fast.",
-                cta: "Apply for 1:1 →",
-                href: "/apply",
-                primary: false,
-              },
-              {
-                name: "Rugged Builds",
-                price: "Custom",
-                period: "pricing",
-                description:
-                  "You tell us what your operation needs. We build the full infrastructure around it — integrated into the way you already work.",
-                cta: "Get Started →",
-                href: "/apply",
+                cta: "Apply for Consulting →",
+                href: "/work-with-us",
                 primary: false,
               },
             ].map((offer) => (
@@ -232,8 +222,7 @@ export default function HomePage() {
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <PrimaryBtn href="/ruggedgenius">Join RuggedGenius — $997</PrimaryBtn>
-            <OutlineBtn href="/apply">Apply for 1:1</OutlineBtn>
-            <OutlineBtn href="/apply">Get Started</OutlineBtn>
+            <OutlineBtn href="/work-with-us">RuggedConsulting</OutlineBtn>
           </div>
         </div>
       </section>

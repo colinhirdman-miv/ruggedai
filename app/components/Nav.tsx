@@ -7,7 +7,7 @@ const links = [
   { label: "Home", href: "/" },
   { label: "About", href: "/about" },
   { label: "RuggedGenius", href: "/ruggedgenius" },
-  { label: "Consulting", href: "/work-with-us" },
+  { label: "RuggedConsulting", href: "/work-with-us" },
 ];
 
 export default function Nav() {
