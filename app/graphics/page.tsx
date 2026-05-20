@@ -52,7 +52,7 @@ export default function GraphicsPage() {
                 >RUGGED</text>
                 <text x="100" y="150" textAnchor="middle" dominantBaseline="middle"
                   fill="rgba(255,255,255,0.75)" fontSize="8" fontWeight="700" letterSpacing="2"
-                  style={{ fontFamily: FONT }}>For the Trades</text>
+                  style={{ fontFamily: FONT }}>Trade Ready</text>
               </svg>
               <BadgeLabel>Red · Word</BadgeLabel>
             </div>
@@ -140,7 +140,7 @@ export default function GraphicsPage() {
                   textAnchor="middle" dominantBaseline="middle"
                   fill="#6B7280" fontSize="11" fontWeight="700" letterSpacing="4"
                   style={{ fontFamily: FONT }}
-                >FOR THE TRADES</text>
+                >TRADE READY</text>
               </svg>
               <BadgeLabel>Dark · Red Ring</BadgeLabel>
             </div>
