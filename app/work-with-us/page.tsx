@@ -39,9 +39,9 @@ export default function WorkWithUsPage() {
         </div>
       </section>
 
-      {/* Two offerings */}
+      {/* Offerings */}
       <section className="py-24 px-6 bg-brand-light">
-        <div className="max-w-5xl mx-auto">
+        <div className="max-w-6xl mx-auto">
           <RedLabel>Engagement Options</RedLabel>
           <h2
             className="font-display font-black uppercase leading-none text-brand-black mb-12"
@@ -50,7 +50,7 @@ export default function WorkWithUsPage() {
             Pick Your Path.
           </h2>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {/* 1:1 Consulting */}
             <div className="border border-brand-red bg-brand-black p-10 flex flex-col border-t-4">
               <p className="font-display font-bold text-xs uppercase tracking-[0.2em] text-brand-red mb-4">
@@ -127,6 +127,46 @@ export default function WorkWithUsPage() {
                 className="font-display font-black text-sm uppercase tracking-widest border-2 border-white text-white px-6 py-3 text-center hover:bg-white hover:text-brand-black transition-colors"
               >
                 Get Started →
+              </Link>
+            </div>
+
+            {/* Rugged Teams */}
+            <div className="border border-brand-iron/40 bg-brand-black p-10 flex flex-col border-t-4 border-t-brand-steel">
+              <h3 className="font-display font-black text-3xl uppercase text-white mb-2">
+                <span className="text-brand-red">Rugged</span>Teams
+              </h3>
+              <div className="mb-6">
+                <span
+                  className="font-display font-black text-brand-red"
+                  style={{ fontSize: "clamp(1.75rem, 3vw, 2.5rem)" }}
+                >
+                  Custom
+                </span>
+                <span className="text-brand-steel text-sm ml-2 uppercase tracking-wide">per engagement</span>
+              </div>
+              <p className="text-brand-steel text-sm leading-relaxed mb-6">
+                We come to your team. Every role gets AI built for what they actually do — your ops manager, parts manager, sales team, and CSR all leave with tools specific to their job. Private, focused, and built around how your operation actually runs.
+              </p>
+              <ul className="space-y-3 mb-8 flex-1">
+                {[
+                  "Private — your company only",
+                  "Role-specific AI for each position",
+                  "Ops, parts, sales, dispatch covered",
+                  "Live sessions with your full crew",
+                  "Custom to your trade and market",
+                  "Post-session support included",
+                ].map((item) => (
+                  <li key={item} className="text-brand-steel text-sm flex items-start gap-3">
+                    <span className="w-2 h-2 bg-brand-steel flex-shrink-0 mt-1.5" />
+                    {item}
+                  </li>
+                ))}
+              </ul>
+              <Link
+                href="/apply"
+                className="font-display font-black text-sm uppercase tracking-widest border-2 border-white text-white px-6 py-3 text-center hover:bg-white hover:text-brand-black transition-colors"
+              >
+                Bring Us In →
               </Link>
             </div>
           </div>
