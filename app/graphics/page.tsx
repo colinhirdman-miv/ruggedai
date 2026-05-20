@@ -38,60 +38,90 @@ export default function GraphicsPage() {
           <Label>01 — Hex Bolt Head</Label>
           <div className="grid grid-cols-3 gap-16 items-end">
 
-            {/* A: Red — RUGGED fills hex, no AI */}
+            {/* A: Red — RUGGED fills hex, edge text */}
             <div className="flex flex-col items-center">
               <svg viewBox="0 0 200 200" className="w-48 h-48" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                  <path id="hblA" d="M 31,140 L 100,180" />
+                  <path id="hbrA" d="M 100,180 L 169,140" />
+                </defs>
                 <polygon points={HEX_OUTER} fill="#C41E1E" />
                 <polygon points={HEX_INNER} fill="none" stroke="rgba(255,255,255,0.15)" strokeWidth="1.5" />
                 <text
-                  x="100" y="100"
+                  x="100" y="97"
                   textAnchor="middle" dominantBaseline="middle"
                   fill="white" fontSize="36" fontWeight="900" letterSpacing="1"
                   style={{ fontFamily: FONT }}
                 >RUGGED</text>
+                <text fontSize="11" fontWeight="700" fill="rgba(255,255,255,0.8)" letterSpacing="1.5" style={{ fontFamily: FONT }}>
+                  <textPath href="#hblA" startOffset="50%" textAnchor="middle" dy="-3">For the</textPath>
+                </text>
+                <text fontSize="11" fontWeight="700" fill="rgba(255,255,255,0.8)" letterSpacing="1.5" style={{ fontFamily: FONT }}>
+                  <textPath href="#hbrA" startOffset="50%" textAnchor="middle" dy="-3">Trades</textPath>
+                </text>
               </svg>
               <BadgeLabel>Red · Word</BadgeLabel>
             </div>
 
-            {/* B: Dark — RUGGED dominant, AI secondary */}
+            {/* B: Dark — RUGGED dominant, AI secondary, edge text */}
             <div className="flex flex-col items-center">
               <svg viewBox="0 0 200 200" className="w-48 h-48" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                  <path id="hblB" d="M 31,140 L 100,180" />
+                  <path id="hbrB" d="M 100,180 L 169,140" />
+                </defs>
                 <polygon points={HEX_OUTER} fill="#0A0A0A" stroke="#C41E1E" strokeWidth="3" />
                 <polygon points={HEX_INNER} fill="none" stroke="#C41E1E" strokeWidth="1" opacity="0.3" />
                 <text
-                  x="100" y="90"
+                  x="100" y="87"
                   textAnchor="middle" dominantBaseline="middle"
                   fill="#C41E1E" fontSize="36" fontWeight="900" letterSpacing="1"
                   style={{ fontFamily: FONT }}
                 >RUGGED</text>
-                <line x1="58" y1="106" x2="142" y2="106" stroke="#C41E1E" strokeWidth="0.75" opacity="0.4" />
+                <line x1="58" y1="103" x2="142" y2="103" stroke="#C41E1E" strokeWidth="0.75" opacity="0.4" />
                 <text
-                  x="100" y="122"
+                  x="100" y="119"
                   textAnchor="middle" dominantBaseline="middle"
                   fill="rgba(255,255,255,0.7)" fontSize="16" fontWeight="700" letterSpacing="6"
                   style={{ fontFamily: FONT }}
                 >AI</text>
+                <text fontSize="11" fontWeight="700" fill="rgba(255,255,255,0.5)" letterSpacing="1.5" style={{ fontFamily: FONT }}>
+                  <textPath href="#hblB" startOffset="50%" textAnchor="middle" dy="-3">For the</textPath>
+                </text>
+                <text fontSize="11" fontWeight="700" fill="rgba(255,255,255,0.5)" letterSpacing="1.5" style={{ fontFamily: FONT }}>
+                  <textPath href="#hbrB" startOffset="50%" textAnchor="middle" dy="-3">Trades</textPath>
+                </text>
               </svg>
               <BadgeLabel>Dark · Full Mark</BadgeLabel>
             </div>
 
-            {/* C: Red — RUGGED dominant, AI secondary */}
+            {/* C: Red — RUGGED dominant, AI secondary, edge text */}
             <div className="flex flex-col items-center">
               <svg viewBox="0 0 200 200" className="w-48 h-48" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                  <path id="hblC" d="M 31,140 L 100,180" />
+                  <path id="hbrC" d="M 100,180 L 169,140" />
+                </defs>
                 <polygon points={HEX_OUTER} fill="#C41E1E" />
                 <text
-                  x="100" y="90"
+                  x="100" y="87"
                   textAnchor="middle" dominantBaseline="middle"
                   fill="white" fontSize="36" fontWeight="900" letterSpacing="1"
                   style={{ fontFamily: FONT }}
                 >RUGGED</text>
-                <line x1="58" y1="106" x2="142" y2="106" stroke="rgba(255,255,255,0.3)" strokeWidth="0.75" />
+                <line x1="58" y1="103" x2="142" y2="103" stroke="rgba(255,255,255,0.3)" strokeWidth="0.75" />
                 <text
-                  x="100" y="122"
+                  x="100" y="119"
                   textAnchor="middle" dominantBaseline="middle"
                   fill="rgba(255,255,255,0.7)" fontSize="16" fontWeight="700" letterSpacing="6"
                   style={{ fontFamily: FONT }}
                 >AI</text>
+                <text fontSize="11" fontWeight="700" fill="rgba(255,255,255,0.55)" letterSpacing="1.5" style={{ fontFamily: FONT }}>
+                  <textPath href="#hblC" startOffset="50%" textAnchor="middle" dy="-3">For the</textPath>
+                </text>
+                <text fontSize="11" fontWeight="700" fill="rgba(255,255,255,0.55)" letterSpacing="1.5" style={{ fontFamily: FONT }}>
+                  <textPath href="#hbrC" startOffset="50%" textAnchor="middle" dy="-3">Trades</textPath>
+                </text>
               </svg>
               <BadgeLabel>Red · Full Mark</BadgeLabel>
             </div>
