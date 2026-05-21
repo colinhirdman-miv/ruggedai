@@ -36,6 +36,14 @@ const faqs = [
     a: "Show up to the first session. If it's not what you expected, we'll refund you in full — no questions asked.",
   },
   {
+    q: "Who else is in the cohort?",
+    a: "Owners of home service businesses — HVAC, plumbing, pest control, electrical, landscaping, and more. Nobody is in your trade and your market. You're learning alongside people with identical problems but zero competitive overlap.",
+  },
+  {
+    q: "How many people are in a cohort?",
+    a: "We cap it at 20 owners. You get real time with Colin, real answers to your specific situation — not a webinar where you're one of 500 with your question buried in a chat box.",
+  },
+  {
     q: "When does the next cohort start?",
     a: "Cohorts run quarterly. Apply now and we'll reach out with the next available date.",
   },
@@ -77,10 +85,10 @@ export default function RuggedGeniusPage() {
             <span className="text-brand-red">Rugged</span>Genius
           </h1>
           <p className="font-display font-bold text-xl md:text-2xl text-brand-steel uppercase tracking-wide mb-6 max-w-3xl">
-            We&apos;ll build AI agents in your business — together — over four weeks.
+            A small group of trades owners building real AI into their businesses — together — over four weeks.
           </p>
           <p className="text-brand-steel text-base md:text-lg max-w-2xl mb-8 leading-relaxed">
-            Live. Hands-on. Specific to your trade. You leave with working systems — not slides.
+            Live. Hands-on. None of them are your competition. All of them have the same problems you do. You leave with working systems — not slides.
           </p>
           <div className="flex items-baseline gap-3 mb-6">
             <span
@@ -123,7 +131,7 @@ export default function RuggedGeniusPage() {
           </p>
           <span className="hidden sm:block w-px h-4 bg-white/40" />
           <p className="font-display font-bold text-sm uppercase tracking-widest">
-            HVAC · Plumbing · Pest Control · Electrical & More
+            Limited to 20 Owners Per Cohort
           </p>
           <Link
             href="/apply"
@@ -155,8 +163,8 @@ export default function RuggedGeniusPage() {
                 body: "The AI handles what you&apos;d otherwise pay a part-timer for — without the payroll, the scheduling, or the management.",
               },
               {
-                title: "Built Around How You Work",
-                body: "Not a generic template dropped into your business. Every system is built around your trade, your market, and the way your operation actually runs.",
+                title: "You're Not in the Room Alone",
+                body: "You build alongside owners from HVAC, plumbing, pest control, electrical, and more. Different trades, different markets — none of them your competition. What the HVAC guy solves in week two is often exactly what you need in week three.",
               },
             ].map((pillar) => (
               <div key={pillar.title} className="bg-brand-black p-8">
@@ -342,8 +350,8 @@ export default function RuggedGeniusPage() {
                 body: "Pre-built templates for call handling, follow-up, and review requests. Plug in your business and go.",
               },
               {
-                title: "Private Community",
-                body: "Connect with other trades owners building AI systems. Share what works, get help when you're stuck.",
+                title: "Cohort Peer Group",
+                body: "The owners you build alongside become your network. Small group, capped at 20. You know everyone in the room by week two — and they're solving the exact same problems you are.",
               },
               {
                 title: "30-Day Post-Workshop Support",
