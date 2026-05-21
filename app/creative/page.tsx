@@ -342,10 +342,10 @@ export default function CreativePage() {
                     </defs>
                     <polygon points={HEX_OUTER} fill="#C41E1E" />
                     <g clipPath={`url(#stacked-clip-${label})`} opacity="0.35" fill="white">
-                      <g transform="translate(100,58) scale(0.07) translate(-720,-403)">
+                      <g transform="translate(100,58) scale(0.04) translate(-720,-403)">
                         <path d={HAMMER_PATH} />
                       </g>
-                      <g transform="translate(100,58) scale(0.07) translate(-720,-403)">
+                      <g transform="translate(100,58) scale(0.04) translate(-720,-403)">
                         <path d={SCREWDRIVER_PATH} />
                       </g>
                     </g>
