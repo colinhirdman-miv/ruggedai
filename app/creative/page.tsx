@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 const FONT = "var(--font-barlow-condensed), 'Barlow Condensed', 'Arial Narrow', Arial, sans-serif";
 const HEX_OUTER = "169,140 100,180 31,140 31,60 100,20 169,60";
 const HEX_INNER = "154,131 100,162 46,131 46,69 100,38 154,69";
@@ -231,47 +229,59 @@ export default function CreativePage() {
         {/* ── 05 GRAPHIC MARKS ── */}
         <section>
           <SectionLabel>05</SectionLabel>
-          <h2 className="font-display font-black text-3xl uppercase text-white mb-4">Graphic Marks</h2>
+          <h2 className="font-display font-black text-3xl uppercase text-white mb-4">Graphic Mark</h2>
           <p className="text-brand-steel text-base max-w-xl mb-10 leading-relaxed">
-            Two badge concepts in development. Full variations at{" "}
-            <Link href="/graphics" className="text-brand-red hover:underline">/graphics</Link>.
+            Hex bolt head — reads as industrial hardware and network node. Works at any size.
           </p>
 
-          <div className="grid grid-cols-2 gap-16 max-w-sm">
-            {/* Hex - preferred */}
+          <div className="flex items-end gap-16">
+            <div className="flex flex-col items-center">
+              <svg viewBox="0 0 200 200" className="w-56 h-56" xmlns="http://www.w3.org/2000/svg">
+                <polygon points={HEX_OUTER} fill="#C41E1E" />
+                <text x="100" y="87" textAnchor="middle" dominantBaseline="middle"
+                  fill="white" fontSize="36" fontWeight="900" letterSpacing="1"
+                  style={{ fontFamily: FONT }}>RUGGED</text>
+                <line x1="58" y1="103" x2="142" y2="103" stroke="rgba(255,255,255,0.3)" strokeWidth="0.75" />
+                <text x="100" y="119" textAnchor="middle" dominantBaseline="middle"
+                  fill="rgba(255,255,255,0.7)" fontSize="16" fontWeight="700" letterSpacing="6"
+                  style={{ fontFamily: FONT }}>AI</text>
+                <text x="100" y="147" textAnchor="middle" dominantBaseline="middle"
+                  fill="rgba(255,255,255,0.75)" fontSize="8" fontWeight="700" letterSpacing="2"
+                  style={{ fontFamily: FONT }}>For the Trades</text>
+              </svg>
+              <p className="font-display text-xs uppercase tracking-widest text-brand-steel text-center mt-4">Large</p>
+            </div>
             <div className="flex flex-col items-center">
               <svg viewBox="0 0 200 200" className="w-32 h-32" xmlns="http://www.w3.org/2000/svg">
                 <polygon points={HEX_OUTER} fill="#C41E1E" />
-                <polygon points={HEX_INNER} fill="none" stroke="rgba(255,255,255,0.15)" strokeWidth="1.5" />
-                <text x="100" y="97" textAnchor="middle" dominantBaseline="middle"
+                <text x="100" y="87" textAnchor="middle" dominantBaseline="middle"
                   fill="white" fontSize="36" fontWeight="900" letterSpacing="1"
                   style={{ fontFamily: FONT }}>RUGGED</text>
-                <text x="100" y="150" textAnchor="middle" dominantBaseline="middle"
-                  fill="rgba(255,255,255,0.75)" fontSize="8" fontWeight="700" letterSpacing="2"
-                  style={{ fontFamily: FONT }}>Trade Ready</text>
-              </svg>
-              <p className="font-display text-xs uppercase tracking-widest text-brand-steel text-center mt-4">Hex Bolt</p>
-            </div>
-
-            {/* Stamp */}
-            <div className="flex flex-col items-center">
-              <svg viewBox="0 0 300 300" className="w-32 h-32" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="150" cy="150" r="135" fill="#0A0A0A" stroke="#C41E1E" strokeWidth="3" />
-                <circle cx="150" cy="150" r="120" fill="none" stroke="#C41E1E" strokeWidth="1" opacity="0.5" />
-                <circle cx="30" cy="150" r="3" fill="#C41E1E" opacity="0.5" />
-                <circle cx="270" cy="150" r="3" fill="#C41E1E" opacity="0.5" />
-                <text x="150" y="132" textAnchor="middle" dominantBaseline="middle"
-                  fill="#C41E1E" fontSize="60" fontWeight="900" letterSpacing="2"
-                  style={{ fontFamily: FONT }}>RUGGED</text>
-                <line x1="45" y1="155" x2="255" y2="155" stroke="#C41E1E" strokeWidth="0.75" opacity="0.4" />
-                <text x="150" y="174" textAnchor="middle" dominantBaseline="middle"
-                  fill="rgba(255,255,255,0.65)" fontSize="20" fontWeight="700" letterSpacing="10"
+                <line x1="58" y1="103" x2="142" y2="103" stroke="rgba(255,255,255,0.3)" strokeWidth="0.75" />
+                <text x="100" y="119" textAnchor="middle" dominantBaseline="middle"
+                  fill="rgba(255,255,255,0.7)" fontSize="16" fontWeight="700" letterSpacing="6"
                   style={{ fontFamily: FONT }}>AI</text>
-                <text x="150" y="215" textAnchor="middle" dominantBaseline="middle"
-                  fill="#6B7280" fontSize="11" fontWeight="700" letterSpacing="4"
-                  style={{ fontFamily: FONT }}>TRADE READY</text>
+                <text x="100" y="147" textAnchor="middle" dominantBaseline="middle"
+                  fill="rgba(255,255,255,0.75)" fontSize="8" fontWeight="700" letterSpacing="2"
+                  style={{ fontFamily: FONT }}>For the Trades</text>
               </svg>
-              <p className="font-display text-xs uppercase tracking-widest text-brand-steel text-center mt-4">Metal Stamp</p>
+              <p className="font-display text-xs uppercase tracking-widest text-brand-steel text-center mt-4">Medium</p>
+            </div>
+            <div className="flex flex-col items-center">
+              <svg viewBox="0 0 200 200" className="w-16 h-16" xmlns="http://www.w3.org/2000/svg">
+                <polygon points={HEX_OUTER} fill="#C41E1E" />
+                <text x="100" y="87" textAnchor="middle" dominantBaseline="middle"
+                  fill="white" fontSize="36" fontWeight="900" letterSpacing="1"
+                  style={{ fontFamily: FONT }}>RUGGED</text>
+                <line x1="58" y1="103" x2="142" y2="103" stroke="rgba(255,255,255,0.3)" strokeWidth="0.75" />
+                <text x="100" y="119" textAnchor="middle" dominantBaseline="middle"
+                  fill="rgba(255,255,255,0.7)" fontSize="16" fontWeight="700" letterSpacing="6"
+                  style={{ fontFamily: FONT }}>AI</text>
+                <text x="100" y="147" textAnchor="middle" dominantBaseline="middle"
+                  fill="rgba(255,255,255,0.75)" fontSize="8" fontWeight="700" letterSpacing="2"
+                  style={{ fontFamily: FONT }}>For the Trades</text>
+              </svg>
+              <p className="font-display text-xs uppercase tracking-widest text-brand-steel text-center mt-4">Small</p>
             </div>
           </div>
         </section>
