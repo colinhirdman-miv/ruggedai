@@ -324,6 +324,44 @@ export default function CreativePage() {
               </div>
             ))}
           </div>
+
+          {/* Stacked Variant — cross above wordmark */}
+          <div className="mt-20">
+            <p className="font-display font-bold text-xs uppercase tracking-[0.3em] text-brand-steel mb-2">Stacked Variant</p>
+            <p className="text-brand-steel text-sm max-w-lg mb-10 leading-relaxed">
+              Cross sits small above the wordmark as an emblem. Tools read as a badge element rather than background texture.
+            </p>
+            <div className="flex items-end gap-16">
+              {[{ size: "w-56 h-56", label: "Large" }, { size: "w-32 h-32", label: "Medium" }].map(({ size, label }) => (
+                <div key={label} className="flex flex-col items-center">
+                  <svg viewBox="0 0 200 200" className={size} xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                      <clipPath id={`stacked-clip-${label}`}>
+                        <polygon points={HEX_OUTER} />
+                      </clipPath>
+                    </defs>
+                    <polygon points={HEX_OUTER} fill="#C41E1E" />
+                    <g clipPath={`url(#stacked-clip-${label})`} opacity="0.35" fill="white">
+                      <g transform="translate(100,58) scale(0.07) translate(-720,-403)">
+                        <path d={HAMMER_PATH} />
+                      </g>
+                      <g transform="translate(100,58) scale(0.07) translate(-720,-403)">
+                        <path d={SCREWDRIVER_PATH} />
+                      </g>
+                    </g>
+                    <text x="100" y="118" textAnchor="middle" dominantBaseline="middle"
+                      fill="white" fontSize="36" fontWeight="900" letterSpacing="1"
+                      style={{ fontFamily: FONT }}>RUGGED</text>
+                    <line x1="58" y1="133" x2="142" y2="133" stroke="rgba(255,255,255,0.3)" strokeWidth="0.75" />
+                    <text x="100" y="147" textAnchor="middle" dominantBaseline="middle"
+                      fill="rgba(255,255,255,0.7)" fontSize="16" fontWeight="700" letterSpacing="6"
+                      style={{ fontFamily: FONT }}>AI</text>
+                  </svg>
+                  <p className="font-display text-xs uppercase tracking-widest text-brand-steel text-center mt-4">{label}</p>
+                </div>
+              ))}
+            </div>
+          </div>
         </section>
 
         <Divider />
