@@ -242,7 +242,7 @@ export default function CreativePage() {
 
           <div className="flex items-end gap-16">
             <div className="flex flex-col items-center">
-              <svg viewBox="0 0 200 200" className="w-56 h-56" xmlns="http://www.w3.org/2000/svg">
+              <svg viewBox="0 0 200 200" className="w-80 h-80" xmlns="http://www.w3.org/2000/svg">
                 <polygon points={HEX_OUTER} fill="#C41E1E" />
                 <text x="100" y="93" textAnchor="middle" dominantBaseline="middle"
                   fill="white" fontSize="36" fontWeight="900" letterSpacing="1"
@@ -255,7 +255,7 @@ export default function CreativePage() {
               <p className="font-display text-xs uppercase tracking-widest text-brand-steel text-center mt-4">Large</p>
             </div>
             <div className="flex flex-col items-center">
-              <svg viewBox="0 0 200 200" className="w-32 h-32" xmlns="http://www.w3.org/2000/svg">
+              <svg viewBox="0 0 200 200" className="w-48 h-48" xmlns="http://www.w3.org/2000/svg">
                 <polygon points={HEX_OUTER} fill="#C41E1E" />
                 <text x="100" y="93" textAnchor="middle" dominantBaseline="middle"
                   fill="white" fontSize="36" fontWeight="900" letterSpacing="1"
@@ -268,7 +268,7 @@ export default function CreativePage() {
               <p className="font-display text-xs uppercase tracking-widest text-brand-steel text-center mt-4">Medium</p>
             </div>
             <div className="flex flex-col items-center">
-              <svg viewBox="0 0 200 200" className="w-16 h-16" xmlns="http://www.w3.org/2000/svg">
+              <svg viewBox="0 0 200 200" className="w-24 h-24" xmlns="http://www.w3.org/2000/svg">
                 <polygon points={HEX_OUTER} fill="#C41E1E" />
                 <text x="100" y="93" textAnchor="middle" dominantBaseline="middle"
                   fill="white" fontSize="36" fontWeight="900" letterSpacing="1"
@@ -292,7 +292,7 @@ export default function CreativePage() {
               <div key={opLabel} className="mb-12">
                 <p className="font-display text-xs uppercase tracking-widest text-brand-steel mb-6">{opLabel}</p>
                 <div className="flex items-end gap-16">
-                  {[{ size: "w-56 h-56", label: "Large" }, { size: "w-32 h-32", label: "Medium" }, { size: "w-16 h-16", label: "Small" }].map(({ size, label }) => (
+                  {[{ size: "w-80 h-80", label: "Large" }, { size: "w-48 h-48", label: "Medium" }, { size: "w-24 h-24", label: "Small" }].map(({ size, label }) => (
                     <div key={label} className="flex flex-col items-center">
                       <svg viewBox="0 0 200 200" className={size} xmlns="http://www.w3.org/2000/svg">
                         <defs>
@@ -332,7 +332,7 @@ export default function CreativePage() {
               Cross sits small above the wordmark as an emblem. Tools read as a badge element rather than background texture.
             </p>
             <div className="flex items-end gap-16">
-              {[{ size: "w-56 h-56", label: "Large" }, { size: "w-32 h-32", label: "Medium" }, { size: "w-16 h-16", label: "Small" }].map(({ size, label }) => (
+              {[{ size: "w-80 h-80", label: "Large" }, { size: "w-48 h-48", label: "Medium" }, { size: "w-24 h-24", label: "Small" }].map(({ size, label }) => (
                 <div key={label} className="flex flex-col items-center">
                   <svg viewBox="0 0 200 200" className={size} xmlns="http://www.w3.org/2000/svg">
                     <defs>
