@@ -20,7 +20,7 @@ export default function Nav() {
           href="/"
           className="font-display font-black text-2xl uppercase tracking-wider"
         >
-          <span className="text-brand-red">Rugged</span><span className="text-white">AI</span>
+          <span className="text-brand-red">Rugged</span><span className="text-white">AI</span><sup className="text-white text-[0.5rem] align-super ml-0.5 font-bold">™</sup>
         </Link>
 
         {/* Desktop nav */}

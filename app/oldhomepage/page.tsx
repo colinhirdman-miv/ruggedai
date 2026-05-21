@@ -249,7 +249,7 @@ export default function HomePage() {
             AI that works as hard as you do.
           </p>
           <p className="text-brand-steel text-xs">
-            &copy; {new Date().getFullYear()} RuggedAI. All rights reserved.
+            &copy; {new Date().getFullYear()} RuggedAI™. All rights reserved.
           </p>
         </div>
       </footer>
