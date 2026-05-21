@@ -1,6 +1,6 @@
 const FONT = "var(--font-barlow-condensed), 'Barlow Condensed', 'Arial Narrow', Arial, sans-serif";
-const HEX_OUTER = "169,140 100,180 31,140 31,60 100,20 169,60";
-const HEX_INNER = "154,131 100,162 46,131 46,69 100,38 154,69";
+const HEX_OUTER = "169.28,140 100,180 30.72,140 30.72,60 100,20 169.28,60";
+const HEX_INNER = "154.28,131 100,162 45.72,131 45.72,69 100,38 154.28,69";
 
 // Source SVG viewBox="0 0 1440 810", content centered ~(720,403)
 // Transform: translate(100,100) scale(0.13) translate(-720,-403) centers each tool in the 200×200 hex

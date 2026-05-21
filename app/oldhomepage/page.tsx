@@ -56,7 +56,7 @@ export default function HomePage() {
             </h1>
             <div className="hidden md:block flex-shrink-0">
               <svg viewBox="0 0 200 200" className="w-52 h-52" aria-hidden="true">
-                <polygon points="169,140 100,180 31,140 31,60 100,20 169,60" fill="#C41E1E" />
+                <polygon points="169.28,140 100,180 30.72,140 30.72,60 100,20 169.28,60" fill="#C41E1E" />
                 <text x="100" y="93" textAnchor="middle" dominantBaseline="middle"
                   fill="white" fontSize="36" fontWeight="900" letterSpacing="1"
                   style={{ fontFamily: "var(--font-barlow-condensed), 'Barlow Condensed', Arial, sans-serif" }}>RUGGED</text>
