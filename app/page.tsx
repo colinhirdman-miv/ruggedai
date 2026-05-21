@@ -35,14 +35,28 @@ export default function HomePage() {
       {/* ─── HERO ─── */}
       <section className="pt-36 pb-24 px-6 bg-brand-black">
         <div className="max-w-5xl mx-auto">
-          <h1 className="font-display font-black uppercase leading-none mb-4" style={{ letterSpacing: "-0.01em" }}>
-            <span className="block text-white" style={{ fontSize: "clamp(3rem, 8vw, 6.5rem)" }}>
-              AI Built for
-            </span>
-            <span className="block text-brand-red" style={{ fontSize: "clamp(3rem, 8vw, 6.5rem)" }}>
-              The Trades.
-            </span>
-          </h1>
+          <div className="flex items-center justify-between gap-8 mb-4">
+            <h1 className="font-display font-black uppercase leading-none" style={{ letterSpacing: "-0.01em" }}>
+              <span className="block text-white" style={{ fontSize: "clamp(3rem, 8vw, 6.5rem)" }}>
+                AI Built for
+              </span>
+              <span className="block text-brand-red" style={{ fontSize: "clamp(3rem, 8vw, 6.5rem)" }}>
+                The Trades.
+              </span>
+            </h1>
+            <div className="hidden md:block flex-shrink-0">
+              <svg viewBox="0 0 200 200" className="w-52 h-52" aria-hidden="true">
+                <polygon points="169,140 100,180 31,140 31,60 100,20 169,60" fill="#C41E1E" />
+                <text x="100" y="93" textAnchor="middle" dominantBaseline="middle"
+                  fill="white" fontSize="36" fontWeight="900" letterSpacing="1"
+                  style={{ fontFamily: "var(--font-barlow-condensed), 'Barlow Condensed', Arial, sans-serif" }}>RUGGED</text>
+                <line x1="58" y1="108" x2="142" y2="108" stroke="rgba(255,255,255,0.3)" strokeWidth="0.75" />
+                <text x="100" y="123" textAnchor="middle" dominantBaseline="middle"
+                  fill="rgba(255,255,255,0.7)" fontSize="16" fontWeight="700" letterSpacing="6"
+                  style={{ fontFamily: "var(--font-barlow-condensed), 'Barlow Condensed', Arial, sans-serif" }}>AI</text>
+              </svg>
+            </div>
+          </div>
 
           <div className="overflow-hidden mb-10 -mx-6">
             <div className="animate-marquee flex whitespace-nowrap" style={{ width: "max-content" }}>
