@@ -288,7 +288,7 @@ export default function CreativePage() {
             <p className="text-brand-steel text-sm max-w-lg mb-10 leading-relaxed">
               Hammer and screwdriver crossed behind the wordmark — a trades take on the crossbones. Tools are ghosted so the text stays dominant.
             </p>
-            {[{ opacity: "0.10", opLabel: "Ghost (10%)" }, { opacity: "0.18", opLabel: "Subtle (18%)" }, { opacity: "0.45", opLabel: "Bold (45%)" }].map(({ opacity, opLabel }) => (
+            {[{ opacity: "0.10", opLabel: "Ghost (10%)" }, { opacity: "0.18", opLabel: "Subtle (18%)" }].map(({ opacity, opLabel }) => (
               <div key={opLabel} className="mb-12">
                 <p className="font-display text-xs uppercase tracking-widest text-brand-steel mb-6">{opLabel}</p>
                 <div className="flex items-end gap-16">
