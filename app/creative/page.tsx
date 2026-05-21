@@ -332,7 +332,7 @@ export default function CreativePage() {
               Cross sits small above the wordmark as an emblem. Tools read as a badge element rather than background texture.
             </p>
             <div className="flex items-end gap-16">
-              {[{ size: "w-56 h-56", label: "Large" }, { size: "w-32 h-32", label: "Medium" }].map(({ size, label }) => (
+              {[{ size: "w-56 h-56", label: "Large" }, { size: "w-32 h-32", label: "Medium" }, { size: "w-16 h-16", label: "Small" }].map(({ size, label }) => (
                 <div key={label} className="flex flex-col items-center">
                   <svg viewBox="0 0 200 200" className={size} xmlns="http://www.w3.org/2000/svg">
                     <defs>
