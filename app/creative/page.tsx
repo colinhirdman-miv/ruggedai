@@ -295,15 +295,19 @@ export default function CreativePage() {
                     <g clipPath={`url(#tools-clip-${label})`} opacity="0.18" fill="white">
                       {/* Hammer — head at top-left, handle at bottom-right (rotate -45°) */}
                       <g transform="rotate(-45, 100, 100)">
-                        <rect x="80" y="20" width="40" height="26" rx="2" />
-                        <rect x="96" y="46" width="8" height="128" rx="3" />
+                        <g transform="translate(40,40) scale(0.6)">
+                          <rect x="80" y="20" width="40" height="26" rx="2" />
+                          <rect x="96" y="46" width="8" height="128" rx="3" />
+                        </g>
                       </g>
                       {/* Screwdriver — tip at top-right, handle at bottom-left (rotate 45°) */}
                       <g transform="rotate(45, 100, 100)">
-                        <rect x="95" y="20" width="10" height="10" rx="1" />
-                        <rect x="98" y="30" width="4" height="96" />
-                        <rect x="93" y="126" width="14" height="8" rx="1" />
-                        <rect x="87" y="134" width="26" height="40" rx="5" />
+                        <g transform="translate(40,40) scale(0.6)">
+                          <rect x="95" y="20" width="10" height="10" rx="1" />
+                          <rect x="98" y="30" width="4" height="96" />
+                          <rect x="93" y="126" width="14" height="8" rx="1" />
+                          <rect x="87" y="134" width="26" height="40" rx="5" />
+                        </g>
                       </g>
                     </g>
                     <text x="100" y="93" textAnchor="middle" dominantBaseline="middle"
