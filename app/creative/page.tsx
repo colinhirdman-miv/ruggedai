@@ -293,11 +293,17 @@ export default function CreativePage() {
                     </defs>
                     <polygon points={HEX_OUTER} fill="#C41E1E" />
                     <g clipPath={`url(#tools-clip-${label})`} opacity="0.18" fill="white">
-                      {/* Hammer — head at top-left, handle at bottom-right (rotate -45°) */}
+                      {/* Claw hammer — face at top-left, claw tines splaying further left */}
                       <g transform="rotate(-45, 100, 100)">
                         <g transform="translate(40,40) scale(0.6)">
-                          <rect x="80" y="20" width="40" height="26" rx="2" />
-                          <rect x="96" y="46" width="8" height="128" rx="3" />
+                          {/* Handle */}
+                          <rect x="97" y="50" width="6" height="124" rx="3" />
+                          {/* Head body */}
+                          <rect x="76" y="28" width="48" height="24" rx="2" />
+                          {/* Claw upper tine */}
+                          <polygon points="82,28 76,28 64,10 70,8" />
+                          {/* Claw lower tine */}
+                          <polygon points="82,40 76,40 64,54 70,56" />
                         </g>
                       </g>
                       {/* Screwdriver — tip at top-right, handle at bottom-left (rotate 45°) */}
