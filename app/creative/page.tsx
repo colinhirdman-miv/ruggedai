@@ -342,18 +342,18 @@ export default function CreativePage() {
                     </defs>
                     <polygon points={HEX_OUTER} fill="#C41E1E" />
                     <g clipPath={`url(#stacked-clip-${label})`} opacity="0.35" fill="white">
-                      <g transform="translate(100,58) scale(0.04) translate(-720,-403)">
+                      <g transform="translate(100,70) scale(0.04) translate(-720,-403)">
                         <path d={HAMMER_PATH} />
                       </g>
-                      <g transform="translate(100,58) scale(0.04) translate(-720,-403)">
+                      <g transform="translate(100,70) scale(0.04) translate(-720,-403)">
                         <path d={SCREWDRIVER_PATH} />
                       </g>
                     </g>
-                    <text x="100" y="118" textAnchor="middle" dominantBaseline="middle"
+                    <text x="100" y="105" textAnchor="middle" dominantBaseline="middle"
                       fill="white" fontSize="36" fontWeight="900" letterSpacing="1"
                       style={{ fontFamily: FONT }}>RUGGED</text>
-                    <line x1="58" y1="133" x2="142" y2="133" stroke="rgba(255,255,255,0.3)" strokeWidth="0.75" />
-                    <text x="100" y="147" textAnchor="middle" dominantBaseline="middle"
+                    <line x1="58" y1="120" x2="142" y2="120" stroke="rgba(255,255,255,0.3)" strokeWidth="0.75" />
+                    <text x="100" y="134" textAnchor="middle" dominantBaseline="middle"
                       fill="rgba(255,255,255,0.7)" fontSize="16" fontWeight="700" letterSpacing="6"
                       style={{ fontFamily: FONT }}>AI</text>
                   </svg>
