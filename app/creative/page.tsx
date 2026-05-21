@@ -238,48 +238,39 @@ export default function CreativePage() {
             <div className="flex flex-col items-center">
               <svg viewBox="0 0 200 200" className="w-56 h-56" xmlns="http://www.w3.org/2000/svg">
                 <polygon points={HEX_OUTER} fill="#C41E1E" />
-                <text x="100" y="87" textAnchor="middle" dominantBaseline="middle"
+                <text x="100" y="93" textAnchor="middle" dominantBaseline="middle"
                   fill="white" fontSize="36" fontWeight="900" letterSpacing="1"
                   style={{ fontFamily: FONT }}>RUGGED</text>
-                <line x1="58" y1="103" x2="142" y2="103" stroke="rgba(255,255,255,0.3)" strokeWidth="0.75" />
-                <text x="100" y="119" textAnchor="middle" dominantBaseline="middle"
+                <line x1="58" y1="108" x2="142" y2="108" stroke="rgba(255,255,255,0.3)" strokeWidth="0.75" />
+                <text x="100" y="123" textAnchor="middle" dominantBaseline="middle"
                   fill="rgba(255,255,255,0.7)" fontSize="16" fontWeight="700" letterSpacing="6"
                   style={{ fontFamily: FONT }}>AI</text>
-                <text x="100" y="147" textAnchor="middle" dominantBaseline="middle"
-                  fill="rgba(255,255,255,0.75)" fontSize="8" fontWeight="700" letterSpacing="2"
-                  style={{ fontFamily: FONT }}>For the Trades</text>
               </svg>
               <p className="font-display text-xs uppercase tracking-widest text-brand-steel text-center mt-4">Large</p>
             </div>
             <div className="flex flex-col items-center">
               <svg viewBox="0 0 200 200" className="w-32 h-32" xmlns="http://www.w3.org/2000/svg">
                 <polygon points={HEX_OUTER} fill="#C41E1E" />
-                <text x="100" y="87" textAnchor="middle" dominantBaseline="middle"
+                <text x="100" y="93" textAnchor="middle" dominantBaseline="middle"
                   fill="white" fontSize="36" fontWeight="900" letterSpacing="1"
                   style={{ fontFamily: FONT }}>RUGGED</text>
-                <line x1="58" y1="103" x2="142" y2="103" stroke="rgba(255,255,255,0.3)" strokeWidth="0.75" />
-                <text x="100" y="119" textAnchor="middle" dominantBaseline="middle"
+                <line x1="58" y1="108" x2="142" y2="108" stroke="rgba(255,255,255,0.3)" strokeWidth="0.75" />
+                <text x="100" y="123" textAnchor="middle" dominantBaseline="middle"
                   fill="rgba(255,255,255,0.7)" fontSize="16" fontWeight="700" letterSpacing="6"
                   style={{ fontFamily: FONT }}>AI</text>
-                <text x="100" y="147" textAnchor="middle" dominantBaseline="middle"
-                  fill="rgba(255,255,255,0.75)" fontSize="8" fontWeight="700" letterSpacing="2"
-                  style={{ fontFamily: FONT }}>For the Trades</text>
               </svg>
               <p className="font-display text-xs uppercase tracking-widest text-brand-steel text-center mt-4">Medium</p>
             </div>
             <div className="flex flex-col items-center">
               <svg viewBox="0 0 200 200" className="w-16 h-16" xmlns="http://www.w3.org/2000/svg">
                 <polygon points={HEX_OUTER} fill="#C41E1E" />
-                <text x="100" y="87" textAnchor="middle" dominantBaseline="middle"
+                <text x="100" y="93" textAnchor="middle" dominantBaseline="middle"
                   fill="white" fontSize="36" fontWeight="900" letterSpacing="1"
                   style={{ fontFamily: FONT }}>RUGGED</text>
-                <line x1="58" y1="103" x2="142" y2="103" stroke="rgba(255,255,255,0.3)" strokeWidth="0.75" />
-                <text x="100" y="119" textAnchor="middle" dominantBaseline="middle"
+                <line x1="58" y1="108" x2="142" y2="108" stroke="rgba(255,255,255,0.3)" strokeWidth="0.75" />
+                <text x="100" y="123" textAnchor="middle" dominantBaseline="middle"
                   fill="rgba(255,255,255,0.7)" fontSize="16" fontWeight="700" letterSpacing="6"
                   style={{ fontFamily: FONT }}>AI</text>
-                <text x="100" y="147" textAnchor="middle" dominantBaseline="middle"
-                  fill="rgba(255,255,255,0.75)" fontSize="8" fontWeight="700" letterSpacing="2"
-                  style={{ fontFamily: FONT }}>For the Trades</text>
               </svg>
               <p className="font-display text-xs uppercase tracking-widest text-brand-steel text-center mt-4">Small</p>
             </div>
