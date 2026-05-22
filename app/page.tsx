@@ -103,43 +103,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ─── PROBLEM ─── */}
-      <section className="py-24 px-6 bg-brand-light">
-        <div className="max-w-5xl mx-auto">
-          <RedLabel>Sound familiar?</RedLabel>
-          <h2
-            className="font-display font-black uppercase leading-none text-brand-black mb-4"
-            style={{ fontSize: "clamp(2.25rem, 5.5vw, 4.5rem)", letterSpacing: "-0.01em" }}
-          >
-            88% of Home Service Businesses Haven&apos;t Touched AI Yet.
-          </h2>
-          <p className="font-display font-bold text-xl md:text-2xl text-brand-steel uppercase tracking-wide mb-8 max-w-3xl">
-            The ones who move first are already pulling ahead.
-          </p>
-          <p className="text-[#374151] text-base md:text-lg max-w-3xl mb-16 leading-relaxed">
-            Every week your phone rings after hours and goes to voicemail. Estimates go out and nobody follows up. Customers finish a job and never get asked for a review. You know you should do something about it. You don&apos;t have the time or the expertise to figure out how. And every week you wait, a competitor who did figure it out is getting the jobs you should have closed.
-          </p>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            {[
-              { stat: "88%", label: "of trades businesses haven't adopted AI" },
-              { stat: "$50K–$150K", label: "in recoverable revenue lost annually" },
-              { stat: "80%+", label: "lead-to-job conversion for businesses using AI agents" },
-            ].map(({ stat, label }) => (
-              <div key={stat} className="bg-brand-black px-8 py-10 border-t-4 border-brand-red">
-                <p
-                  className="font-display font-black text-brand-red uppercase leading-none mb-3"
-                  style={{ fontSize: "clamp(2.25rem, 4vw, 3.5rem)" }}
-                >
-                  {stat}
-                </p>
-                <p className="text-brand-iron text-sm uppercase tracking-wide leading-snug">{label}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* ─── SOLUTION ─── */}
       <section className="py-24 px-6 bg-white border-t border-brand-iron/20">
         <div className="max-w-5xl mx-auto">
@@ -213,6 +176,43 @@ export default function HomePage() {
                 >
                   {offer.cta}
                 </Link>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ─── PROBLEM ─── */}
+      <section className="py-24 px-6 bg-brand-light">
+        <div className="max-w-5xl mx-auto">
+          <RedLabel>Sound familiar?</RedLabel>
+          <h2
+            className="font-display font-black uppercase leading-none text-brand-black mb-4"
+            style={{ fontSize: "clamp(2.25rem, 5.5vw, 4.5rem)", letterSpacing: "-0.01em" }}
+          >
+            88% of Home Service Businesses Haven&apos;t Touched AI Yet.
+          </h2>
+          <p className="font-display font-bold text-xl md:text-2xl text-brand-steel uppercase tracking-wide mb-8 max-w-3xl">
+            The ones who move first are already pulling ahead.
+          </p>
+          <p className="text-[#374151] text-base md:text-lg max-w-3xl mb-16 leading-relaxed">
+            Every week your phone rings after hours and goes to voicemail. Estimates go out and nobody follows up. Customers finish a job and never get asked for a review. You know you should do something about it. You don&apos;t have the time or the expertise to figure out how. And every week you wait, a competitor who did figure it out is getting the jobs you should have closed.
+          </p>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+            {[
+              { stat: "88%", label: "of trades businesses haven't adopted AI" },
+              { stat: "$50K–$150K", label: "in recoverable revenue lost annually" },
+              { stat: "80%+", label: "lead-to-job conversion for businesses using AI agents" },
+            ].map(({ stat, label }) => (
+              <div key={stat} className="bg-brand-black px-8 py-10 border-t-4 border-brand-red">
+                <p
+                  className="font-display font-black text-brand-red uppercase leading-none mb-3"
+                  style={{ fontSize: "clamp(2.25rem, 4vw, 3.5rem)" }}
+                >
+                  {stat}
+                </p>
+                <p className="text-brand-iron text-sm uppercase tracking-wide leading-snug">{label}</p>
               </div>
             ))}
           </div>
