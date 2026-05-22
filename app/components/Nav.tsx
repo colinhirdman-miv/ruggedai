@@ -6,6 +6,7 @@ import { useState } from "react";
 const links = [
   { label: "Home", href: "/" },
   { label: "About", href: "/about" },
+  { label: "RuggedGenius", href: "/ruggedgenius" },
   { label: "RuggedConsulting", href: "/work-with-us" },
 ];
 
@@ -35,12 +36,6 @@ export default function Nav() {
               ) : link.label}
             </Link>
           ))}
-          <Link
-            href="/apply"
-            className="font-display font-bold text-sm uppercase tracking-widest bg-brand-red text-white px-5 py-2 hover:bg-red-700 transition-colors"
-          >
-            Apply Now
-          </Link>
         </div>
 
         {/* Mobile hamburger */}
@@ -70,13 +65,6 @@ export default function Nav() {
               ) : link.label}
             </Link>
           ))}
-          <Link
-            href="/apply"
-            onClick={() => setOpen(false)}
-            className="font-display font-bold text-base uppercase tracking-widest bg-brand-red text-white px-5 py-3 text-center hover:bg-red-700 transition-colors"
-          >
-            Apply Now
-          </Link>
         </div>
       )}
     </nav>
