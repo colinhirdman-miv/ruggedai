@@ -97,9 +97,6 @@ export default function HomePage() {
           <p className="text-brand-steel text-base md:text-lg max-w-2xl mb-10 leading-relaxed">
             The same mindset that gets you through a 12-hour service day — showing up, solving problems, handling what nobody else will touch — now works in software. Learn to build AI that answers your phones after hours, follows up on every estimate, requests reviews automatically, and closes more jobs. No technical background needed. No developers. Just you and systems that actually work.
           </p>
-          <div className="flex flex-col sm:flex-row flex-wrap gap-4">
-            <PrimaryBtn href="/ruggedgenius">Join RuggedGenius — $997</PrimaryBtn>
-          </div>
         </div>
       </section>
 
