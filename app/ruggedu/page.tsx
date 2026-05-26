@@ -37,7 +37,7 @@ const faqs = [
   },
   {
     q: "Who else is in the cohort?",
-    a: "Owners of home service businesses — HVAC, plumbing, pest control, electrical, landscaping, and more. Nobody is in your trade and your market. You're learning alongside people with identical problems but zero competitive overlap.",
+    a: "Professionals from home service businesses — HVAC, plumbing, pest control, electrical, landscaping, and more. Nobody is in your trade and your market. You're learning alongside people with identical problems but zero competitive overlap.",
   },
   {
     q: "How many people are in a cohort?",
@@ -131,7 +131,7 @@ export default function RuggedUPage() {
           </p>
           <span className="hidden sm:block w-px h-4 bg-white/40" />
           <p className="font-display font-bold text-sm uppercase tracking-widest">
-            Limited to 20 Owners Per Cohort
+            Limited to 20 Professionals Per Cohort
           </p>
           <Link
             href="/apply"
@@ -160,7 +160,7 @@ export default function RuggedUPage() {
               },
               {
                 title: "No New Hires Needed",
-                body: "The AI handles what you&apos;d otherwise pay a part-timer for — without the payroll, the scheduling, or the management.",
+                body: "The AI handles what you'd otherwise pay a part-timer for — without the payroll, the scheduling, or the management.",
               },
               {
                 title: "You're Not in the Room Alone",
@@ -399,7 +399,7 @@ export default function RuggedUPage() {
             className="font-display font-black uppercase leading-none text-white mb-4"
             style={{ fontSize: "clamp(2.25rem, 5vw, 4rem)" }}
           >
-            Join <span className="text-brand-red">Rugged</span>Genius
+            Join <span className="text-brand-red">Rugged</span>U
           </h2>
           <div className="flex items-baseline justify-center gap-3 mb-6">
             <span
