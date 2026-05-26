@@ -85,7 +85,7 @@ export default function RuggedUPage() {
             <span className="text-brand-red">Rugged</span>U
           </h1>
           <p className="font-display font-bold text-xl md:text-2xl text-brand-steel uppercase tracking-wide mb-6 max-w-3xl">
-            A small group of trades owners building real AI into their businesses — together — over four weeks.
+            A small group of trades professionals building real AI into their businesses — together — over four weeks.
           </p>
           <p className="text-brand-steel text-base md:text-lg max-w-2xl mb-8 leading-relaxed">
             Live. Hands-on. None of them are your competition. All of them have the same problems you do. You leave with working systems — not slides.
