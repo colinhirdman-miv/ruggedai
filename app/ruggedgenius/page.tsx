@@ -258,7 +258,7 @@ export default function RuggedGeniusPage() {
                 Founder, Rugged<span className="text-white">AI</span>
               </p>
               <p className="text-brand-steel text-base leading-relaxed mb-4 max-w-xl">
-                Colin has spent years working directly with business owners at the intersection of AI and real operations. He started RuggedGenius after watching the same thing happen over and over: trades owners with serious businesses getting outrun by competitors who just had better systems — and no one was helping them close that gap.
+                Colin has spent years working directly with business owners at the intersection of AI and real operations. He started RuggedAI after watching the same thing happen over and over: trades owners with serious businesses getting outrun by competitors who just had better systems — and no one was helping them close that gap.
               </p>
               <p className="text-brand-steel text-base leading-relaxed max-w-xl">
                 His approach is direct. No fluff. No jargon. Every session is specific, practical, and focused on getting your systems live before the workshop ends.
