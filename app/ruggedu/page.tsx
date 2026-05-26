@@ -17,7 +17,7 @@ function RedLabel({ children }: { children: React.ReactNode }) {
 const faqs = [
   {
     q: "Do I need technical experience?",
-    a: "None. If you can use a smartphone and run a crew, you can build these systems. The workshop is designed for business owners, not developers.",
+    a: "None. If you can use a smartphone and run a crew, you can build these systems. The workshop is designed for trades professionals, not developers.",
   },
   {
     q: "What trades does this cover?",
@@ -41,7 +41,7 @@ const faqs = [
   },
   {
     q: "How many people are in a cohort?",
-    a: "We cap it at 20 owners. You get real time with Colin, real answers to your specific situation — not a webinar where you're one of 500 with your question buried in a chat box.",
+    a: "We cap it at 20 professionals. You get real time with Colin, real answers to your specific situation — not a webinar where you're one of 500 with your question buried in a chat box.",
   },
   {
     q: "When does the next cohort start?",
@@ -164,7 +164,7 @@ export default function RuggedUPage() {
               },
               {
                 title: "You're Not in the Room Alone",
-                body: "You build alongside owners from HVAC, plumbing, pest control, electrical, and more. Different trades, different markets — none of them your competition. What the HVAC guy solves in week two is often exactly what you need in week three.",
+                body: "You build alongside professionals from HVAC, plumbing, pest control, electrical, and more. Different trades, different markets — none of them your competition. What the HVAC guy solves in week two is often exactly what you need in week three.",
               },
             ].map((pillar) => (
               <div key={pillar.title} className="bg-brand-black p-8">
@@ -258,7 +258,7 @@ export default function RuggedUPage() {
                 Founder, Rugged<span className="text-white">AI</span>
               </p>
               <p className="text-brand-steel text-base leading-relaxed mb-4 max-w-xl">
-                Colin has spent years working directly with business owners at the intersection of AI and real operations. He started RuggedAI after watching the same thing happen over and over: trades owners with serious businesses getting outrun by competitors who just had better systems — and no one was helping them close that gap.
+                Colin has spent years working directly with trades professionals at the intersection of AI and real operations. He started RuggedAI after watching the same thing happen over and over: trades professionals with serious businesses getting outrun by competitors who just had better systems — and no one was helping them close that gap.
               </p>
               <p className="text-brand-steel text-base leading-relaxed max-w-xl">
                 His approach is direct. No fluff. No jargon. Every session is specific, practical, and focused on getting your systems live before the workshop ends.
@@ -351,7 +351,7 @@ export default function RuggedUPage() {
               },
               {
                 title: "Cohort Peer Group",
-                body: "The owners you build alongside become your network. Small group, capped at 20. You know everyone in the room by week two — and they're solving the exact same problems you are.",
+                body: "The professionals you build alongside become your network. Small group, capped at 20. You know everyone in the room by week two — and they're solving the exact same problems you are.",
               },
               {
                 title: "30-Day Post-Workshop Support",
