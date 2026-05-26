@@ -120,13 +120,13 @@ export default function HomePage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {[
               {
-                name: "RuggedGenius Workshop",
+                name: "RuggedU Workshop",
                 price: "$997",
                 period: "4-week workshop",
                 description:
                   "Learn to build AI agents in your business in four weeks. Live, hands-on, specific to your trade. You leave with real AI running in your operation.",
-                cta: "Join RuggedGenius →",
-                href: "/ruggedgenius",
+                cta: "Join RuggedU →",
+                href: "/ruggedu",
                 primary: true,
               },
               {
@@ -230,7 +230,7 @@ export default function HomePage() {
             The window is open right now. Trades businesses that adopt AI in the next 18 months will operate at a level their competitors can&apos;t match.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <PrimaryBtn href="/ruggedgenius">Join RuggedGenius — $997</PrimaryBtn>
+            <PrimaryBtn href="/ruggedu">Join RuggedU — $997</PrimaryBtn>
             <OutlineBtn href="/work-with-us">RuggedConsulting</OutlineBtn>
           </div>
         </div>

@@ -3,7 +3,7 @@
 import { useState } from "react";
 
 const services = [
-  "RuggedGenius Workshop ($997)",
+  "RuggedU Workshop ($997)",
   "Rugged 1:1 Consulting",
   "Not sure yet",
 ];
