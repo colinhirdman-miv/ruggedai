@@ -5,7 +5,6 @@ import { useState } from "react";
 const services = [
   "RuggedGenius Workshop ($997)",
   "Rugged 1:1 Consulting",
-  "Rugged Builds (Custom)",
   "Not sure yet",
 ];
 

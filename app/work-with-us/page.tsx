@@ -75,7 +75,7 @@ export default function WorkWithUsPage() {
             </div>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {/* 1:1 Consulting */}
             <div className="border border-brand-red bg-brand-black p-10 flex flex-col border-t-4">
               <p className="font-display font-bold text-xs uppercase tracking-[0.2em] text-brand-red mb-4">
@@ -113,45 +113,6 @@ export default function WorkWithUsPage() {
                 className="font-display font-black text-sm uppercase tracking-widest bg-brand-red text-white px-6 py-3 text-center hover:bg-red-700 transition-colors"
               >
                 Apply Now →
-              </Link>
-            </div>
-
-            {/* Rugged Builds */}
-            <div className="border border-brand-iron/40 bg-brand-black p-10 flex flex-col border-t-4 border-t-brand-steel">
-              <h3 className="font-display font-black text-3xl uppercase text-white mb-2">
-                <span className="text-brand-red">Rugged</span> Builds
-              </h3>
-              <div className="mb-6">
-                <span
-                  className="font-display font-black text-brand-red"
-                  style={{ fontSize: "clamp(1.75rem, 3vw, 2.5rem)" }}
-                >
-                  Custom
-                </span>
-                <span className="text-brand-steel text-sm ml-2 uppercase tracking-wide">pricing</span>
-              </div>
-              <p className="text-brand-steel text-sm leading-relaxed mb-6">
-                You hand us the keys. We build the full system — call handling, follow-up sequences, review automation, job-closing workflows — and integrate everything into the way your business already runs. You don&apos;t touch the technology. You just watch the operation tighten up.
-              </p>
-              <ul className="space-y-3 mb-8 flex-1">
-                {[
-                  "Full custom AI infrastructure",
-                  "Integration with existing tools",
-                  "Dedicated development team",
-                  "Ongoing support and iteration",
-                  "Enterprise-grade reliability",
-                ].map((item) => (
-                  <li key={item} className="text-brand-steel text-sm flex items-start gap-3">
-                    <span className="w-2 h-2 bg-brand-steel flex-shrink-0 mt-1.5" />
-                    {item}
-                  </li>
-                ))}
-              </ul>
-              <Link
-                href="/apply"
-                className="font-display font-black text-sm uppercase tracking-widest border-2 border-white text-white px-6 py-3 text-center hover:bg-white hover:text-brand-black transition-colors"
-              >
-                Get Started →
               </Link>
             </div>
 
