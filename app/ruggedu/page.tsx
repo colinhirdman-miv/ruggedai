@@ -164,7 +164,7 @@ export default function RuggedUPage() {
               },
               {
                 title: "You're Not in the Room Alone",
-                body: "You build alongside professionals from HVAC, plumbing, pest control, electrical, and more. Different trades, different markets — none of them your competition. What the HVAC guy solves in week two is often exactly what you need in week three.",
+                body: "You build alongside professionals from HVAC, plumbing, pest control, electrical, and more. Everyone in the room has the same problems. Nobody's doing this alone.",
               },
             ].map((pillar) => (
               <div key={pillar.title} className="bg-brand-black p-8">
