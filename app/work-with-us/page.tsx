@@ -50,6 +50,31 @@ export default function WorkWithUsPage() {
             Pick Your Path.
           </h2>
 
+          {/* Lunch & Learn */}
+          <div className="border-t-4 border-brand-red bg-brand-black p-10 mb-6 flex flex-col md:flex-row md:items-center gap-10">
+            <div className="flex-1">
+              <p className="font-display font-bold text-xs uppercase tracking-[0.2em] text-brand-red mb-3">Start Here</p>
+              <h3 className="font-display font-black text-3xl uppercase text-white mb-2">
+                <span className="text-brand-red">Rugged</span> Lunch &amp; Learn
+              </h3>
+              <p className="text-brand-steel text-base leading-relaxed max-w-2xl">
+                I come to your office, buy lunch, and spend 90 minutes showing your team exactly where AI can have the biggest impact on your operation — specific to your trade, your market, your roles. No slides. No theory. Real examples built around how you actually run your business. Most companies leave with three immediate opportunities they can act on that week.
+              </p>
+            </div>
+            <div className="flex-shrink-0 flex flex-col items-start md:items-end gap-4">
+              <div>
+                <span className="font-display font-black text-brand-red" style={{ fontSize: "clamp(2rem, 3vw, 2.75rem)" }}>$500</span>
+                <span className="text-brand-steel text-sm ml-2 uppercase tracking-wide">flat</span>
+              </div>
+              <Link
+                href="/apply"
+                className="font-display font-black text-sm uppercase tracking-widest bg-brand-red text-white px-8 py-3 hover:bg-red-700 transition-colors whitespace-nowrap"
+              >
+                Book a Lunch &amp; Learn →
+              </Link>
+            </div>
+          </div>
+
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {/* 1:1 Consulting */}
             <div className="border border-brand-red bg-brand-black p-10 flex flex-col border-t-4">
