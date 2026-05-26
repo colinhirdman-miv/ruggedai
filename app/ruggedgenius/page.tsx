@@ -21,7 +21,7 @@ const faqs = [
   },
   {
     q: "What trades does this cover?",
-    a: "HVAC, plumbing, pest control, electrical, garage doors, and landscaping. Every session is built around how home service businesses actually operate.",
+    a: "HVAC, plumbing, pest control, electrical, landscaping, and more. Every session is built around how home service businesses actually operate.",
   },
   {
     q: "How long are the sessions?",
