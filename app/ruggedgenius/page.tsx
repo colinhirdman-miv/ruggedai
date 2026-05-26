@@ -97,7 +97,7 @@ export default function RuggedGeniusPage() {
             >
               $997
             </span>
-            <span className="text-brand-steel uppercase tracking-wide text-sm">one-time</span>
+            <span className="text-brand-steel uppercase tracking-wide text-sm">4-week workshop</span>
           </div>
           <div className="border border-brand-red bg-[#130000] px-6 py-4 mb-10 max-w-xl flex items-start gap-4">
             <span className="text-brand-red font-black text-xl flex-shrink-0 mt-0.5">★</span>
@@ -408,7 +408,7 @@ export default function RuggedGeniusPage() {
             >
               $997
             </span>
-            <span className="text-brand-steel uppercase tracking-wide text-sm">one-time · lifetime access</span>
+            <span className="text-brand-steel uppercase tracking-wide text-sm">4-week workshop · lifetime access</span>
           </div>
           <p className="text-brand-steel text-base max-w-xl mx-auto mb-10 leading-relaxed">
             Four weeks. Working systems. No fluff. If you show up to the first session and it&apos;s not right for you, full refund — no questions asked.
