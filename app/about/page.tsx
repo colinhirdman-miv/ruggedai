@@ -136,13 +136,16 @@ export default function AboutPage() {
                 Co-Founder, Rugged<span className="text-white">AI</span>
               </p>
               <p className="text-brand-steel text-base md:text-lg max-w-2xl leading-relaxed mb-4">
-                Colin has been building companies his whole career. He co-founded Augurian, a digital marketing agency that helps businesses grow with confidence online. He co-founded Cloudburst, a custom software studio that takes founders from idea to traction. And he co-founded Monkey Island Ventures alongside Josh and Zack — friends since 2nd grade — a venture platform built around the belief that the best companies are built by people who genuinely trust each other.
+                I started my first company a week after graduating from college and I&apos;ve been an entrepreneur ever since. Everything I&apos;ve built since then has been through Monkey Island Ventures — a company I co-founded with two of my best friends, Josh and Zack. We named it after a park we played at together since we were five years old.
               </p>
               <p className="text-brand-steel text-base md:text-lg max-w-2xl leading-relaxed mb-4">
-                That background — marketing, software, and years of watching what actually makes small businesses grow — is exactly what RuggedAI is built on. He&apos;s not an AI consultant who learned this from YouTube. He runs the companies that can back it up.
+                Over the years the three of us have built over a dozen software and service businesses. Along the way we built Augurian, a digital marketing agency, and Cloudburst, a custom software studio. The mission behind all of it has always been the same: share what we know and help create as many successful entrepreneurs as we can.
+              </p>
+              <p className="text-brand-steel text-base md:text-lg max-w-2xl leading-relaxed mb-4">
+                RuggedAI is the next chapter. I kept watching trades owners — people running real operations, real crews, real revenue — get outmaneuvered by competitors who figured out how to use AI first. Not because they were smarter. Because they moved faster. That gap is closeable, and I know exactly how to close it.
               </p>
               <p className="text-brand-steel text-base md:text-lg max-w-2xl leading-relaxed mb-10">
-                His approach is direct. He sits down with your operation, finds the highest-leverage places AI creates real impact, and builds them — fast. No jargon. No theory. No wasted time.
+                My approach is direct. I sit down with your operation, find the highest-leverage places AI creates real impact, and build them — fast. No jargon. No theory. No wasted time.
               </p>
               <Link
                 href="/apply"
