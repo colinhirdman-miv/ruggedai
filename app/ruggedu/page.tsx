@@ -88,7 +88,7 @@ export default function RuggedUPage() {
             A small group of trades professionals building real AI into their businesses — together — over four weeks.
           </p>
           <p className="text-brand-steel text-base md:text-lg max-w-2xl mb-8 leading-relaxed">
-            Live. Hands-on. None of them are your competition. All of them have the same problems you do. You leave with working systems — not slides.
+            Live. Hands-on. All of them have the same problems you do. You leave with working systems — not slides.
           </p>
           <div className="flex items-baseline gap-3 mb-6">
             <span
