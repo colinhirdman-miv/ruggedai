@@ -133,13 +133,16 @@ export default function AboutPage() {
                 Colin Hirdman
               </h2>
               <p className="font-display font-bold text-xs uppercase tracking-[0.3em] text-brand-red mb-6">
-                Founder, Rugged<span className="text-white">AI</span>
+                Co-Founder, Rugged<span className="text-white">AI</span>
               </p>
               <p className="text-brand-steel text-base md:text-lg max-w-2xl leading-relaxed mb-4">
-                Colin has spent years watching the same thing happen: trades business owners with serious operations — real revenue, real crews, real customers — getting outmaneuvered by competitors who figured out how to use AI first. Not because they were smarter. Because they moved faster.
+                Colin has been building companies his whole career. He co-founded Augurian, a digital marketing agency that helps businesses grow with confidence online. He co-founded Cloudburst, a custom software studio that takes founders from idea to traction. And he co-founded Monkey Island Ventures alongside Josh and Zack — friends since 2nd grade — a venture platform built around the belief that the best companies are built by people who genuinely trust each other.
+              </p>
+              <p className="text-brand-steel text-base md:text-lg max-w-2xl leading-relaxed mb-4">
+                That background — marketing, software, and years of watching what actually makes small businesses grow — is exactly what RuggedAI is built on. He&apos;s not an AI consultant who learned this from YouTube. He runs the companies that can back it up.
               </p>
               <p className="text-brand-steel text-base md:text-lg max-w-2xl leading-relaxed mb-10">
-                His approach is direct. He sits down with your operation, finds the three or four places AI creates the most leverage, and builds them. No jargon. No theory. No wasted time.
+                His approach is direct. He sits down with your operation, finds the highest-leverage places AI creates real impact, and builds them — fast. No jargon. No theory. No wasted time.
               </p>
               <Link
                 href="/apply"
@@ -148,6 +151,58 @@ export default function AboutPage() {
                 Work With Colin →
               </Link>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Backing companies */}
+      <section className="py-24 px-6 bg-brand-dark border-t border-[#1a1a1a]">
+        <div className="max-w-4xl mx-auto">
+          <RedLabel>The Companies Behind It</RedLabel>
+          <h2
+            className="font-display font-black uppercase leading-none text-white mb-4"
+            style={{ fontSize: "clamp(2rem, 4vw, 3.5rem)" }}
+          >
+            You&apos;re Not Just Getting Colin.
+          </h2>
+          <p className="text-brand-steel text-base md:text-lg max-w-2xl mb-16 leading-relaxed">
+            RuggedAI is backed by a set of operating companies that have been building and growing businesses for years. When you need more than AI — you already have a path forward.
+          </p>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {[
+              {
+                name: "Monkey Island Ventures",
+                role: "The Venture Platform",
+                description: "The holding company behind RuggedAI. Founded by Colin, Josh, and Zack — three childhood friends committed to building as many successful companies as they can in their lifetimes.",
+                href: "https://www.monkeyislandventures.com",
+              },
+              {
+                name: "Augurian",
+                role: "Digital Marketing",
+                description: "A full-service digital marketing agency. When your AI systems start generating more leads than your marketing can handle, the team to scale it is already in the room.",
+                href: "https://augurian.com",
+              },
+              {
+                name: "Cloudburst",
+                role: "Custom Software",
+                description: "A software studio for founders who need to build real product. When your AI workflows outgrow off-the-shelf tools, Cloudburst builds what's next.",
+                href: "https://cloudburststudio.com",
+              },
+            ].map((co) => (
+              <div key={co.name} className="border border-[#1a1a1a] p-8 bg-brand-black">
+                <p className="font-display font-bold text-xs uppercase tracking-[0.2em] text-brand-red mb-3">{co.role}</p>
+                <h3 className="font-display font-black text-xl uppercase text-white leading-tight mb-4">{co.name}</h3>
+                <p className="text-brand-steel text-sm leading-relaxed mb-6">{co.description}</p>
+                <a
+                  href={co.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-display font-bold text-xs uppercase tracking-widest text-brand-iron hover:text-white transition-colors"
+                >
+                  Visit →
+                </a>
+              </div>
+            ))}
           </div>
         </div>
       </section>
