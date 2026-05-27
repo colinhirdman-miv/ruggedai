@@ -1,4 +1,10 @@
+import type { Metadata } from "next";
 import Link from "next/link";
+
+export const metadata: Metadata = {
+  title: "About — RuggedAI",
+  description: "RuggedAI was built to close the AI gap in home service businesses. Meet founder Colin Hirdman and learn why trades businesses are falling behind — and how to catch up.",
+};
 
 function RedLabel({ children }: { children: React.ReactNode }) {
   return (

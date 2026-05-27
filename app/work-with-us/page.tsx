@@ -1,4 +1,10 @@
+import type { Metadata } from "next";
 import Link from "next/link";
+
+export const metadata: Metadata = {
+  title: "Work With Us — RuggedAI Consulting",
+  description: "Work directly with Colin Hirdman to build AI into your trades business. RuggedConsulting at $4,500/month or a Lunch & Learn for $500. Apply now.",
+};
 
 function RedLabel({ children }: { children: React.ReactNode }) {
   return (
@@ -89,7 +95,7 @@ export default function WorkWithUsPage() {
                   className="font-display font-black text-brand-red"
                   style={{ fontSize: "clamp(1.75rem, 3vw, 2.5rem)" }}
                 >
-                  $2,000–$3,000
+                  $4,500
                 </span>
                 <span className="text-brand-steel text-sm ml-2 uppercase tracking-wide">/ month</span>
               </div>
@@ -126,9 +132,9 @@ export default function WorkWithUsPage() {
                   className="font-display font-black text-brand-red"
                   style={{ fontSize: "clamp(1.75rem, 3vw, 2.5rem)" }}
                 >
-                  Custom
+                  $2,500
                 </span>
-                <span className="text-brand-steel text-sm ml-2 uppercase tracking-wide">per engagement</span>
+                <span className="text-brand-steel text-sm ml-2 uppercase tracking-wide">two days on-site</span>
               </div>
               <p className="text-brand-steel text-sm leading-relaxed mb-6">
                 We come to your team. Every role gets AI built for what they actually do — your ops manager, parts manager, sales team, and CSR all leave with tools specific to their job. Private, focused, and built around how your operation actually runs.

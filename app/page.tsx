@@ -1,4 +1,10 @@
+import type { Metadata } from "next";
 import Link from "next/link";
+
+export const metadata: Metadata = {
+  title: "RuggedAI — AI Built for the Trades",
+  description: "AI consulting for HVAC, plumbing, pest control, and electrical businesses. Stop losing jobs to voicemail. RuggedU Workshop $997 or 1:1 consulting.",
+};
 
 function RedLabel({ children }: { children: React.ReactNode }) {
   return (
@@ -131,7 +137,7 @@ export default function HomePage() {
               },
               {
                 name: "RuggedConsulting",
-                price: "$2,000–$3,000",
+                price: "$4,500",
                 period: "per month",
                 description:
                   "You and Colin work directly together to find your highest-impact AI opportunities and build them — fast.",
