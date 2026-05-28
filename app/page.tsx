@@ -202,20 +202,24 @@ export default function HomePage() {
             Every week your phone rings after hours and goes to voicemail. Estimates go out and nobody follows up. Customers finish a job and never get asked for a review. You know you should do something about it. You don&apos;t have the time or the expertise to figure out how. And every week you wait, a competitor who did figure it out is getting the jobs you should have closed.
           </p>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
             {[
-              { stat: "88%", label: "of trades businesses haven't adopted AI" },
-              { stat: "$50K–$150K", label: "in recoverable revenue lost annually" },
-              { stat: "80%+", label: "lead-to-job conversion for businesses using AI agents" },
-            ].map(({ stat, label }) => (
-              <div key={stat} className="bg-brand-black px-8 py-10 border-t-4 border-brand-red">
+              { stat: "72%", label: "of contractors say AI is already relevant to their business", source: "ServiceTitan 2026" },
+              { stat: "88%", label: "of your competitors haven't fully embedded AI — only 12% have moved", source: "ServiceTitan 2026" },
+              { stat: "3+", label: "hours saved per week by contractors already using AI tools" },
+              { stat: "60%", label: "reduction in missed calls for trades businesses using AI-powered call handling" },
+            ].map(({ stat, label, source }) => (
+              <div key={stat} className="bg-brand-black px-8 py-10 border-t-4 border-brand-red flex flex-col">
                 <p
                   className="font-display font-black text-brand-red uppercase leading-none mb-3"
                   style={{ fontSize: "clamp(2.25rem, 4vw, 3.5rem)" }}
                 >
                   {stat}
                 </p>
-                <p className="text-brand-iron text-sm uppercase tracking-wide leading-snug">{label}</p>
+                <p className="text-brand-iron text-sm uppercase tracking-wide leading-snug flex-1">{label}</p>
+                {source && (
+                  <p className="text-brand-steel text-xs mt-3 tracking-wide">{source}</p>
+                )}
               </div>
             ))}
           </div>
