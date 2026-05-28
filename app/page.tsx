@@ -204,9 +204,9 @@ export default function HomePage() {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
             {[
-              { stat: "72%", label: "of contractors say AI is already relevant to their business", source: "ServiceTitan 2026" },
               { stat: "88%", label: "of your competitors haven't fully embedded AI — only 12% have moved", source: "ServiceTitan 2026" },
-              { stat: "3+", label: "hours saved per week by contractors already using AI tools" },
+              { stat: "66%", label: "expect AI to meaningfully transform the trades within 1–3 years", source: "ServiceTitan 2026" },
+              { stat: "3+", label: "hours saved per week by contractors already using AI tools", source: "ServiceTitan 2026" },
               { stat: "60%", label: "reduction in missed calls for trades businesses using AI-powered call handling" },
             ].map(({ stat, label, source }) => (
               <div key={stat} className="bg-brand-black px-8 py-10 border-t-4 border-brand-red flex flex-col">
