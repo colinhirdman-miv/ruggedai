@@ -202,6 +202,8 @@ export default function RuggedUClient() {
                 week: "Week 2",
                 title: "After-Hours Call Handling",
                 body: "Build an AI that answers calls, qualifies leads, and books jobs when you can't pick up. Stop losing jobs to voicemail. This system alone pays for the workshop.",
+                proof: "One trades company handled 7,000 calls in a single week during a cold snap with an AI voice agent running an 80–85% booking rate and average call time under five minutes. Another cut their missed call rate by 60%. You build this in Week 2. It runs in your business before Week 3 starts.",
+                source: "ServiceTitan State of AI in the Trades 2026",
               },
               {
                 week: "Week 3",
@@ -231,6 +233,12 @@ export default function RuggedUClient() {
                     {item.title}
                   </h3>
                   <p className="text-[#374151] text-sm leading-relaxed">{item.body}</p>
+                  {item.proof && (
+                    <p className="text-[#374151] text-sm leading-relaxed mt-3">{item.proof}</p>
+                  )}
+                  {item.source && (
+                    <p className="text-brand-steel text-xs mt-2 tracking-wide">{item.source}</p>
+                  )}
                 </div>
               </div>
             ))}
