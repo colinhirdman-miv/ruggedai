@@ -131,7 +131,7 @@ export default function HomePage() {
                 period: "4-week workshop",
                 description:
                   "Learn to build AI agents in your business in four weeks. Live, hands-on, specific to your trade. You leave with real AI running in your operation.",
-                cta: "Join RuggedU →",
+                cta: "Learn More →",
                 href: "/ruggedu",
                 primary: true,
               },
