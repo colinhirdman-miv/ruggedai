@@ -22,26 +22,35 @@ export default function WorkWithUsPage() {
     <main>
       {/* Hero */}
       <section className="pt-36 pb-24 px-6 bg-brand-black">
-        <div className="max-w-5xl mx-auto">
-          <RedLabel>Consulting</RedLabel>
-          <h1
-            className="font-display font-black uppercase leading-none text-white mb-6"
-            style={{ fontSize: "clamp(3rem, 8vw, 6rem)", letterSpacing: "-0.01em" }}
-          >
-            Work Directly With Colin.
-          </h1>
-          <p className="font-display font-bold text-xl md:text-2xl text-brand-steel uppercase tracking-wide mb-6 max-w-3xl">
-            Your highest-impact AI opportunities, built together.
-          </p>
-          <p className="text-brand-steel text-base md:text-lg max-w-2xl mb-10 leading-relaxed">
-            You already know where your business is bleeding — the calls that go to voicemail, the estimates that go cold, the reviews you never got around to asking for. This is about fixing those specific holes in your specific operation. Not a course. Not a template. Your business, built to close more.
-          </p>
-          <Link
-            href="/build"
-            className="inline-block font-display font-black text-base uppercase tracking-widest bg-brand-red text-white px-10 py-4 hover:bg-red-700 transition-colors"
-          >
-            Let's Build →
-          </Link>
+        <div className="max-w-5xl mx-auto flex items-center justify-between gap-12">
+          <div className="flex-1">
+            <RedLabel>Consulting</RedLabel>
+            <h1
+              className="font-display font-black uppercase leading-none text-white mb-6"
+              style={{ fontSize: "clamp(3rem, 8vw, 6rem)", letterSpacing: "-0.01em" }}
+            >
+              Work Directly With Colin.
+            </h1>
+            <p className="font-display font-bold text-xl md:text-2xl text-brand-steel uppercase tracking-wide mb-6 max-w-3xl">
+              Your highest-impact AI opportunities, built together.
+            </p>
+            <p className="text-brand-steel text-base md:text-lg max-w-2xl mb-10 leading-relaxed">
+              You already know where your business is bleeding — the calls that go to voicemail, the estimates that go cold, the reviews you never got around to asking for. This is about fixing those specific holes in your specific operation. Not a course. Not a template. Your business, built to close more.
+            </p>
+            <Link
+              href="/build"
+              className="inline-block font-display font-black text-base uppercase tracking-widest bg-brand-red text-white px-10 py-4 hover:bg-red-700 transition-colors"
+            >
+              Let's Build →
+            </Link>
+          </div>
+          <div className="hidden md:block flex-shrink-0">
+            <img
+              src="/colin-headshot.jpeg"
+              alt="Colin Hirdman"
+              className="w-72 h-72 object-cover object-top ring-4 ring-brand-red"
+            />
+          </div>
         </div>
       </section>
 
