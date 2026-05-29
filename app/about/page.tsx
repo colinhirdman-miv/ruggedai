@@ -124,6 +124,50 @@ export default function AboutPage() {
         </div>
       </section>
 
+      {/* Why Claude */}
+      <section className="py-24 px-6 bg-white border-t border-brand-iron/20">
+        <div className="max-w-4xl mx-auto">
+          <RedLabel>The AI We Use</RedLabel>
+          <h2
+            className="font-display font-black uppercase leading-none text-brand-black mb-6"
+            style={{ fontSize: "clamp(2rem, 4vw, 3.5rem)" }}
+          >
+            We Build on Claude.
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+            <div>
+              <p className="text-[#374151] text-base leading-relaxed mb-4">
+                Every system we build runs on Claude — Anthropic&apos;s AI platform. Not because it&apos;s the most hyped. Because it&apos;s the best tool for what trades businesses actually need: complex, multi-step conversations that don&apos;t lose context, nuanced instruction-following, and real integration with your existing systems.
+              </p>
+              <p className="text-[#374151] text-base leading-relaxed">
+                We&apos;re certified in Claude. That means when you work with us, you&apos;re not getting someone figuring it out on your dime. You&apos;re getting someone who knows exactly how to configure it, prompt it, and connect it to your phone system, CRM, and scheduling software.
+              </p>
+            </div>
+            <div className="space-y-6">
+              {[
+                {
+                  title: "Claude for Teams",
+                  body: "Every participant gets set up on Claude for Teams — Anthropic's business platform. Skills, connectors, and custom workflows built around how your operation actually runs.",
+                },
+                {
+                  title: "Certified & Current",
+                  body: "We stay ahead of what Claude can do so you don't have to. When new capabilities drop, we know how to apply them to your business first.",
+                },
+                {
+                  title: "Built to Last",
+                  body: "The systems we build don't depend on us to run. You own them. You can operate them. And when you need more, we're here.",
+                },
+              ].map((item) => (
+                <div key={item.title} className="border-l-2 border-brand-red pl-5">
+                  <h3 className="font-display font-black text-sm uppercase tracking-wide text-brand-black mb-1">{item.title}</h3>
+                  <p className="text-[#374151] text-sm leading-relaxed">{item.body}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Colin section */}
       <section className="py-24 px-6 bg-brand-black">
         <div className="max-w-4xl mx-auto">

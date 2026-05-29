@@ -99,7 +99,7 @@ export default function RuggedUClient() {
             </span>
             <span className="text-brand-steel uppercase tracking-wide text-sm">4-week workshop</span>
           </div>
-          <div className="border border-brand-red bg-[#130000] px-6 py-4 mb-10 max-w-xl flex items-start gap-4">
+          <div className="border border-brand-red bg-[#130000] px-6 py-4 mb-4 max-w-xl flex items-start gap-4">
             <span className="text-brand-red font-black text-xl flex-shrink-0 mt-0.5">★</span>
             <div>
               <p className="font-display font-black text-white text-sm uppercase tracking-wide mb-1">
@@ -107,6 +107,17 @@ export default function RuggedUClient() {
               </p>
               <p className="text-brand-steel text-sm leading-relaxed">
                 Enroll once and you&apos;re in every future RuggedU cohort. The curriculum evolves with AI — and so will you.
+              </p>
+            </div>
+          </div>
+          <div className="border border-[#2a2a2a] bg-brand-dark px-6 py-4 mb-10 max-w-xl flex items-start gap-4">
+            <span className="text-brand-steel font-black text-xl flex-shrink-0 mt-0.5">⬡</span>
+            <div>
+              <p className="font-display font-black text-white text-sm uppercase tracking-wide mb-1">
+                Built on Claude
+              </p>
+              <p className="text-brand-steel text-sm leading-relaxed">
+                Every system we build runs on Claude — Anthropic&apos;s AI platform. You leave set up on Claude for Teams with skills and workflows built for your trade.
               </p>
             </div>
           </div>
@@ -196,7 +207,7 @@ export default function RuggedUClient() {
               {
                 week: "Week 1",
                 title: "AI Fundamentals for the Trades",
-                body: "Understand how AI agents actually work and where they create the most leverage in a home service business. Map your own operation for opportunities — calls, estimates, reviews, scheduling. Set up your tools.",
+                body: "Understand how AI agents actually work and where they create the most leverage in a home service business. Map your own operation for opportunities — calls, estimates, reviews, scheduling. Get set up on Claude for Teams — the platform we build everything on.",
               },
               {
                 week: "Week 2",

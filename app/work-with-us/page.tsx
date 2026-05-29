@@ -72,9 +72,10 @@ export default function WorkWithUsPage() {
               <h3 className="font-display font-black text-3xl uppercase text-white mb-2">
                 <span className="text-brand-red">Rugged</span> Lunch &amp; Learn
               </h3>
-              <p className="text-brand-steel text-base leading-relaxed max-w-2xl">
+              <p className="text-brand-steel text-base leading-relaxed max-w-2xl mb-4">
                 I come to your office, buy lunch, and spend 90 minutes showing your team exactly where AI can have the biggest impact on your operation — specific to your trade, your market, your roles. No slides. No theory. Real examples built around how you actually run your business. Most companies leave with three immediate opportunities they can act on that week.
               </p>
+              <p className="font-display font-bold text-xs uppercase tracking-[0.2em] text-brand-steel">Up to 10 attendees</p>
             </div>
             <div className="flex-shrink-0 flex flex-col items-start md:items-end gap-4">
               <div>
@@ -91,46 +92,6 @@ export default function WorkWithUsPage() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {/* 1:1 Consulting */}
-            <div className="border border-brand-red bg-brand-black p-10 flex flex-col border-t-4">
-              <p className="font-display font-bold text-xs uppercase tracking-[0.2em] text-brand-red mb-4">
-                Most Popular
-              </p>
-              <h3 className="font-display font-black text-3xl uppercase text-white mb-2">
-                <span className="text-brand-red">Rugged</span>Consulting
-              </h3>
-              <div className="mb-6">
-                <span
-                  className="font-display font-black text-brand-red"
-                  style={{ fontSize: "clamp(1.75rem, 3vw, 2.5rem)" }}
-                >
-                  $4,500
-                </span>
-                <span className="text-brand-steel text-sm ml-2 uppercase tracking-wide">/ month</span>
-              </div>
-              <ul className="space-y-3 mb-8 flex-1">
-                {[
-                  "Weekly sessions with Colin",
-                  "Custom AI system identification and build",
-                  "Direct Slack access",
-                  "Full implementation support",
-                  "Monthly strategy and roadmap review",
-                  "Specific to your trade and market",
-                ].map((item) => (
-                  <li key={item} className="text-brand-steel text-sm flex items-start gap-3">
-                    <span className="w-2 h-2 bg-brand-red flex-shrink-0 mt-1.5" />
-                    {item}
-                  </li>
-                ))}
-              </ul>
-              <Link
-                href="/build"
-                className="font-display font-black text-sm uppercase tracking-widest bg-brand-red text-white px-6 py-3 text-center hover:bg-red-700 transition-colors"
-              >
-                Let's Build →
-              </Link>
-            </div>
-
             {/* Rugged Teams */}
             <div className="border border-brand-iron/40 bg-brand-black p-10 flex flex-col border-t-4 border-t-brand-steel">
               <h3 className="font-display font-black text-3xl uppercase text-white mb-2">
@@ -168,6 +129,46 @@ export default function WorkWithUsPage() {
                 className="font-display font-black text-sm uppercase tracking-widest border-2 border-white text-white px-6 py-3 text-center hover:bg-white hover:text-brand-black transition-colors"
               >
                 Bring Us In →
+              </Link>
+            </div>
+
+            {/* 1:1 Consulting */}
+            <div className="border border-brand-red bg-brand-black p-10 flex flex-col border-t-4">
+              <p className="font-display font-bold text-xs uppercase tracking-[0.2em] text-brand-red mb-4">
+                Most Popular
+              </p>
+              <h3 className="font-display font-black text-3xl uppercase text-white mb-2">
+                <span className="text-brand-red">Rugged</span>Consulting
+              </h3>
+              <div className="mb-6">
+                <span
+                  className="font-display font-black text-brand-red"
+                  style={{ fontSize: "clamp(1.75rem, 3vw, 2.5rem)" }}
+                >
+                  $4,500
+                </span>
+                <span className="text-brand-steel text-sm ml-2 uppercase tracking-wide">/ month</span>
+              </div>
+              <ul className="space-y-3 mb-8 flex-1">
+                {[
+                  "Weekly sessions with Colin",
+                  "Custom AI system identification and build",
+                  "Direct Slack access",
+                  "Full implementation support",
+                  "Monthly strategy and roadmap review",
+                  "Specific to your trade and market",
+                ].map((item) => (
+                  <li key={item} className="text-brand-steel text-sm flex items-start gap-3">
+                    <span className="w-2 h-2 bg-brand-red flex-shrink-0 mt-1.5" />
+                    {item}
+                  </li>
+                ))}
+              </ul>
+              <Link
+                href="/build"
+                className="font-display font-black text-sm uppercase tracking-widest bg-brand-red text-white px-6 py-3 text-center hover:bg-red-700 transition-colors"
+              >
+                Let's Build →
               </Link>
             </div>
           </div>
