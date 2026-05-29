@@ -187,26 +187,36 @@ export default function AboutPage() {
               {
                 name: "Monkey Island Ventures",
                 role: "The Venture Platform",
+                logo: "/logo-miv.png",
                 description: "The holding company behind RuggedAI. Founded by Colin, Josh, and Zack — three childhood friends committed to building as many successful companies as they can in their lifetimes.",
                 href: "https://www.monkeyislandventures.com",
               },
               {
                 name: "Augurian",
                 role: "Digital Marketing",
+                logo: "/logo-augurian-white.svg",
                 description: "A full-service digital marketing agency. When your AI systems start generating more leads than your marketing can handle, the team to scale it is already in the room.",
                 href: "https://augurian.com",
               },
               {
                 name: "Cloudburst",
                 role: "Custom Software",
+                logo: "/logo-cloudburst.png",
                 description: "A software studio for founders who need to build real product. When your AI workflows outgrow off-the-shelf tools, Cloudburst builds what's next.",
                 href: "https://cloudburststudio.com",
               },
             ].map((co) => (
-              <div key={co.name} className="border border-[#1a1a1a] p-8 bg-brand-black">
+              <div key={co.name} className="border border-[#1a1a1a] p-8 bg-brand-black flex flex-col">
+                <div className="h-10 mb-6 flex items-center">
+                  <img
+                    src={co.logo}
+                    alt={co.name}
+                    className="max-h-10 max-w-[160px] object-contain object-left"
+                    style={ co.name === "Cloudburst" ? { filter: "brightness(0) invert(1)" } : undefined }
+                  />
+                </div>
                 <p className="font-display font-bold text-xs uppercase tracking-[0.2em] text-brand-red mb-3">{co.role}</p>
-                <h3 className="font-display font-black text-xl uppercase text-white leading-tight mb-4">{co.name}</h3>
-                <p className="text-brand-steel text-sm leading-relaxed mb-6">{co.description}</p>
+                <p className="text-brand-steel text-sm leading-relaxed mb-6 flex-1">{co.description}</p>
                 <a
                   href={co.href}
                   target="_blank"
