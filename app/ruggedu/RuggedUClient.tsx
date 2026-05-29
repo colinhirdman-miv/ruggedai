@@ -257,8 +257,12 @@ export default function RuggedUClient() {
             Your Instructor
           </h2>
           <div className="flex flex-col md:flex-row gap-10 items-start">
-            <div className="w-24 h-24 bg-brand-red flex-shrink-0 flex items-center justify-center">
-              <span className="font-display font-black text-white text-3xl">CH</span>
+            <div className="flex-shrink-0">
+              <img
+                src="/colin-headshot.jpeg"
+                alt="Colin Hirdman"
+                className="w-32 h-32 object-cover object-top ring-4 ring-brand-red"
+              />
             </div>
             <div>
               <h3 className="font-display font-black text-3xl uppercase text-white mb-1">Colin Hirdman</h3>
