@@ -70,6 +70,7 @@ export default function AboutPage() {
                 "Electrical",
                 "Garage Doors",
                 "Landscaping",
+                "And others!",
               ].map((trade) => (
                 <li
                   key={trade}
