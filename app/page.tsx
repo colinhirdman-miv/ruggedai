@@ -141,7 +141,7 @@ export default function HomePage() {
                 period: "per month",
                 description:
                   "You and Colin work directly together to find your highest-impact AI opportunities and build them — fast.",
-                cta: "Apply for Consulting →",
+                cta: "Learn More →",
                 href: "/work-with-us",
                 primary: false,
               },
