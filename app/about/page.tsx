@@ -159,7 +159,7 @@ export default function AboutPage() {
                 My approach is direct. I sit down with your operation, find the highest-leverage places AI creates real impact, and build them — fast. No jargon. No theory. No wasted time.
               </p>
               <Link
-                href="/apply"
+                href="/build"
                 className="inline-block font-display font-black text-base uppercase tracking-widest bg-brand-red text-white px-8 py-4 hover:bg-red-700 transition-colors"
               >
                 Work With Colin →

@@ -45,7 +45,7 @@ const faqs = [
   },
   {
     q: "When does the next cohort start?",
-    a: "Cohorts run quarterly. Apply now and we'll reach out with the next available date.",
+    a: "Cohorts run quarterly. Fill out the form and we'll reach out with the next available date.",
   },
 ];
 
@@ -111,7 +111,7 @@ export default function RuggedUClient() {
             </div>
           </div>
           <Link
-            href="/apply"
+            href="/build"
             className="inline-block font-display font-black text-base uppercase tracking-widest bg-brand-red text-white px-10 py-4 hover:bg-red-700 transition-colors"
           >
             Join RuggedU →
@@ -134,7 +134,7 @@ export default function RuggedUClient() {
             Limited to 20 Professionals Per Cohort
           </p>
           <Link
-            href="/apply"
+            href="/build"
             className="font-display font-black text-xs uppercase tracking-widest bg-white text-brand-red px-5 py-2 hover:bg-brand-iron transition-colors"
           >
             Reserve Your Spot →
@@ -426,7 +426,7 @@ export default function RuggedUClient() {
             Four weeks. Working systems. No fluff. If you show up to the first session and it&apos;s not right for you, full refund — no questions asked.
           </p>
           <Link
-            href="/apply"
+            href="/build"
             className="inline-block font-display font-black text-base uppercase tracking-widest bg-brand-red text-white px-12 py-5 hover:bg-red-700 transition-colors"
           >
             Reserve Your Spot — $997

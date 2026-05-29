@@ -18,7 +18,7 @@ const trades = [
   "Other",
 ];
 
-export default function ApplyClient() {
+export default function BuildClient() {
   const [submitted, setSubmitted] = useState(false);
   const [form, setForm] = useState({
     name: "",
@@ -53,7 +53,7 @@ export default function ApplyClient() {
             className="font-display font-black uppercase leading-none text-white mb-6"
             style={{ fontSize: "clamp(3rem, 7vw, 5.5rem)", letterSpacing: "-0.01em" }}
           >
-            Apply Now.
+            Let's Build.
           </h1>
           <p className="text-brand-steel text-base md:text-lg max-w-xl mb-12 leading-relaxed">
             Tell us about your business. We review every application and follow up within one business day.

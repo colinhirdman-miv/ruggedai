@@ -37,7 +37,7 @@ export default function WorkWithUsPage() {
             You already know where your business is bleeding — the calls that go to voicemail, the estimates that go cold, the reviews you never got around to asking for. This is about fixing those specific holes in your specific operation. Not a course. Not a template. Your business, built to close more.
           </p>
           <Link
-            href="/apply"
+            href="/build"
             className="inline-block font-display font-black text-base uppercase tracking-widest bg-brand-red text-white px-10 py-4 hover:bg-red-700 transition-colors"
           >
             Let's Build →
@@ -73,7 +73,7 @@ export default function WorkWithUsPage() {
                 <span className="text-brand-steel text-sm ml-2 uppercase tracking-wide">flat</span>
               </div>
               <Link
-                href="/apply"
+                href="/build"
                 className="font-display font-black text-sm uppercase tracking-widest bg-brand-red text-white px-8 py-3 hover:bg-red-700 transition-colors whitespace-nowrap"
               >
                 Book a Lunch &amp; Learn →
@@ -115,7 +115,7 @@ export default function WorkWithUsPage() {
                 ))}
               </ul>
               <Link
-                href="/apply"
+                href="/build"
                 className="font-display font-black text-sm uppercase tracking-widest bg-brand-red text-white px-6 py-3 text-center hover:bg-red-700 transition-colors"
               >
                 Let's Build →
@@ -155,7 +155,7 @@ export default function WorkWithUsPage() {
                 ))}
               </ul>
               <Link
-                href="/apply"
+                href="/build"
                 className="font-display font-black text-sm uppercase tracking-widest border-2 border-white text-white px-6 py-3 text-center hover:bg-white hover:text-brand-black transition-colors"
               >
                 Bring Us In →
@@ -233,7 +233,7 @@ export default function WorkWithUsPage() {
             We work with a small number of businesses at a time. That&apos;s intentional — the work only gets done right when we&apos;re fully in it together.
           </p>
           <Link
-            href="/apply"
+            href="/build"
             className="inline-block font-display font-black text-base uppercase tracking-widest bg-brand-red text-white px-12 py-5 hover:bg-red-700 transition-colors"
           >
             Let's Build →
