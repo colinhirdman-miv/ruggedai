@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Barlow, Barlow_Condensed } from "next/font/google";
 import "./globals.css";
 import Nav from "./components/Nav";
+import Footer from "./components/Footer";
 
 const barlowCondensed = Barlow_Condensed({
   weight: ["400", "600", "700", "800", "900"],
@@ -30,6 +31,7 @@ export default function RootLayout({
       <body className="bg-brand-black text-white min-h-screen">
         <Nav />
         {children}
+        <Footer />
       </body>
     </html>
   );

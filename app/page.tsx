@@ -246,20 +246,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ─── FOOTER ─── */}
-      <footer className="bg-brand-black border-t border-[#1a1a1a] py-10 px-6">
-        <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
-          <span className="font-display font-black text-xl uppercase tracking-wider">
-            <span className="text-brand-red">Rugged</span><span className="text-white">AI</span>
-          </span>
-          <p className="text-brand-steel text-xs uppercase tracking-widest">
-            AI that works as hard as you do.
-          </p>
-          <p className="text-brand-steel text-xs">
-            &copy; {new Date().getFullYear()} RuggedAI™. All rights reserved.
-          </p>
-        </div>
-      </footer>
     </main>
   );
 }
