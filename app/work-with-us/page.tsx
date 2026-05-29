@@ -40,7 +40,7 @@ export default function WorkWithUsPage() {
             href="/apply"
             className="inline-block font-display font-black text-base uppercase tracking-widest bg-brand-red text-white px-10 py-4 hover:bg-red-700 transition-colors"
           >
-            Apply Now →
+            Let's Build →
           </Link>
         </div>
       </section>
@@ -118,7 +118,7 @@ export default function WorkWithUsPage() {
                 href="/apply"
                 className="font-display font-black text-sm uppercase tracking-widest bg-brand-red text-white px-6 py-3 text-center hover:bg-red-700 transition-colors"
               >
-                Apply Now →
+                Let's Build →
               </Link>
             </div>
 
@@ -236,7 +236,7 @@ export default function WorkWithUsPage() {
             href="/apply"
             className="inline-block font-display font-black text-base uppercase tracking-widest bg-brand-red text-white px-12 py-5 hover:bg-red-700 transition-colors"
           >
-            Apply Now →
+            Let's Build →
           </Link>
         </div>
       </section>
