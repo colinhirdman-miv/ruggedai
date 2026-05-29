@@ -154,11 +154,6 @@ export default function HomePage() {
                     : "border-[#1a1a1a] bg-brand-black"
                 }`}
               >
-                {offer.primary && (
-                  <span className="font-display font-bold text-xs uppercase tracking-[0.2em] text-brand-red mb-4">
-                    Most Popular
-                  </span>
-                )}
                 <h3 className="font-display font-black text-2xl uppercase text-white leading-tight mb-2">
                   {offer.name.startsWith("Rugged") ? (
                     <><span className="text-brand-red">Rugged</span>{offer.name.slice(6)}</>
