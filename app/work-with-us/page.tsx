@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Work With Us — RuggedAI Consulting",
-  description: "Work directly with Colin Hirdman to build AI into your trades business. RuggedConsulting at $4,500/month or a Lunch & Learn for $500. Apply now.",
+  description: "Work directly with Colin Hirdman to build AI into your trades business. RuggedConsulting at $4,500/month or a RuggedKickstart for $500.",
 };
 
 function RedLabel({ children }: { children: React.ReactNode }) {
@@ -65,17 +65,16 @@ export default function WorkWithUsPage() {
             Pick Your Path.
           </h2>
 
-          {/* Lunch & Learn */}
+          {/* RuggedKickstart */}
           <div className="border-t-4 border-brand-red bg-brand-black p-10 mb-6 flex flex-col md:flex-row md:items-center gap-10">
             <div className="flex-1">
               <p className="font-display font-bold text-xs uppercase tracking-[0.2em] text-brand-red mb-3">Start Here</p>
               <h3 className="font-display font-black text-3xl uppercase text-white mb-2">
-                <span className="text-brand-red">Rugged</span> Lunch &amp; Learn
+                <span className="text-brand-red">Rugged</span>Kickstart
               </h3>
-              <p className="text-brand-steel text-base leading-relaxed max-w-2xl mb-4">
-                I come to your office, buy lunch, and spend 90 minutes showing your team exactly where AI can have the biggest impact on your operation — specific to your trade, your market, your roles. No slides. No theory. Real examples built around how you actually run your business. Most companies leave with three immediate opportunities they can act on that week.
+              <p className="text-brand-steel text-base leading-relaxed max-w-2xl">
+                I come to your office and spend 90 minutes showing your team exactly where AI can have the biggest impact on your operation — specific to your trade, your market, your roles. No slides. No theory. Real examples built around how you actually run your business. Most teams leave with three immediate opportunities they can act on that week. Pick any day, any time.
               </p>
-              <p className="font-display font-bold text-xs uppercase tracking-[0.2em] text-brand-steel">Up to 10 attendees</p>
             </div>
             <div className="flex-shrink-0 flex flex-col items-start md:items-end gap-4">
               <div>
@@ -86,7 +85,7 @@ export default function WorkWithUsPage() {
                 href="/build"
                 className="font-display font-black text-sm uppercase tracking-widest bg-brand-red text-white px-8 py-3 hover:bg-red-700 transition-colors whitespace-nowrap"
               >
-                Book a Lunch &amp; Learn →
+                Book a RuggedKickstart →
               </Link>
             </div>
           </div>
