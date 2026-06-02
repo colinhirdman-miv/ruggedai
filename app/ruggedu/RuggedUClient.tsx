@@ -170,8 +170,8 @@ export default function RuggedUClient() {
                 body: "Before the four weeks are up, you have real systems running. Calls answered. Estimates followed up. Reviews coming in. Not theory — your actual operation, running better.",
               },
               {
-                title: "No New Hires Needed",
-                body: "The AI handles what you'd otherwise pay a part-timer for — without the payroll, the scheduling, or the management.",
+                title: "A Playbook Built for Your Trade",
+                body: "You leave with documented systems specific to your business — not generic templates. Built around how your operation actually runs, ready to use the day you get back.",
               },
               {
                 title: "You're Not in the Room Alone",
