@@ -45,7 +45,7 @@ export default function Footer() {
             Get in Touch
           </p>
           <h3 className="font-display font-black text-2xl uppercase text-white mb-6 leading-tight">
-            Have a Question?
+            Let's Chat.
           </h3>
 
           {state?.success ? (
