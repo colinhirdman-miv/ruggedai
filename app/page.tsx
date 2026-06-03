@@ -123,6 +123,8 @@ export default function HomePage() {
             Together, we build AI systems that run in the background while you do the real work. Calls get answered. Estimates get followed up. Reviews get requested. Jobs get closed. All without hiring anyone new.
           </p>
 
+          <RedLabel>Get to Work</RedLabel>
+
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {[
               {
