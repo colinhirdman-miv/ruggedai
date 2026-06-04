@@ -257,6 +257,22 @@ export default function RuggedUClient() {
         </div>
       </section>
 
+      {/* ─── RECORDED SESSIONS ─── */}
+      <section className="py-20 px-6 bg-brand-dark border-t border-[#1a1a1a]">
+        <div className="max-w-3xl mx-auto">
+          <RedLabel>Built Around Your Schedule</RedLabel>
+          <h2
+            className="font-display font-black uppercase leading-none text-white mb-6"
+            style={{ fontSize: "clamp(1.75rem, 4vw, 3rem)" }}
+          >
+            Every Session is Recorded
+          </h2>
+          <p className="text-brand-steel text-base md:text-lg leading-relaxed">
+            The trades don&apos;t run on a 9-to-5. Emergency calls, long days, jobs that run over — your schedule isn&apos;t always your own. That&apos;s why every live session is recorded and available on-demand, and any prep work can be done whenever you&apos;ve got the time. Join live when you can, catch up when you can&apos;t. You won&apos;t fall behind.
+          </p>
+        </div>
+      </section>
+
       {/* ─── INSTRUCTOR ─── */}
       <section className="py-24 px-6 bg-brand-black">
         <div className="max-w-4xl mx-auto">
