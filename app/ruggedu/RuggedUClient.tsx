@@ -324,7 +324,7 @@ export default function RuggedUClient() {
             className="font-display font-black uppercase leading-none text-brand-black mb-12"
             style={{ fontSize: "clamp(2.25rem, 5vw, 4rem)" }}
           >
-            Built for Owners Who Do the Work.
+            Built for Businesses That Want to Win.
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
             <div className="bg-brand-black p-8">
@@ -333,10 +333,10 @@ export default function RuggedUClient() {
               </p>
               <ul className="space-y-4">
                 {[
-                  "You run a home service business",
+                  "You run a trades business — or help run one",
                   "You're done losing jobs to faster competitors",
                   "You want AI that actually works in your business",
-                  "You can commit four weeks to building something real",
+                  "You (or someone on your team) can commit four weeks",
                   "You're tired of tools built for someone else",
                 ].map((item) => (
                   <li key={item} className="text-brand-iron text-sm flex items-start gap-3">
