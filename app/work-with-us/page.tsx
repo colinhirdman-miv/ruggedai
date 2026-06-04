@@ -73,7 +73,7 @@ export default function WorkWithUsPage() {
                 <span className="text-brand-red">Rugged</span>Kickstart
               </h3>
               <p className="text-brand-steel text-base leading-relaxed max-w-2xl">
-                I come to your office and spend 90 minutes showing your team exactly where AI can have the biggest impact on your operation — specific to your trade, your market, your roles. No slides. No theory. Real examples built around how you actually run your business. Most teams leave with three immediate opportunities they can act on that week. Pick any day, any time.
+                I come to your office and spend 90 minutes showing your team exactly where AI can have the biggest impact on your operation — specific to your trade, your market, your roles. No slides. No theory. Real examples built around how you actually run your business. You&apos;ll leave with concrete AI opportunities specific to your trade — things you can act on right away. Pick any day, any time.
               </p>
             </div>
             <div className="flex-shrink-0 flex flex-col items-start md:items-end gap-4">

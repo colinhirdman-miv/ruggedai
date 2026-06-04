@@ -99,15 +99,15 @@ export default function AboutPage() {
             {[
               {
                 stat: "88%",
-                label: "of trades businesses haven't touched AI",
+                label: "of contractors haven't fully embedded AI — only 12% have",
               },
               {
-                stat: "18 mo.",
-                label: "window before the gap becomes permanent",
+                stat: "66%",
+                label: "expect AI to meaningfully transform the trades within 1–3 years",
               },
               {
-                stat: "3×",
-                label: "faster lead conversion with AI-assisted follow-up",
+                stat: "60%",
+                label: "reduction in missed calls for trades using AI-powered call handling",
               },
             ].map(({ stat, label }) => (
               <div key={stat} className="bg-brand-black px-8 py-10 border-t-4 border-brand-red">
@@ -121,6 +121,7 @@ export default function AboutPage() {
               </div>
             ))}
           </div>
+          <p className="text-brand-steel text-xs mt-6 tracking-wide">Source: ServiceTitan State of AI in the Trades, 2026</p>
         </div>
       </section>
 
@@ -197,10 +198,10 @@ export default function AboutPage() {
                 Over the years the three of us have built over a dozen software and service businesses. Along the way we built Augurian, a digital marketing agency, and Cloudburst, a custom software studio. The mission behind all of it has always been the same: share what we know and help create as many successful entrepreneurs as we can.
               </p>
               <p className="text-brand-steel text-base md:text-lg max-w-2xl leading-relaxed mb-4">
-                RuggedAI is the next chapter. I kept watching trades owners — people running real operations, real crews, real revenue — get outmaneuvered by competitors who figured out how to use AI first. Not because they were smarter. Because they moved faster. That gap is closeable, and I know exactly how to close it.
+                RuggedAI is the next chapter. The trades are full of serious operators — real crews, real revenue — getting outpaced by competitors who figured out how to use AI first. Not because they&apos;re smarter. Because they moved faster. That gap is closeable, and closing it is what RuggedAI is built to do.
               </p>
               <p className="text-brand-steel text-base md:text-lg max-w-2xl leading-relaxed mb-10">
-                My approach is direct. I sit down with your operation, find the highest-leverage places AI creates real impact, and build them — fast. No jargon. No theory. No wasted time.
+                My approach is direct. We sit down with your operation, find the highest-leverage places AI can help, and build them together. No jargon. No theory. No wasted time.
               </p>
               <Link
                 href="/build"
