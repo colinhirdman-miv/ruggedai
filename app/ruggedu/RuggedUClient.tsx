@@ -378,20 +378,20 @@ Enrollment Closes Before Each Cohort
                 body: "Live sessions with Colin. Build in real time, get specific answers for your trade.",
               },
               {
-                title: "Pre-Session Video Lessons",
-                body: "Short videos before each session so live time is spent building, not lecturing.",
+                title: "Direct Access to Colin",
+                body: "Get unstuck between sessions, not just during them. Real answers for your business throughout the four weeks.",
               },
               {
-                title: "Homework Between Sessions",
-                body: "Simple exercises to reinforce each week and keep your build moving forward.",
+                title: "Set Up on Claude for Teams",
+                body: "You leave with Claude configured and running for your business — not a trial you have to figure out alone.",
+              },
+              {
+                title: "A Cohort of Peers",
+                body: "Build alongside other trades operators solving the same problems — a network you keep after.",
               },
               {
                 title: "Forever Access to Recordings",
                 body: "Every session recorded. Watch and rewatch anytime, on your schedule.",
-              },
-              {
-                title: "Downloadable Guidebook",
-                body: "A written guide summarizing every workflow you build during the four weeks.",
               },
               {
                 title: "Templates & Prompts",
