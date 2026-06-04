@@ -27,7 +27,6 @@ export default function BuildClient() {
     business: "",
     trade: "",
     service: "",
-    revenue: "",
     message: "",
   });
 
@@ -170,25 +169,6 @@ export default function BuildClient() {
                     ))}
                   </select>
                 </div>
-              </div>
-
-              <div>
-                <label className="block font-display font-bold text-xs uppercase tracking-widest text-brand-iron mb-2">
-                  Annual Revenue (approximate)
-                </label>
-                <select
-                  name="revenue"
-                  value={form.revenue}
-                  onChange={handleChange}
-                  className="w-full bg-brand-dark border border-[#2a2a2a] text-white px-4 py-3 focus:outline-none focus:border-brand-red transition-colors text-sm appearance-none"
-                >
-                  <option value="">Select range</option>
-                  <option>Under $250K</option>
-                  <option>$250K–$500K</option>
-                  <option>$500K–$1M</option>
-                  <option>$1M–$3M</option>
-                  <option>$3M+</option>
-                </select>
               </div>
 
               <div>
