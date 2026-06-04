@@ -1,0 +1,469 @@
+"use client";
+
+import Link from "next/link";
+import { useState } from "react";
+
+function RedLabel({ children }: { children: React.ReactNode }) {
+  return (
+    <div className="flex items-center gap-3 mb-5">
+      <span className="w-1 h-5 bg-brand-red flex-shrink-0" />
+      <p className="font-display font-bold text-xs uppercase tracking-[0.3em] text-brand-red">
+        {children}
+      </p>
+    </div>
+  );
+}
+
+const faqs = [
+  {
+    q: "Do I need technical experience?",
+    a: "None. If you can wire a panel and run a crew, you can build these systems. This is designed for electricians and their teams, not developers.",
+  },
+  {
+    q: "Is this really just for electricians?",
+    a: "Yes. Every example, script, and build is specific to electrical contractors — residential and commercial. After-hours emergency calls, estimate follow-up, the way you actually quote and close work.",
+  },
+  {
+    q: "How long are the sessions?",
+    a: "Live, once a week for four weeks. Every session is recorded and available immediately, so you don't fall behind when a job runs long.",
+  },
+  {
+    q: "What if this isn't right for me after the first session?",
+    a: "Show up to the first session. If it's not what you expected, we'll refund you in full — no questions asked.",
+  },
+  {
+    q: "Who else is in the cohort?",
+    a: "Other electrical contractors — residential, commercial, or both. Same trade, same problems, different markets. You're learning alongside people who know exactly what you're dealing with.",
+  },
+  {
+    q: "Can I send someone from my team instead?",
+    a: "Absolutely. Plenty of owners send an office manager, ops lead, or a sharp team member. The systems you build belong to the business either way.",
+  },
+  {
+    q: "When does the next cohort start?",
+    a: "Fill out the form and we'll reach out with the next available date.",
+  },
+];
+
+function FAQItem({ q, a }: { q: string; a: string }) {
+  const [open, setOpen] = useState(false);
+  return (
+    <div className="border-b border-brand-iron/30">
+      <button
+        onClick={() => setOpen(!open)}
+        className="w-full flex justify-between items-center py-5 text-left gap-4"
+      >
+        <span className="font-display font-bold text-lg uppercase tracking-wide text-brand-black">
+          {q}
+        </span>
+        <span className="text-brand-red font-black text-xl flex-shrink-0">{open ? "−" : "+"}</span>
+      </button>
+      {open && (
+        <p className="pb-6 text-[#374151] text-base leading-relaxed">{a}</p>
+      )}
+    </div>
+  );
+}
+
+export default function RuggedUElectriciansClient() {
+  return (
+    <main>
+      {/* ─── HERO ─── */}
+      <section className="pt-36 pb-16 px-6 bg-brand-black">
+        <div className="max-w-5xl mx-auto">
+          <p className="font-display font-bold text-xs uppercase tracking-[0.3em] text-brand-red mb-4">
+            The Workshop · For Electricians
+          </p>
+          <h1
+            className="font-display font-black uppercase leading-none text-white mb-6"
+            style={{ fontSize: "clamp(2.5rem, 7vw, 5.5rem)", letterSpacing: "-0.01em" }}
+          >
+            <span className="text-brand-red">Rugged</span>U <span className="text-brand-steel">for Electricians</span>
+          </h1>
+          <p className="font-display font-bold text-xl md:text-2xl text-brand-steel uppercase tracking-wide mb-6 max-w-3xl">
+            A small group of electrical contractors building real AI into their businesses — together — over four weeks.
+          </p>
+          <p className="text-brand-steel text-base md:text-lg max-w-2xl mb-8 leading-relaxed">
+            Live. Hands-on. Built around how electrical shops actually run — after-hours calls, estimates, dispatch, the works. You leave with working systems, not slides.
+          </p>
+          <div className="flex items-baseline gap-3 mb-6">
+            <span
+              className="font-display font-black text-brand-red"
+              style={{ fontSize: "clamp(2.5rem, 5vw, 4rem)" }}
+            >
+              $497
+            </span>
+            <span className="text-brand-steel uppercase tracking-wide text-sm">4-week workshop</span>
+          </div>
+          <div className="border border-brand-red bg-[#130000] px-6 py-4 mb-10 max-w-xl flex items-start gap-4">
+            <span className="text-brand-red font-black text-xl flex-shrink-0 mt-0.5">★</span>
+            <div>
+              <p className="font-display font-black text-white text-sm uppercase tracking-wide mb-1">
+                Lifetime Cohort Access Included
+              </p>
+              <p className="text-brand-steel text-sm leading-relaxed">
+                Enroll once and you&apos;re in every future cohort. The curriculum evolves with AI — and so will you.
+              </p>
+            </div>
+          </div>
+          <Link
+            href="/build"
+            className="inline-block font-display font-black text-base uppercase tracking-widest bg-brand-red text-white px-10 py-4 hover:bg-red-700 transition-colors"
+          >
+            Join RuggedU →
+          </Link>
+        </div>
+      </section>
+
+      {/* ─── COHORT BAR ─── */}
+      <div className="bg-brand-red px-6 py-4">
+        <div className="max-w-5xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-3 text-white">
+          <p className="font-display font-bold text-sm uppercase tracking-widest">
+            Built for Electrical Contractors
+          </p>
+          <span className="hidden sm:block w-px h-4 bg-white/40" />
+          <p className="font-display font-bold text-sm uppercase tracking-widest">
+            4 Live Weekly Sessions
+          </p>
+          <span className="hidden sm:block w-px h-4 bg-white/40" />
+          <p className="font-display font-bold text-sm uppercase tracking-widest">
+            Residential &amp; Commercial
+          </p>
+          <Link
+            href="/build"
+            className="font-display font-black text-xs uppercase tracking-widest bg-white text-brand-red px-5 py-2 hover:bg-brand-iron transition-colors"
+          >
+            Reserve Your Spot →
+          </Link>
+        </div>
+      </div>
+
+      {/* ─── VALUE PILLARS ─── */}
+      <section className="py-24 px-6 bg-brand-light">
+        <div className="max-w-5xl mx-auto">
+          <RedLabel>What You Walk Away With</RedLabel>
+          <h2
+            className="font-display font-black uppercase leading-none text-brand-black mb-12"
+            style={{ fontSize: "clamp(2.25rem, 5vw, 4rem)" }}
+          >
+            Four Weeks. Real Work.
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {[
+              {
+                title: "Working AI In Your Shop",
+                body: "Before the four weeks are up, you have real systems running. After-hours calls answered. Estimates followed up. Reviews coming in. Not theory — your actual operation, running better.",
+              },
+              {
+                title: "Built for Electrical Work",
+                body: "Not generic templates. Systems built around how electrical contractors actually operate — emergency calls, panel jobs, residential and commercial quotes, the way you close work.",
+              },
+              {
+                title: "A Room of Electricians",
+                body: "You build alongside other electrical contractors solving the exact same problems. Same trade, different markets. Nobody's figuring this out alone.",
+              },
+            ].map((pillar) => (
+              <div key={pillar.title} className="bg-brand-black p-8">
+                <h3 className="font-display font-black text-xl uppercase text-white leading-tight mb-4">
+                  {pillar.title}
+                </h3>
+                <p className="text-brand-steel text-sm leading-relaxed">{pillar.body}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ─── CURRICULUM ─── */}
+      <section className="py-24 px-6 bg-white border-t border-brand-iron/20">
+        <div className="max-w-4xl mx-auto">
+          <RedLabel>The Curriculum</RedLabel>
+          <h2
+            className="font-display font-black uppercase leading-none text-brand-black mb-4"
+            style={{ fontSize: "clamp(2.25rem, 5vw, 4rem)" }}
+          >
+            What We Build Together Over 4 Weeks
+          </h2>
+          <p className="text-[#374151] text-base md:text-lg max-w-2xl mb-12 leading-relaxed">
+            You already know how to solve problems on the job. This teaches you to solve them in software. Everything you build runs on Claude — Anthropic&apos;s AI platform — and you&apos;ll leave set up on Claude for Teams with workflows built for an electrical business. Every session is live, specific to electrical work, and ends with something running in your shop — not homework for later.
+          </p>
+          <div className="space-y-px bg-brand-iron/20">
+            {[
+              {
+                week: "Week 1",
+                title: "AI Fundamentals for Electricians",
+                body: "Understand how AI agents actually work and where they create the most leverage in an electrical business. Map your operation for opportunities — emergency calls, estimates, scheduling, dispatch. Get set up on Claude for Teams.",
+              },
+              {
+                week: "Week 2",
+                title: "After-Hours Call Handling",
+                body: "Build an AI that answers emergency calls, triages true emergencies from jobs that can wait, gives callers the right safety steps, and books work when you can't pick up. Residential and commercial paths built in.",
+                proof: "One trades company handled 7,000 calls in a single week during a cold snap with an AI voice agent running an 80–85% booking rate and average call time under five minutes. Another cut their missed call rate by 60%.",
+                source: "ServiceTitan State of AI in the Trades 2026",
+              },
+              {
+                week: "Week 3",
+                title: "Estimates, Follow-Up & Reviews",
+                body: "Build a workflow that drafts quotes in your voice using your pricing, chases down estimates that go cold, and requests reviews at the right moment. Stop leaving panel upgrades and service work on the table.",
+              },
+              {
+                week: "Week 4",
+                title: "Full Deployment & Integration",
+                body: "Connect your systems to the tools you already use — your CRM, phone, scheduling software. Go live, test under real conditions, and leave the session with everything running in your shop.",
+              },
+            ].map((item, i) => (
+              <div key={item.week} className="bg-white px-8 py-8 flex gap-8 items-start">
+                <div className="flex-shrink-0 w-16 text-center">
+                  <span
+                    className="font-display font-black text-brand-red leading-none"
+                    style={{ fontSize: "clamp(1.5rem, 2.5vw, 2rem)" }}
+                  >
+                    {String(i + 1).padStart(2, "0")}
+                  </span>
+                </div>
+                <div>
+                  <p className="font-display font-bold text-xs uppercase tracking-[0.2em] text-brand-steel mb-1">
+                    {item.week}
+                  </p>
+                  <h3 className="font-display font-black text-xl uppercase text-brand-black mb-3">
+                    {item.title}
+                  </h3>
+                  <p className="text-[#374151] text-sm leading-relaxed">{item.body}</p>
+                  {item.proof && (
+                    <p className="text-[#374151] text-sm leading-relaxed mt-3">{item.proof}</p>
+                  )}
+                  {item.source && (
+                    <p className="text-brand-steel text-xs mt-2 tracking-wide">{item.source}</p>
+                  )}
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ─── RECORDED SESSIONS ─── */}
+      <section className="py-20 px-6 bg-brand-black">
+        <div className="max-w-4xl mx-auto">
+          <div className="border-2 border-brand-red bg-[#130000] p-10 md:p-12 flex flex-col md:flex-row items-start gap-10">
+            <div className="flex-shrink-0 flex items-center gap-3">
+              <span className="w-4 h-4 rounded-full bg-brand-red animate-pulse" />
+              <span className="font-display font-black text-brand-red text-sm uppercase tracking-[0.4em]">
+                Rec
+              </span>
+            </div>
+            <div>
+              <h2
+                className="font-display font-black uppercase leading-none text-white mb-4"
+                style={{ fontSize: "clamp(1.75rem, 4vw, 2.75rem)" }}
+              >
+                Every Session is Recorded
+              </h2>
+              <p className="text-brand-steel text-base md:text-lg leading-relaxed">
+                Electrical work doesn&apos;t run on a 9-to-5. Emergency calls, long days, jobs that run over — your schedule isn&apos;t always your own. That&apos;s why every live session is recorded and available on-demand. Join live when you can, catch up when you can&apos;t. You won&apos;t fall behind.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ─── INSTRUCTOR ─── */}
+      <section className="py-24 px-6 bg-brand-black">
+        <div className="max-w-4xl mx-auto">
+          <RedLabel>Who&apos;s Running It</RedLabel>
+          <h2
+            className="font-display font-black uppercase leading-none text-white mb-12"
+            style={{ fontSize: "clamp(2.25rem, 5vw, 4rem)" }}
+          >
+            Your Instructor
+          </h2>
+          <div className="flex flex-col md:flex-row gap-10 items-start">
+            <div className="flex-shrink-0">
+              <img
+                src="/colin-headshot.jpeg"
+                alt="Colin Hirdman"
+                className="w-32 h-32 object-cover object-top ring-4 ring-brand-red"
+              />
+            </div>
+            <div>
+              <h3 className="font-display font-black text-3xl uppercase text-white mb-1">Colin Hirdman</h3>
+              <p className="font-display font-bold text-xs uppercase tracking-[0.2em] text-brand-red mb-4">
+                Founder, Rugged<span className="text-white">AI</span>
+              </p>
+              <p className="text-brand-steel text-base leading-relaxed mb-4 max-w-xl">
+                Colin has spent over two decades building companies. He co-founded Monkey Island Ventures and built Augurian, a digital marketing agency, and Cloudburst, a custom software studio. RuggedAI is where it all comes together — bringing the marketing, technology, and AI know-how he&apos;s built across industries to the trades.
+              </p>
+              <p className="text-brand-steel text-base leading-relaxed max-w-xl">
+                His approach is direct. No fluff. No jargon. Just practical, hands-on work focused on building AI that actually fits how your business runs.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ─── WHO IT'S FOR ─── */}
+      <section className="py-24 px-6 bg-brand-light">
+        <div className="max-w-4xl mx-auto">
+          <RedLabel>Who This Is For</RedLabel>
+          <h2
+            className="font-display font-black uppercase leading-none text-brand-black mb-12"
+            style={{ fontSize: "clamp(2.25rem, 5vw, 4rem)" }}
+          >
+            Built for Electrical Shops That Want to Win.
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+            <div className="bg-brand-black p-8">
+              <p className="font-display font-bold text-sm uppercase tracking-widest text-brand-red mb-6">
+                Right for you if:
+              </p>
+              <ul className="space-y-4">
+                {[
+                  "You run an electrical business — or help run one",
+                  "You're losing after-hours calls to voicemail",
+                  "You want AI that actually works in your shop",
+                  "You (or someone on your team) can commit four weeks",
+                  "You're tired of tools built for someone else",
+                ].map((item) => (
+                  <li key={item} className="text-brand-iron text-sm flex items-start gap-3">
+                    <span className="w-2 h-2 bg-brand-red flex-shrink-0 mt-1.5" />
+                    {item}
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <div className="bg-[#F0EFED] p-8">
+              <p className="font-display font-bold text-sm uppercase tracking-widest text-brand-steel mb-6">
+                Not for you if:
+              </p>
+              <ul className="space-y-4">
+                {[
+                  "You want theory without practice",
+                  "You're not ready to implement",
+                  "You want someone else to do all the work",
+                  "You're not in the electrical trade",
+                  "You're looking for a generic AI course",
+                ].map((item) => (
+                  <li key={item} className="text-[#374151] text-sm flex items-start gap-3">
+                    <span className="w-2 h-2 bg-brand-steel flex-shrink-0 mt-1.5" />
+                    {item}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ─── WHAT'S INCLUDED ─── */}
+      <section className="py-24 px-6 bg-white border-t border-brand-iron/20">
+        <div className="max-w-4xl mx-auto">
+          <RedLabel>What&apos;s Included</RedLabel>
+          <h2
+            className="font-display font-black uppercase leading-none text-brand-black mb-4"
+            style={{ fontSize: "clamp(2.25rem, 5vw, 4rem)" }}
+          >
+            What You&apos;ll Get.
+          </h2>
+          <p className="text-[#374151] text-base md:text-lg max-w-2xl mb-12 leading-relaxed">
+            Everything you need to start building AI tools for your electrical business.
+          </p>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+            {[
+              {
+                title: "4 Live Weekly Sessions",
+                body: "Live sessions with Colin. Build in real time, get specific answers for electrical work.",
+              },
+              {
+                title: "Direct Access to Colin",
+                body: "Get unstuck between sessions, not just during them. Real answers for your shop throughout the four weeks.",
+              },
+              {
+                title: "Set Up on Claude for Teams",
+                body: "You leave with Claude configured and running for your business — not a trial you have to figure out alone.",
+              },
+              {
+                title: "A Cohort of Electricians",
+                body: "Build alongside other electrical contractors solving the same problems — a network you keep after.",
+              },
+              {
+                title: "Forever Access to Recordings",
+                body: "Every session recorded. Watch and rewatch anytime, on your schedule.",
+              },
+              {
+                title: "Templates & Prompts",
+                body: "Ready-to-use templates and prompts built for electrical work — plug in your business and customize.",
+              },
+              {
+                title: "AI Tool Comparison Guide",
+                body: "Know which AI tool to reach for on every job — no more guessing or hype.",
+              },
+              {
+                title: "A Repeatable System",
+                body: "A method for building and connecting AI tools for your shop long after the workshop ends.",
+              },
+            ].map((item) => (
+              <div key={item.title} className="border border-brand-iron/30 p-6 border-t-4 border-t-brand-red">
+                <h3 className="font-display font-black text-base uppercase text-brand-black mb-2 leading-tight">
+                  {item.title}
+                </h3>
+                <p className="text-[#374151] text-sm leading-relaxed">{item.body}</p>
+              </div>
+            ))}
+          </div>
+          <p className="text-brand-steel text-sm mt-8">
+            Plus lifetime access to every future cohort — the curriculum evolves with AI, and so do you.
+          </p>
+        </div>
+      </section>
+
+      {/* ─── FAQ ─── */}
+      <section className="py-24 px-6 bg-brand-light">
+        <div className="max-w-3xl mx-auto">
+          <RedLabel>Common Questions</RedLabel>
+          <h2
+            className="font-display font-black uppercase leading-none text-brand-black mb-12"
+            style={{ fontSize: "clamp(2.25rem, 5vw, 4rem)" }}
+          >
+            Frequently Asked Questions
+          </h2>
+          <div className="border-t border-brand-iron/30">
+            {faqs.map((faq) => (
+              <FAQItem key={faq.q} q={faq.q} a={faq.a} />
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ─── FINAL CTA ─── */}
+      <section className="py-24 px-6 bg-brand-black">
+        <div className="max-w-3xl mx-auto text-center">
+          <RedLabel>Ready to Build?</RedLabel>
+          <h2
+            className="font-display font-black uppercase leading-none text-white mb-4"
+            style={{ fontSize: "clamp(2.25rem, 5vw, 4rem)" }}
+          >
+            Join <span className="text-brand-red">Rugged</span>U for Electricians
+          </h2>
+          <div className="flex items-baseline justify-center gap-3 mb-6">
+            <span
+              className="font-display font-black text-brand-red"
+              style={{ fontSize: "clamp(2.5rem, 5vw, 4rem)" }}
+            >
+              $497
+            </span>
+            <span className="text-brand-steel uppercase tracking-wide text-sm">4-week workshop · lifetime access</span>
+          </div>
+          <p className="text-brand-steel text-base max-w-xl mx-auto mb-10 leading-relaxed">
+            Four weeks. Working systems built for electrical work. No fluff. If you show up to the first session and it&apos;s not right for you, full refund — no questions asked.
+          </p>
+          <Link
+            href="/build"
+            className="inline-block font-display font-black text-base uppercase tracking-widest bg-brand-red text-white px-12 py-5 hover:bg-red-700 transition-colors"
+          >
+            Reserve Your Spot — $497
+          </Link>
+        </div>
+      </section>
+    </main>
+  );
+}
