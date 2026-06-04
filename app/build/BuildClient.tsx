@@ -1,6 +1,7 @@
 "use client";
 
-import { useState } from "react";
+import { useActionState, useState } from "react";
+import { submitBuild } from "@/actions/contact.action";
 
 const services = [
   "RuggedU Workshop ($497)",
@@ -19,7 +20,7 @@ const trades = [
 ];
 
 export default function BuildClient() {
-  const [submitted, setSubmitted] = useState(false);
+  const [state, formAction, pending] = useActionState(submitBuild, null);
   const [form, setForm] = useState({
     name: "",
     email: "",
@@ -36,11 +37,6 @@ export default function BuildClient() {
     setForm((prev) => ({ ...prev, [e.target.name]: e.target.value }));
   }
 
-  function handleSubmit(e: React.FormEvent) {
-    e.preventDefault();
-    setSubmitted(true);
-  }
-
   return (
     <main>
       <section className="pt-36 pb-24 px-6 bg-brand-black">
@@ -55,20 +51,20 @@ export default function BuildClient() {
             Let's Build.
           </h1>
           <p className="text-brand-steel text-base md:text-lg max-w-xl mb-12 leading-relaxed">
-            Tell us about your business. We review every application and follow up within one business day.
+            Tell us about your business and we&apos;ll follow up within one business day to talk through the best fit.
           </p>
 
-          {submitted ? (
+          {state?.success ? (
             <div className="border border-brand-red bg-[#130000] p-10">
               <h2 className="font-display font-black text-3xl uppercase text-white mb-4">
-                Application Received.
+                Message Received.
               </h2>
               <p className="text-brand-steel text-base leading-relaxed">
-                We&apos;ll review your application and reach out within one business day. If you&apos;re a fit, we&apos;ll schedule a strategy call.
+                Thanks for reaching out. We&apos;ll follow up within one business day to talk through the best fit for your business.
               </p>
             </div>
           ) : (
-            <form onSubmit={handleSubmit} className="space-y-6">
+            <form action={formAction} className="space-y-6">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div>
                   <label className="block font-display font-bold text-xs uppercase tracking-widest text-brand-iron mb-2">
@@ -185,11 +181,15 @@ export default function BuildClient() {
                 />
               </div>
 
+              {state?.error && (
+                <p className="text-brand-red text-sm uppercase tracking-wide">{state.error}</p>
+              )}
               <button
                 type="submit"
-                className="font-display font-black text-base uppercase tracking-widest bg-brand-red text-white px-10 py-4 hover:bg-red-700 transition-colors w-full md:w-auto"
+                disabled={pending}
+                className="font-display font-black text-base uppercase tracking-widest bg-brand-red text-white px-10 py-4 hover:bg-red-700 transition-colors w-full md:w-auto disabled:opacity-50 disabled:cursor-not-allowed"
               >
-                Submit Application →
+                {pending ? "Sending..." : "Submit →"}
               </button>
             </form>
           )}
