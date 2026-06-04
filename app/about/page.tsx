@@ -252,11 +252,11 @@ export default function AboutPage() {
               },
             ].map((co) => (
               <div key={co.name} className="border border-[#1a1a1a] p-8 bg-brand-black flex flex-col">
-                <div className="h-28 mb-6 flex items-center justify-center">
+                <div className="h-36 mb-6 flex items-center justify-center">
                   <img
                     src={co.logo}
                     alt={co.name}
-                    className={`object-contain ${co.name === "Monkey Island Ventures" ? "max-h-28 max-w-[400px]" : "max-h-10 max-w-[160px]"}`}
+                    className={`object-contain ${co.name === "Monkey Island Ventures" ? "max-h-36 max-w-[500px]" : "max-h-10 max-w-[160px]"}`}
                     style={ co.name === "Cloudburst" ? { filter: "brightness(0) invert(1)" } : undefined }
                   />
                 </div>
