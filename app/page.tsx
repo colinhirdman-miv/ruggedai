@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "RuggedAI — AI Built for the Trades",
-  description: "AI consulting for HVAC, plumbing, pest control, and electrical businesses. Stop losing jobs to voicemail. RuggedU Workshop $997 or 1:1 consulting.",
+  description: "AI consulting for HVAC, plumbing, pest control, and electrical businesses. Stop losing jobs to voicemail. RuggedU Workshop $497 or 1:1 consulting.",
 };
 
 function RedLabel({ children }: { children: React.ReactNode }) {
@@ -129,7 +129,7 @@ export default function HomePage() {
             {[
               {
                 name: "RuggedU Workshop",
-                price: "$997",
+                price: "$497",
                 period: "4-week workshop",
                 description:
                   "Learn to build AI agents in your business in four weeks. Live, hands-on, specific to your trade. You leave with real AI running in your operation.",
@@ -237,7 +237,7 @@ export default function HomePage() {
             The window is open right now. Trades businesses that adopt AI in the next 18 months will operate at a level their competitors can&apos;t match.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <PrimaryBtn href="/ruggedu">Join RuggedU — $997</PrimaryBtn>
+            <PrimaryBtn href="/ruggedu">Join RuggedU — $497</PrimaryBtn>
             <OutlineBtn href="/work-with-us">RuggedConsulting</OutlineBtn>
           </div>
         </div>

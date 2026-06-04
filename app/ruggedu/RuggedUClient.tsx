@@ -95,7 +95,7 @@ export default function RuggedUClient() {
               className="font-display font-black text-brand-red"
               style={{ fontSize: "clamp(2.5rem, 5vw, 4rem)" }}
             >
-              $997
+              $497
             </span>
             <span className="text-brand-steel uppercase tracking-wide text-sm">4-week workshop</span>
           </div>
@@ -142,7 +142,7 @@ export default function RuggedUClient() {
           </p>
           <span className="hidden sm:block w-px h-4 bg-white/40" />
           <p className="font-display font-bold text-sm uppercase tracking-widest">
-            Limited to 20 Professionals Per Cohort
+Enrollment Closes Before Each Cohort
           </p>
           <Link
             href="/build"
@@ -374,50 +374,60 @@ export default function RuggedUClient() {
         <div className="max-w-4xl mx-auto">
           <RedLabel>What&apos;s Included</RedLabel>
           <h2
-            className="font-display font-black uppercase leading-none text-brand-black mb-12"
+            className="font-display font-black uppercase leading-none text-brand-black mb-4"
             style={{ fontSize: "clamp(2.25rem, 5vw, 4rem)" }}
           >
-            Everything You Need to Build.
+            What You&apos;ll Get.
           </h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
+          <p className="text-[#374151] text-base md:text-lg max-w-2xl mb-12 leading-relaxed">
+            Everything you need to start building AI tools for your business.
+          </p>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
             {[
               {
                 title: "4 Live Weekly Sessions",
-                body: "60-minute live sessions with Colin. Ask questions, build in real time, get specific answers for your trade.",
+                body: "Live sessions with Colin. Build in real time, get specific answers for your trade.",
               },
               {
-                title: "Session Recordings",
-                body: "Every session recorded and available immediately. Lifetime access — rewatch anytime.",
+                title: "Pre-Session Video Lessons",
+                body: "Short videos before each session so live time is spent building, not lecturing.",
               },
               {
-                title: "Your Trade Playbook",
-                body: "The complete playbook for AI in your specific trade. Built around how your industry actually operates.",
+                title: "Homework Between Sessions",
+                body: "Simple exercises to reinforce each week and keep your build moving forward.",
               },
               {
-                title: "AI Agent Templates",
-                body: "Pre-built templates for call handling, follow-up, and review requests. Plug in your business and go.",
+                title: "Forever Access to Recordings",
+                body: "Every session recorded. Watch and rewatch anytime, on your schedule.",
               },
               {
-                title: "Cohort Peer Group",
-                body: "The professionals you build alongside become your network. Small group, capped at 20. You know everyone in the room by week two — and they're solving the exact same problems you are.",
+                title: "Downloadable Guidebook",
+                body: "A written guide summarizing every workflow you build during the four weeks.",
               },
               {
-                title: "30-Day Post-Workshop Support",
-                body: "Direct access to Colin for 30 days after the workshop ends. Get unstuck, dial in your systems.",
+                title: "Templates & Prompts",
+                body: "Ready-to-use templates and prompts you can plug into your business and customize.",
               },
               {
-                title: "Lifetime Cohort Access",
-                body: "Enroll once, attend every future RuggedU cohort. The curriculum evolves with AI — and so will you.",
+                title: "AI Tool Comparison Guide",
+                body: "Know which AI tool to reach for on every job — no more guessing or hype.",
+              },
+              {
+                title: "A Repeatable System",
+                body: "A method for building and connecting trade-specific AI tools long after the workshop ends.",
               },
             ].map((item) => (
-              <div key={item.title} className="border border-brand-iron/30 p-6">
-                <h3 className="font-display font-black text-lg uppercase text-brand-black mb-2">
+              <div key={item.title} className="border border-brand-iron/30 p-6 border-t-4 border-t-brand-red">
+                <h3 className="font-display font-black text-base uppercase text-brand-black mb-2 leading-tight">
                   {item.title}
                 </h3>
                 <p className="text-[#374151] text-sm leading-relaxed">{item.body}</p>
               </div>
             ))}
           </div>
+          <p className="text-brand-steel text-sm mt-8">
+            Plus lifetime access to every future RuggedU cohort — the curriculum evolves with AI, and so do you.
+          </p>
         </div>
       </section>
 
@@ -454,7 +464,7 @@ export default function RuggedUClient() {
               className="font-display font-black text-brand-red"
               style={{ fontSize: "clamp(2.5rem, 5vw, 4rem)" }}
             >
-              $997
+              $497
             </span>
             <span className="text-brand-steel uppercase tracking-wide text-sm">4-week workshop · lifetime access</span>
           </div>
@@ -465,7 +475,7 @@ export default function RuggedUClient() {
             href="/build"
             className="inline-block font-display font-black text-base uppercase tracking-widest bg-brand-red text-white px-12 py-5 hover:bg-red-700 transition-colors"
           >
-            Reserve Your Spot — $997
+            Reserve Your Spot — $497
           </Link>
         </div>
       </section>
