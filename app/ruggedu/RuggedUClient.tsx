@@ -37,7 +37,7 @@ const faqs = [
   },
   {
     q: "Who else is in the cohort?",
-    a: "Professionals from home service businesses — HVAC, plumbing, pest control, electrical, landscaping, and more. Nobody is in your trade and your market. You're learning alongside people with identical problems but zero competitive overlap.",
+    a: "Professionals from trades businesses — HVAC, plumbing, pest control, electrical, landscaping, and more. Different trades, different markets, same problems. You're learning alongside people who get exactly what you're dealing with.",
   },
   {
     q: "How many people are in a cohort?",
