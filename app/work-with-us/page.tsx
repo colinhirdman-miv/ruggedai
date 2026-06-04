@@ -191,6 +191,8 @@ export default function WorkWithUsPage() {
                 title: "Reach Out",
                 description:
                   "Tell us about your business — what you run, how it operates, and where you think you're losing the most. Five minutes. No fluff.",
+                link: "/build",
+                linkText: "Fill out the form →",
               },
               {
                 step: "02",
@@ -221,6 +223,14 @@ export default function WorkWithUsPage() {
                 <div>
                   <h3 className="font-display font-black text-xl uppercase text-brand-black mb-2">{s.title}</h3>
                   <p className="text-[#374151] text-sm leading-relaxed">{s.description}</p>
+                  {s.link && (
+                    <Link
+                      href={s.link}
+                      className="inline-block mt-3 font-display font-black text-sm uppercase tracking-widest text-brand-red hover:text-red-700 transition-colors"
+                    >
+                      {s.linkText}
+                    </Link>
+                  )}
                 </div>
               </div>
             ))}
