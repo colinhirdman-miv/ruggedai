@@ -306,10 +306,10 @@ export default function RuggedUClient() {
                 Founder, Rugged<span className="text-white">AI</span>
               </p>
               <p className="text-brand-steel text-base leading-relaxed mb-4 max-w-xl">
-                Colin has spent years working directly with trades professionals at the intersection of AI and real operations. He started RuggedAI after watching the same thing happen over and over: trades professionals with serious businesses getting outrun by competitors who just had better systems — and no one was helping them close that gap.
+                Colin has spent over two decades building companies. He co-founded Monkey Island Ventures and built Augurian, a digital marketing agency, and Cloudburst, a custom software studio. RuggedAI is where it all comes together — bringing the marketing, technology, and AI know-how he&apos;s built across industries to the trades.
               </p>
               <p className="text-brand-steel text-base leading-relaxed max-w-xl">
-                His approach is direct. No fluff. No jargon. Every session is specific, practical, and focused on getting your systems live before the workshop ends.
+                His approach is direct. No fluff. No jargon. Just practical, hands-on work focused on building AI that actually fits how your business runs.
               </p>
             </div>
           </div>
