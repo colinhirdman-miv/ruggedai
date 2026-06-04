@@ -188,27 +188,27 @@ export default function WorkWithUsPage() {
             {[
               {
                 step: "01",
-                title: "Apply",
+                title: "Reach Out",
                 description:
                   "Tell us about your business — what you run, how it operates, and where you think you're losing the most. Five minutes. No fluff.",
               },
               {
                 step: "02",
-                title: "Strategy Call",
+                title: "Quick Call",
                 description:
-                  "You talk, Colin listens. By the end of the call you'll know exactly which three or four systems will have the biggest impact on your revenue — and in what order to build them.",
+                  "A short call to talk through where AI can help and which option fits — Kickstart, Teams, or ongoing consulting. No pressure, no hard sell.",
               },
               {
                 step: "03",
-                title: "Build",
+                title: "Pick Your Path",
                 description:
-                  "Week by week, you get working systems. Actual AI running in your business, tested against real calls and real customers.",
+                  "You decide what fits your business and your budget. We get it on the calendar and lay out exactly what happens next.",
               },
               {
                 step: "04",
-                title: "Operate",
+                title: "Get to Work",
                 description:
-                  "The calls get answered. The estimates get followed up. The reviews come in. You run your business the same way you always have — just without the holes.",
+                  "We build AI that actually fits how you operate — and you start closing the holes that are costing you jobs.",
               },
             ].map((s) => (
               <div key={s.step} className="bg-brand-light px-8 py-8 flex gap-8 items-start border-l-4 border-brand-red">
