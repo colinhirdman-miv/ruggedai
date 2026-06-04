@@ -225,7 +225,7 @@ export default function AboutPage() {
             Where the Experience Comes From.
           </h2>
           <p className="text-brand-steel text-base md:text-lg max-w-2xl mb-16 leading-relaxed">
-            RuggedAI didn&apos;t come out of nowhere. It&apos;s built on top of companies we&apos;ve spent years growing — across marketing, software, and operations. That&apos;s the experience behind everything we do.
+            RuggedAI didn&apos;t come out of nowhere. It&apos;s backed by companies we own and operate — across marketing, software, and operations. That&apos;s the experience behind everything we do.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {[
@@ -240,14 +240,14 @@ export default function AboutPage() {
                 name: "Augurian",
                 role: "Digital Marketing",
                 logo: "/logo-augurian-white.svg",
-                description: "A full-service digital marketing agency we built and grew — years spent learning what actually drives leads and revenue for real businesses.",
+                description: "A full-service digital marketing agency we own and operate — years of learning what actually drives leads and revenue for real businesses.",
                 href: "https://augurian.com",
               },
               {
                 name: "Cloudburst",
                 role: "Custom Software",
                 logo: "/logo-cloudburst.png",
-                description: "A custom software studio we built — the technical muscle behind RuggedAI, and proof we know how to turn ideas into working product.",
+                description: "A custom software studio we own and operate — the technical muscle behind RuggedAI, and proof we know how to turn ideas into working product.",
                 href: "https://cloudburststudio.com",
               },
             ].map((co) => (
