@@ -222,10 +222,10 @@ export default function AboutPage() {
             className="font-display font-black uppercase leading-none text-white mb-4"
             style={{ fontSize: "clamp(2rem, 4vw, 3.5rem)" }}
           >
-            You&apos;re Not Just Getting Colin.
+            Where the Experience Comes From.
           </h2>
           <p className="text-brand-steel text-base md:text-lg max-w-2xl mb-16 leading-relaxed">
-            RuggedAI is backed by a set of operating companies that have been building and growing businesses for years. When you need more than AI — you already have a path forward.
+            RuggedAI didn&apos;t come out of nowhere. It&apos;s built on top of companies we&apos;ve spent years growing — across marketing, software, and operations. That&apos;s the experience behind everything we do.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {[
@@ -240,14 +240,14 @@ export default function AboutPage() {
                 name: "Augurian",
                 role: "Digital Marketing",
                 logo: "/logo-augurian-white.svg",
-                description: "A full-service digital marketing agency. When your AI systems start generating more leads than your marketing can handle, the team to scale it is already in the room.",
+                description: "A full-service digital marketing agency we built and grew — years spent learning what actually drives leads and revenue for real businesses.",
                 href: "https://augurian.com",
               },
               {
                 name: "Cloudburst",
                 role: "Custom Software",
                 logo: "/logo-cloudburst.png",
-                description: "A software studio for founders who need to build real product. When your AI workflows outgrow off-the-shelf tools, Cloudburst builds what's next.",
+                description: "A custom software studio we built — the technical muscle behind RuggedAI, and proof we know how to turn ideas into working product.",
                 href: "https://cloudburststudio.com",
               },
             ].map((co) => (
