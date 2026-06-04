@@ -258,18 +258,27 @@ export default function RuggedUClient() {
       </section>
 
       {/* ─── RECORDED SESSIONS ─── */}
-      <section className="py-20 px-6 bg-brand-dark border-t border-[#1a1a1a]">
-        <div className="max-w-3xl mx-auto">
-          <RedLabel>Built Around Your Schedule</RedLabel>
-          <h2
-            className="font-display font-black uppercase leading-none text-white mb-6"
-            style={{ fontSize: "clamp(1.75rem, 4vw, 3rem)" }}
-          >
-            Every Session is Recorded
-          </h2>
-          <p className="text-brand-steel text-base md:text-lg leading-relaxed">
-            The trades don&apos;t run on a 9-to-5. Emergency calls, long days, jobs that run over — your schedule isn&apos;t always your own. That&apos;s why every live session is recorded and available on-demand, and any prep work can be done whenever you&apos;ve got the time. Join live when you can, catch up when you can&apos;t. You won&apos;t fall behind.
-          </p>
+      <section className="py-20 px-6 bg-brand-black">
+        <div className="max-w-4xl mx-auto">
+          <div className="border-2 border-brand-red bg-[#130000] p-10 md:p-12 flex flex-col md:flex-row items-start gap-10">
+            <div className="flex-shrink-0 flex items-center gap-3">
+              <span className="w-4 h-4 rounded-full bg-brand-red animate-pulse" />
+              <span className="font-display font-black text-brand-red text-sm uppercase tracking-[0.4em]">
+                Rec
+              </span>
+            </div>
+            <div>
+              <h2
+                className="font-display font-black uppercase leading-none text-white mb-4"
+                style={{ fontSize: "clamp(1.75rem, 4vw, 2.75rem)" }}
+              >
+                Every Session is Recorded
+              </h2>
+              <p className="text-brand-steel text-base md:text-lg leading-relaxed">
+                The trades don&apos;t run on a 9-to-5. Emergency calls, long days, jobs that run over — your schedule isn&apos;t always your own. That&apos;s why every live session is recorded and available on-demand, and any prep work can be done whenever you&apos;ve got the time. Join live when you can, catch up when you can&apos;t. You won&apos;t fall behind.
+              </p>
+            </div>
+          </div>
         </div>
       </section>
 
