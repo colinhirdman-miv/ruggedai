@@ -40,3 +40,10 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 .env*.local
+
+# MCP learning projects (not part of the site)
+/ruggedai-mcp-course
+/ruggedai-mcp-electrician
+
+# claude launch config
+/.claude/launch.json
