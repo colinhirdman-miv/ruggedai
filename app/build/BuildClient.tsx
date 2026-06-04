@@ -193,7 +193,7 @@ export default function BuildClient() {
 
               <div>
                 <label className="block font-display font-bold text-xs uppercase tracking-widest text-brand-iron mb-2">
-                  Biggest Challenge Right Now
+                  Anything Else?
                 </label>
                 <textarea
                   name="message"
@@ -201,7 +201,7 @@ export default function BuildClient() {
                   onChange={handleChange}
                   rows={5}
                   className="w-full bg-brand-dark border border-[#2a2a2a] text-white px-4 py-3 focus:outline-none focus:border-brand-red transition-colors text-sm resize-none"
-                  placeholder="What's the #1 thing in your business that AI could help with? What's slipping through the cracks?"
+                  placeholder="Tell us whatever you'd like — questions, what you're hoping to get out of this, or anything else."
                 />
               </div>
 
