@@ -99,7 +99,7 @@ export default function RuggedUClient() {
             </span>
             <span className="text-brand-steel uppercase tracking-wide text-sm">4-week workshop</span>
           </div>
-          <div className="border border-brand-red bg-[#130000] px-6 py-4 mb-4 max-w-xl flex items-start gap-4">
+          <div className="border border-brand-red bg-[#130000] px-6 py-4 mb-10 max-w-xl flex items-start gap-4">
             <span className="text-brand-red font-black text-xl flex-shrink-0 mt-0.5">★</span>
             <div>
               <p className="font-display font-black text-white text-sm uppercase tracking-wide mb-1">
@@ -107,17 +107,6 @@ export default function RuggedUClient() {
               </p>
               <p className="text-brand-steel text-sm leading-relaxed">
                 Enroll once and you&apos;re in every future RuggedU cohort. The curriculum evolves with AI — and so will you.
-              </p>
-            </div>
-          </div>
-          <div className="border border-[#2a2a2a] bg-brand-dark px-6 py-4 mb-10 max-w-xl flex items-start gap-4">
-            <span className="text-brand-steel font-black text-xl flex-shrink-0 mt-0.5">⬡</span>
-            <div>
-              <p className="font-display font-black text-white text-sm uppercase tracking-wide mb-1">
-                Built on Claude
-              </p>
-              <p className="text-brand-steel text-sm leading-relaxed">
-                Every system we build runs on Claude — Anthropic&apos;s AI platform. You leave set up on Claude for Teams with skills and workflows built for your trade.
               </p>
             </div>
           </div>
@@ -200,7 +189,7 @@ Enrollment Closes Before Each Cohort
             What We Build Together Over 4 Weeks
           </h2>
           <p className="text-[#374151] text-base md:text-lg max-w-2xl mb-12 leading-relaxed">
-            You already know how to solve problems on the job. This teaches you to solve them in software. Every session is live, specific to your trade, and ends with something working in your business — not homework to do later.
+            You already know how to solve problems on the job. This teaches you to solve them in software. Everything you build runs on Claude — Anthropic&apos;s AI platform — and you&apos;ll leave set up on Claude for Teams with skills and workflows built for your trade. Every session is live, specific to your trade, and ends with something working in your business — not homework to do later.
           </p>
           <div className="space-y-px bg-brand-iron/20">
             {[
