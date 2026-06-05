@@ -139,8 +139,8 @@ export default function HomePage() {
               },
               {
                 name: "RuggedConsulting",
-                price: "",
-                period: "",
+                price: "Custom",
+                period: "monthly · 1:1 with Colin",
                 description:
                   "You and Colin work directly together to find your highest-impact AI opportunities and build them — fast.",
                 cta: "Learn More →",
