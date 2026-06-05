@@ -365,7 +365,7 @@ export default function RuggedUElectriciansClient() {
             What You&apos;ll Get.
           </h2>
           <p className="text-[#374151] text-base md:text-lg max-w-2xl mb-12 leading-relaxed">
-            Everything you need to start building AI tools for your electrical business.
+            Everything you need to start building AI into your electrical business.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
             {[
