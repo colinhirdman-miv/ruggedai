@@ -130,9 +130,9 @@ export default function HomePage() {
               {
                 name: "RuggedU Workshop",
                 price: "$497",
-                period: "4-week workshop",
+                period: "3-week workshop",
                 description:
-                  "Learn to build AI agents in your business in four weeks. Live, hands-on, specific to your trade. You leave with real AI running in your operation.",
+                  "Learn to build AI agents in your business in three weeks. Live, hands-on, specific to your trade. You leave with real AI running in your operation.",
                 cta: "Learn More →",
                 href: "/ruggedu",
                 primary: true,

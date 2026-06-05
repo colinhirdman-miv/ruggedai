@@ -25,7 +25,7 @@ const faqs = [
   },
   {
     q: "How long are the sessions?",
-    a: "60 minutes each, live, once a week for four weeks. Recordings are available immediately after each session.",
+    a: "60 minutes each, live, once a week for three weeks. Recordings are available immediately after each session.",
   },
   {
     q: "Will sessions be recorded?",
@@ -85,7 +85,7 @@ export default function RuggedUClient() {
             <span className="text-brand-red">Rugged</span>U
           </h1>
           <p className="font-display font-bold text-xl md:text-2xl text-brand-steel uppercase tracking-wide mb-6 max-w-3xl">
-            A small group of trades professionals building real AI into their businesses — together — over four weeks.
+            A small group of trades professionals building real AI into their businesses — together — over three weeks.
           </p>
           <p className="text-brand-steel text-base md:text-lg max-w-2xl mb-8 leading-relaxed">
             Live. Hands-on. All of them have the same problems you do. You leave with working systems — not slides.
@@ -97,7 +97,7 @@ export default function RuggedUClient() {
             >
               $497
             </span>
-            <span className="text-brand-steel uppercase tracking-wide text-sm">4-week workshop</span>
+            <span className="text-brand-steel uppercase tracking-wide text-sm">3-week workshop</span>
           </div>
           <div className="border border-brand-red bg-[#130000] px-6 py-4 mb-10 max-w-xl flex items-start gap-4">
             <span className="text-brand-red font-black text-xl flex-shrink-0 mt-0.5">★</span>
@@ -127,7 +127,7 @@ export default function RuggedUClient() {
           </p>
           <span className="hidden sm:block w-px h-4 bg-white/40" />
           <p className="font-display font-bold text-sm uppercase tracking-widest">
-            4 Live Weekly Sessions
+            3 Live Weekly Sessions
           </p>
           <span className="hidden sm:block w-px h-4 bg-white/40" />
           <p className="font-display font-bold text-sm uppercase tracking-widest">
@@ -150,13 +150,13 @@ Enrollment Closes Before Each Cohort
             className="font-display font-black uppercase leading-none text-brand-black mb-12"
             style={{ fontSize: "clamp(2.25rem, 5vw, 4rem)" }}
           >
-            Four Weeks. Real Work.
+            Three Weeks. Real Work.
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {[
               {
                 title: "Working AI In Your Business",
-                body: "Before the four weeks are up, you have real systems running. Calls answered. Estimates followed up. Reviews coming in. Not theory — your actual operation, running better.",
+                body: "Before the three weeks are up, you have real systems running. Calls answered. Estimates followed up. Reviews coming in. Not theory — your actual operation, running better.",
               },
               {
                 title: "A Playbook Built for Your Trade",
@@ -186,7 +186,7 @@ Enrollment Closes Before Each Cohort
             className="font-display font-black uppercase leading-none text-brand-black mb-4"
             style={{ fontSize: "clamp(2.25rem, 5vw, 4rem)" }}
           >
-            What We Build Together Over 4 Weeks
+            What We Build Together Over 3 Weeks
           </h2>
           <p className="text-[#374151] text-base md:text-lg max-w-2xl mb-12 leading-relaxed">
             You already know how to solve problems on the job. This teaches you to solve them in software. Everything you build runs on Claude — Anthropic&apos;s AI platform — and you&apos;ll leave set up on Claude for Teams with skills and workflows built for your trade. Every session is live, specific to your trade, and ends with something working in your business — not homework to do later.
@@ -207,13 +207,8 @@ Enrollment Closes Before Each Cohort
               },
               {
                 week: "Week 3",
-                title: "Estimate Follow-Up & Review Requests",
-                body: "Automated follow-up sequences that chase down estimates without you. Review request systems that go out at exactly the right moment. Closed-loop customer communication.",
-              },
-              {
-                week: "Week 4",
-                title: "Full Deployment & Integration",
-                body: "Connect every system to your existing tools — CRM, phone, scheduling software. Go live. Test under real conditions. Leave the session with everything running.",
+                title: "Follow-Up, Reviews & Going Live",
+                body: "Build automated follow-up that chases down estimates and review requests that go out at the right moment — then connect everything to the tools you already use: CRM, phone, scheduling. Go live and leave with it all running.",
               },
             ].map((item, i) => (
               <div key={item.week} className="bg-white px-8 py-8 flex gap-8 items-start">
@@ -325,7 +320,7 @@ Enrollment Closes Before Each Cohort
                   "You run a trades business — or help run one",
                   "You're done losing jobs to faster competitors",
                   "You want AI that actually works in your business",
-                  "You (or someone on your team) can commit four weeks",
+                  "You (or someone on your team) can commit three weeks",
                   "You're tired of tools built for someone else",
                 ].map((item) => (
                   <li key={item} className="text-brand-iron text-sm flex items-start gap-3">
@@ -374,12 +369,12 @@ Enrollment Closes Before Each Cohort
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
             {[
               {
-                title: "4 Live Weekly Sessions",
+                title: "3 Live Weekly Sessions",
                 body: "Live sessions with Colin. Build in real time, get specific answers for your trade.",
               },
               {
                 title: "Direct Access to Colin",
-                body: "Get unstuck between sessions, not just during them. Real answers for your business throughout the four weeks.",
+                body: "Get unstuck between sessions, not just during them. Real answers for your business throughout the three weeks.",
               },
               {
                 title: "Set Up on Claude for Teams",
@@ -455,7 +450,7 @@ Enrollment Closes Before Each Cohort
             >
               $497
             </span>
-            <span className="text-brand-steel uppercase tracking-wide text-sm">4-week workshop · lifetime access</span>
+            <span className="text-brand-steel uppercase tracking-wide text-sm">3-week workshop · lifetime access</span>
           </div>
           <p className="text-brand-steel text-base max-w-xl mx-auto mb-10 leading-relaxed">
             Four weeks. Working systems. No fluff. If you show up to the first session and it&apos;s not right for you, full refund — no questions asked.
