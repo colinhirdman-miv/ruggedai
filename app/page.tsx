@@ -156,7 +156,7 @@ export default function HomePage() {
                     : "border-[#1a1a1a] bg-brand-black"
                 }`}
               >
-                <h3 className="font-display font-black text-2xl uppercase text-white leading-tight mb-2">
+                <h3 className="font-display font-black text-3xl md:text-4xl uppercase text-white leading-tight mb-2">
                   {offer.name.startsWith("Rugged") ? (
                     <><span className="text-brand-red">Rugged</span>{offer.name.slice(6)}</>
                   ) : offer.name}
