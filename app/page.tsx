@@ -132,7 +132,7 @@ export default function HomePage() {
                 price: "$497",
                 period: "3-week workshop",
                 description:
-                  "Learn to build AI agents in your business in three weeks. Live, hands-on, specific to your trade. You leave with real AI running in your operation.",
+                  "Learn to actually use Claude in your business over three weeks. Live, hands-on. You pick what to build for your own shop and leave with it running.",
                 cta: "Learn More →",
                 href: "/ruggedu",
                 primary: true,

@@ -156,11 +156,11 @@ Enrollment Closes Before Each Cohort
             {[
               {
                 title: "Working AI In Your Business",
-                body: "Before the three weeks are up, you have real systems running. Calls answered. Estimates followed up. Reviews coming in. Not theory — your actual operation, running better.",
+                body: "Before the three weeks are up, you have AI doing real work in your shop — built around how you actually operate, not generic theory. You leave with it running, not a stack of notes.",
               },
               {
-                title: "A Playbook Built for Your Trade",
-                body: "You leave with documented systems specific to your business — not generic templates. Built around how your operation actually runs, ready to use the day you get back.",
+                title: "Built for How You Work",
+                body: "You don't build what we tell you to — you build what actually matters in your business. Claude trained on your services, your pricing, your way of doing things.",
               },
               {
                 title: "You're Not in the Room Alone",
@@ -186,29 +186,27 @@ Enrollment Closes Before Each Cohort
             className="font-display font-black uppercase leading-none text-brand-black mb-4"
             style={{ fontSize: "clamp(2.25rem, 5vw, 4rem)" }}
           >
-            What We Build Together Over 3 Weeks
+            Learn Claude. Build for Your Business.
           </h2>
           <p className="text-[#374151] text-base md:text-lg max-w-2xl mb-12 leading-relaxed">
-            You already know how to solve problems on the job. This teaches you to solve them in software. Everything you build runs on Claude — Anthropic&apos;s AI platform — and you&apos;ll leave set up on Claude for Teams with skills and workflows built for your trade. Every session is live, specific to your trade, and ends with something working in your business — not homework to do later.
+            This isn&apos;t a lecture series. Over three weeks you learn to actually use Claude — Anthropic&apos;s AI — and put it to work on the stuff that eats your time. You pick what to build for your own shop, and you leave with it running plus the know-how to keep building.
           </p>
           <div className="space-y-px bg-brand-iron/20">
             {[
               {
                 week: "Week 1",
-                title: "AI Fundamentals for the Trades",
-                body: "Understand how AI agents actually work and where they create the most leverage in a home service business. Map your own operation for opportunities — calls, estimates, reviews, scheduling. Get set up on Claude for Teams — the platform we build everything on.",
+                title: "Get Comfortable With Claude",
+                body: "Cut through the hype and understand what AI actually does and doesn't do. Learn how to talk to Claude and get real results. Get set up on Claude for Teams, then pick the project you'll build for your business.",
               },
               {
                 week: "Week 2",
-                title: "After-Hours Call Handling",
-                body: "Build an AI that answers calls, qualifies leads, and books jobs when you can't pick up. Stop losing jobs to voicemail. This system alone pays for the workshop.",
-                proof: "One trades company handled 7,000 calls in a single week during a cold snap with an AI voice agent running an 80–85% booking rate and average call time under five minutes. Another cut their missed call rate by 60%. You build this in Week 2. It runs in your business before Week 3 starts.",
-                source: "ServiceTitan State of AI in the Trades 2026",
+                title: "Build Your Business Co-Pilot",
+                body: "Teach Claude your business — your services, your pricing, your voice — so it stops giving generic answers and starts working like it knows your shop. Build the project you picked, and get it doing real work.",
               },
               {
                 week: "Week 3",
-                title: "Follow-Up, Reviews & Going Live",
-                body: "Build automated follow-up that chases down estimates and review requests that go out at the right moment — then connect everything to the tools you already use: CRM, phone, scheduling. Go live and leave with it all running.",
+                title: "Make It Stick & Keep Going",
+                body: "Make your tool reliable and ready for your team to use. Get an honest read on what to build yourself versus what to buy off the shelf. Leave with a repeatable method so you can keep building long after the workshop ends.",
               },
             ].map((item, i) => (
               <div key={item.week} className="bg-white px-8 py-8 flex gap-8 items-start">
