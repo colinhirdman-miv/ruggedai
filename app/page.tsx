@@ -109,18 +109,15 @@ export default function HomePage() {
       {/* ─── SOLUTION ─── */}
       <section className="py-24 px-6 bg-white border-t border-brand-iron/20">
         <div className="max-w-5xl mx-auto">
-          <RedLabel>Here&apos;s what we build, together</RedLabel>
+          <RedLabel>Where to Start</RedLabel>
           <h2
-            className="font-display font-black uppercase leading-none text-brand-black mb-4"
+            className="font-display font-black uppercase leading-none text-brand-black mb-6"
             style={{ fontSize: "clamp(2.25rem, 5.5vw, 4.5rem)", letterSpacing: "-0.01em" }}
           >
-            We Build AI That Works The Way You Do. Hard.
+            Get Ahead of AI — and Get Your Time Back.
           </h2>
-          <p className="font-display font-bold text-xl md:text-2xl text-brand-steel uppercase tracking-wide mb-6 max-w-3xl">
-            Custom AI built specifically for your business.
-          </p>
           <p className="text-[#374151] text-base md:text-lg max-w-3xl mb-16 leading-relaxed">
-            Together, we build AI systems that run in the background while you do the real work. Calls get answered. Estimates get followed up. Reviews get requested. Jobs get closed. All without hiring anyone new.
+            Whether you&apos;re growing fast or just trying to get your head above water, RuggedU helps you understand AI — and put it to work where it actually counts. Less time buried in busywork. More room to run your business. Three weeks, $497, and you&apos;ll see exactly what it can do for your shop.
           </p>
 
           <RedLabel>Get to Work</RedLabel>
