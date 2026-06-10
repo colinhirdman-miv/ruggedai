@@ -226,12 +226,6 @@ Enrollment Closes Before Each Cohort
                     {item.title}
                   </h3>
                   <p className="text-[#374151] text-sm leading-relaxed">{item.body}</p>
-                  {item.proof && (
-                    <p className="text-[#374151] text-sm leading-relaxed mt-3">{item.proof}</p>
-                  )}
-                  {item.source && (
-                    <p className="text-brand-steel text-xs mt-2 tracking-wide">{item.source}</p>
-                  )}
                 </div>
               </div>
             ))}
