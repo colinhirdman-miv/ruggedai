@@ -117,7 +117,7 @@ export default function HomePage() {
             Get Ahead of AI — and Get Your Time Back.
           </h2>
           <p className="text-[#374151] text-base md:text-lg max-w-3xl mb-16 leading-relaxed">
-            Whether you&apos;re growing fast or just trying to get your head above water, RuggedU helps you understand AI — and put it to work where it actually counts. Less time buried in busywork. More room to run your business. Three weeks, $497, and you&apos;ll see exactly what it can do for your shop.
+            Whether you&apos;re growing fast or just trying to get your head above water, RuggedU helps you understand AI — and put it to work where it actually counts. Less time buried in busywork. More room to run your business. Three weeks, $497, and you&apos;ll see exactly what it can do for your operation.
           </p>
 
           <RedLabel>Get to Work</RedLabel>
@@ -129,7 +129,7 @@ export default function HomePage() {
                 price: "$497",
                 period: "3-week workshop",
                 description:
-                  "Learn to actually use Claude in your business over three weeks. Live, hands-on. You pick what to build for your own shop and leave with it running.",
+                  "Learn to actually use Claude in your business over three weeks. Live, hands-on. You pick what to build for your own operation and leave with it running.",
                 cta: "Learn More →",
                 href: "/ruggedu",
                 primary: true,
