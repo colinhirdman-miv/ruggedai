@@ -89,10 +89,10 @@ export default function RuggedUClient() {
             <span className="text-brand-red">Rugged</span>U
           </h1>
           <p className="font-display font-bold text-xl md:text-2xl text-brand-steel uppercase tracking-wide mb-6 max-w-3xl">
-            A small group of trades professionals building real AI into their businesses — together — over three weeks.
+            You leave with an AI co-pilot that knows your business — and works for you every day.
           </p>
           <p className="text-brand-steel text-base md:text-lg max-w-2xl mb-8 leading-relaxed">
-            Live. Hands-on. All of them have the same problems you do. You leave with working systems — not slides.
+            Built over three weeks, live and hands-on, alongside a small group of trades pros with the same problems you have. Not slides. Not theory. The real thing — and it&apos;s yours to keep.
           </p>
           <div className="flex items-baseline gap-3 mb-6">
             <span
