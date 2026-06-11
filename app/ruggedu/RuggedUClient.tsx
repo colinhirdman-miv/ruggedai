@@ -201,12 +201,12 @@ export default function RuggedUClient() {
               {
                 week: "Week 2",
                 title: "Build Your Business Co-Pilot",
-                body: "Teach Claude your business — your services, your pricing, your voice — so it stops giving generic answers and starts working like it knows your shop. Build the project you picked, and get it doing real work.",
+                body: "Teach Claude your business — your services, your pricing, your voice — so it stops giving generic answers and starts working like it actually knows your shop. By the end of the week you have a co-pilot that gets your operation.",
               },
               {
                 week: "Week 3",
-                title: "Make It Stick & Keep Going",
-                body: "Make your tool reliable and ready for your team to use. Get an honest read on what to build yourself versus what to buy off the shelf. Leave with a repeatable method so you can keep building long after the workshop ends.",
+                title: "Put It to Work",
+                body: "Now make it run without you. Set up a routine that works in the background — a morning briefing, lead triage, whatever saves you the most time — so AI is handling real work while you're on the job. Make it reliable enough for your team, get an honest read on what to build versus buy, and leave with a roadmap for what to build next.",
               },
             ].map((item, i) => (
               <div key={item.week} className="bg-white px-8 py-8 flex gap-8 items-start">
