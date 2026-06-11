@@ -50,11 +50,9 @@ export async function submitBuild(
   const email = (formData.get("email") as string)?.trim();
   const phone = (formData.get("phone") as string)?.trim();
   const business = (formData.get("business") as string)?.trim();
-  const trade = (formData.get("trade") as string)?.trim();
-  const service = (formData.get("service") as string)?.trim();
   const message = (formData.get("message") as string)?.trim();
 
-  if (!name || !email || !business || !trade || !service) {
+  if (!name || !email || !business) {
     return { success: false, error: "Please fill out all required fields." };
   }
 
@@ -66,14 +64,12 @@ export async function submitBuild(
       to: "colin.hirdman@monkeyislandventures.com",
       replyTo: email,
       subject: `New RuggedAI inquiry from ${name} (${business})`,
-      text: `Name: ${name}\nEmail: ${email}\nPhone: ${phone || "—"}\nBusiness: ${business}\nTrade: ${trade}\nInterested in: ${service}\n\nMessage:\n${message || "—"}`,
+      text: `Name: ${name}\nEmail: ${email}\nPhone: ${phone || "—"}\nBusiness: ${business}\n\nMessage:\n${message || "—"}`,
       html: `
         <p><strong>Name:</strong> ${name}</p>
         <p><strong>Email:</strong> ${email}</p>
         <p><strong>Phone:</strong> ${phone || "—"}</p>
         <p><strong>Business:</strong> ${business}</p>
-        <p><strong>Trade:</strong> ${trade}</p>
-        <p><strong>Interested in:</strong> ${service}</p>
         <br />
         <p><strong>Message:</strong></p>
         <p>${(message || "—").replace(/\n/g, "<br />")}</p>

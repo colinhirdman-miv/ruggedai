@@ -25,7 +25,11 @@ const faqs = [
   },
   {
     q: "How long are the sessions?",
-    a: "60 minutes each, live, once a week for three weeks. Recordings are available immediately after each session.",
+    a: "About 90 minutes each, live, once a week for three weeks. Recordings are available immediately after each session.",
+  },
+  {
+    q: "What does it cost to use Claude?",
+    a: "A personal Claude account runs $20/month and covers everything you'll do in the workshop. If you want to roll it out to your team afterward, Claude for Teams is available — we'll help you pick what fits. The $497 is for the workshop itself.",
   },
   {
     q: "Will sessions be recorded?",
@@ -41,7 +45,7 @@ const faqs = [
   },
   {
     q: "How many people are in a cohort?",
-    a: "We cap it at 20 professionals. You get real time with Colin, real answers to your specific situation — not a webinar where you're one of 500 with your question buried in a chat box.",
+    a: "A small group — small enough that you get real time with Colin and real answers to your specific situation, not a webinar where you're one of 500 with your question buried in a chat box.",
   },
   {
     q: "When does the next cohort start?",
@@ -128,10 +132,6 @@ export default function RuggedUClient() {
           <span className="hidden sm:block w-px h-4 bg-white/40" />
           <p className="font-display font-bold text-sm uppercase tracking-widest">
             3 Live Weekly Sessions
-          </p>
-          <span className="hidden sm:block w-px h-4 bg-white/40" />
-          <p className="font-display font-bold text-sm uppercase tracking-widest">
-Enrollment Closes Before Each Cohort
           </p>
           <Link
             href="/build"

@@ -246,7 +246,7 @@ export default function WorkWithUsPage() {
             className="font-display font-black uppercase leading-none text-white mb-6"
             style={{ fontSize: "clamp(2.25rem, 5vw, 4rem)" }}
           >
-            Let&apos;s Build Something That Actually Works.
+            Let&apos;s Find Where AI Pays Off for You.
           </h2>
           <p className="text-brand-steel text-base max-w-xl mx-auto mb-10 leading-relaxed">
             We work with a small number of businesses at a time. That&apos;s intentional — the work only gets done right when we&apos;re fully in it together.

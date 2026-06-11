@@ -3,22 +3,6 @@
 import { useActionState, useState } from "react";
 import { submitBuild } from "@/actions/contact.action";
 
-const services = [
-  "RuggedU Workshop ($497)",
-  "RuggedConsulting",
-  "Not sure yet",
-];
-
-const trades = [
-  "HVAC",
-  "Pest Control",
-  "Plumbing",
-  "Electrical",
-  "Garage Doors",
-  "Landscaping",
-  "Other",
-];
-
 export default function BuildClient() {
   const [state, formAction, pending] = useActionState(submitBuild, null);
   const [form, setForm] = useState({
@@ -26,8 +10,6 @@ export default function BuildClient() {
     email: "",
     phone: "",
     business: "",
-    trade: "",
-    service: "",
     message: "",
   });
 
@@ -123,47 +105,6 @@ export default function BuildClient() {
                     className="w-full bg-brand-dark border border-[#2a2a2a] text-white px-4 py-3 focus:outline-none focus:border-brand-red transition-colors text-sm"
                     placeholder="Smith HVAC LLC"
                   />
-                </div>
-              </div>
-
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div>
-                  <label className="block font-display font-bold text-xs uppercase tracking-widest text-brand-iron mb-2">
-                    Trade *
-                  </label>
-                  <select
-                    name="trade"
-                    required
-                    value={form.trade}
-                    onChange={handleChange}
-                    className="w-full bg-brand-dark border border-[#2a2a2a] text-white px-4 py-3 focus:outline-none focus:border-brand-red transition-colors text-sm appearance-none"
-                  >
-                    <option value="">Select your trade</option>
-                    {trades.map((t) => (
-                      <option key={t} value={t}>
-                        {t}
-                      </option>
-                    ))}
-                  </select>
-                </div>
-                <div>
-                  <label className="block font-display font-bold text-xs uppercase tracking-widest text-brand-iron mb-2">
-                    Interested In *
-                  </label>
-                  <select
-                    name="service"
-                    required
-                    value={form.service}
-                    onChange={handleChange}
-                    className="w-full bg-brand-dark border border-[#2a2a2a] text-white px-4 py-3 focus:outline-none focus:border-brand-red transition-colors text-sm appearance-none"
-                  >
-                    <option value="">Select a service</option>
-                    {services.map((s) => (
-                      <option key={s} value={s}>
-                        {s}
-                      </option>
-                    ))}
-                  </select>
                 </div>
               </div>
 
