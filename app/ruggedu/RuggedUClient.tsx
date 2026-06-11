@@ -196,7 +196,7 @@ export default function RuggedUClient() {
               {
                 week: "Week 1",
                 title: "Get Comfortable With Claude",
-                body: "Cut through the hype and understand what AI actually does and doesn't do. Learn how to talk to Claude and get real results. Get set up on Claude for Teams, then pick the project you'll build for your business.",
+                body: "Cut through the hype and understand what AI actually does and doesn't do. Learn how to talk to Claude and get real results. Get set up on Claude for Teams and start spotting where it could help in your business.",
               },
               {
                 week: "Week 2",
