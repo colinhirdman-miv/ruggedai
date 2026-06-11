@@ -155,12 +155,12 @@ export default function RuggedUClient() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {[
               {
-                title: "Working AI In Your Business",
-                body: "Before the three weeks are up, you have AI doing real work in your business — built around how you actually operate, not generic theory. You leave with it running, not a stack of notes.",
+                title: "An AI Co-Pilot That Knows Your Business",
+                body: "You leave with a co-pilot that knows your pricing, your service area, your services, and how you talk to customers — so it stops giving generic answers and starts answering like someone who actually works there. Yours to keep.",
               },
               {
-                title: "Built for How You Work",
-                body: "You don't build what we tell you to — you build what actually matters in your business. Claude trained on your services, your pricing, your way of doing things.",
+                title: "You Build What Matters to You",
+                body: "No cookie-cutter tool. You pick the work that's actually eating your time — quoting, follow-ups, dispatch, whatever it is — and build AI around that. It's your business, so it's your call what gets built.",
               },
               {
                 title: "You're Not in the Room Alone",
