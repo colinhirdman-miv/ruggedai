@@ -49,7 +49,7 @@ const faqs = [
   },
   {
     q: "When does the next cohort start?",
-    a: "Cohorts run quarterly. Fill out the form and we'll reach out with the next available date.",
+    a: "The next cohort runs three Tuesdays in a row — June 23, June 30, and July 7, 2026. Fill out the form to reserve your spot. If the timing doesn't work, let us know and we'll get you into the next one.",
   },
 ];
 
@@ -127,7 +127,7 @@ export default function RuggedUClient() {
       <div className="bg-brand-red px-6 py-4">
         <div className="max-w-5xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-3 text-white">
           <p className="font-display font-bold text-sm uppercase tracking-widest">
-            Next Cohort: June 2026
+            Next Cohort Starts Tuesday, June 23
           </p>
           <span className="hidden sm:block w-px h-4 bg-white/40" />
           <p className="font-display font-bold text-sm uppercase tracking-widest">
