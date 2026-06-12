@@ -129,7 +129,7 @@ export default function HomePage() {
                 price: "$497",
                 period: "3-week workshop",
                 description:
-                  "Learn to actually use Claude in your business over three weeks. Live, hands-on. You pick what to build for your own operation and leave with it running.",
+                  "Learn to actually use Claude over three weeks, live and hands-on. You build a co-pilot that knows your business — and leave with it running.",
                 cta: "Learn More →",
                 href: "/ruggedu",
                 primary: true,

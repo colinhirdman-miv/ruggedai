@@ -88,10 +88,10 @@ export default function RuggedUClient() {
           >
             <span className="text-brand-red">Rugged</span>U
           </h1>
-          <p className="font-display font-bold text-xl md:text-2xl text-brand-steel uppercase tracking-wide mb-6 max-w-3xl">
+          <p className="font-display font-bold text-xl md:text-2xl text-[#9CA3AF] uppercase tracking-wide mb-6 max-w-3xl">
             You leave with an AI co-pilot that knows your business — and works for you every day.
           </p>
-          <p className="text-brand-steel text-base md:text-lg max-w-2xl mb-8 leading-relaxed">
+          <p className="text-[#9CA3AF] text-base md:text-lg max-w-2xl mb-8 leading-relaxed">
             Built over three weeks, live and hands-on, alongside a small group of trades pros with the same problems you have. Not slides. Not theory. The real thing — and it&apos;s yours to keep.
           </p>
           <div className="flex items-baseline gap-3 mb-6">
@@ -101,7 +101,7 @@ export default function RuggedUClient() {
             >
               $497
             </span>
-            <span className="text-brand-steel uppercase tracking-wide text-sm">3-week workshop</span>
+            <span className="text-[#9CA3AF] uppercase tracking-wide text-sm">3-week workshop</span>
           </div>
           <p className="font-display font-bold text-brand-iron text-sm uppercase tracking-wide mb-8">
             Tuesdays · June 23, 30 &amp; July 7 · 10:30am–Noon CT
@@ -112,7 +112,7 @@ export default function RuggedUClient() {
               <p className="font-display font-black text-white text-sm uppercase tracking-wide mb-1">
                 Lifetime Cohort Access Included
               </p>
-              <p className="text-brand-steel text-sm leading-relaxed">
+              <p className="text-[#9CA3AF] text-sm leading-relaxed">
                 Enroll once and you&apos;re in every future RuggedU cohort. The curriculum evolves with AI — and so will you.
               </p>
             </div>
@@ -174,7 +174,7 @@ export default function RuggedUClient() {
                 <h3 className="font-display font-black text-xl uppercase text-white leading-tight mb-4">
                   {pillar.title}
                 </h3>
-                <p className="text-brand-steel text-sm leading-relaxed">{pillar.body}</p>
+                <p className="text-[#9CA3AF] text-sm leading-relaxed">{pillar.body}</p>
               </div>
             ))}
           </div>
@@ -253,7 +253,7 @@ export default function RuggedUClient() {
               >
                 Every Session is Recorded
               </h2>
-              <p className="text-brand-steel text-base md:text-lg leading-relaxed">
+              <p className="text-[#9CA3AF] text-base md:text-lg leading-relaxed">
                 The trades don&apos;t run on a 9-to-5. Emergency calls, long days, jobs that run over — your schedule isn&apos;t always your own. That&apos;s why every live session is recorded and available on-demand, and any prep work can be done whenever you&apos;ve got the time. Join live when you can, catch up when you can&apos;t. You won&apos;t fall behind.
               </p>
             </div>
@@ -284,10 +284,10 @@ export default function RuggedUClient() {
               <p className="font-display font-bold text-xs uppercase tracking-[0.2em] text-brand-red mb-4">
                 Founder, Rugged<span className="text-white">AI</span>
               </p>
-              <p className="text-brand-steel text-base leading-relaxed mb-4 max-w-xl">
+              <p className="text-[#9CA3AF] text-base leading-relaxed mb-4 max-w-xl">
                 Colin has spent over two decades building companies. He co-founded Monkey Island Ventures and built Augurian, a digital marketing agency, and Cloudburst, a custom software studio. RuggedAI is where it all comes together — bringing the marketing, technology, and AI know-how he&apos;s built across industries to the trades.
               </p>
-              <p className="text-brand-steel text-base leading-relaxed max-w-xl">
+              <p className="text-[#9CA3AF] text-base leading-relaxed max-w-xl">
                 His approach is direct. No fluff. No jargon. Just practical, hands-on work focused on building AI that actually fits how your business runs.
               </p>
             </div>
@@ -326,7 +326,7 @@ export default function RuggedUClient() {
               </ul>
             </div>
             <div className="bg-[#F0EFED] p-8">
-              <p className="font-display font-bold text-sm uppercase tracking-widest text-brand-steel mb-6">
+              <p className="font-display font-bold text-sm uppercase tracking-widest text-[#9CA3AF] mb-6">
                 Not for you if:
               </p>
               <ul className="space-y-4">
@@ -445,9 +445,9 @@ export default function RuggedUClient() {
             >
               $497
             </span>
-            <span className="text-brand-steel uppercase tracking-wide text-sm">3-week workshop · lifetime access</span>
+            <span className="text-[#9CA3AF] uppercase tracking-wide text-sm">3-week workshop · lifetime access</span>
           </div>
-          <p className="text-brand-steel text-base max-w-xl mx-auto mb-10 leading-relaxed">
+          <p className="text-[#9CA3AF] text-base max-w-xl mx-auto mb-10 leading-relaxed">
             Four weeks. Working systems. No fluff. If you show up to the first session and it&apos;s not right for you, full refund — no questions asked.
           </p>
           <Link
