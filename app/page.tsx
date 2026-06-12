@@ -85,7 +85,7 @@ export default function HomePage() {
                 return [...trades, ...trades].map((trade, i) => (
                   <span
                     key={i}
-                    className="font-display font-bold text-sm uppercase tracking-[0.2em] text-brand-steel flex-shrink-0"
+                    className="font-display font-bold text-sm uppercase tracking-[0.2em] text-[#9CA3AF] flex-shrink-0"
                     style={{ padding: "0 1.5rem" }}
                   >
                     {trade}&nbsp;<span className="text-brand-red">·</span>
@@ -95,12 +95,12 @@ export default function HomePage() {
             </div>
           </div>
           <p
-            className="font-display font-black uppercase leading-none text-brand-steel mb-6 max-w-4xl"
+            className="font-display font-black uppercase leading-none text-[#9CA3AF] mb-6 max-w-4xl"
             style={{ fontSize: "clamp(2rem, 5vw, 4rem)", letterSpacing: "-0.01em" }}
           >
             Your Business Should Work As Hard As You Do.
           </p>
-          <p className="text-brand-steel text-base md:text-lg max-w-2xl mb-10 leading-relaxed">
+          <p className="text-[#9CA3AF] text-base md:text-lg max-w-2xl mb-10 leading-relaxed">
             The same mindset that gets you through a 12-hour service day — showing up, solving problems, handling what nobody else will touch — now works in software. Learn to build AI that answers your phones after hours, follows up on every estimate, requests reviews automatically, and closes more jobs. No technical background needed. No developers. Just you and systems that actually work.
           </p>
         </div>
@@ -160,9 +160,9 @@ export default function HomePage() {
                 </h3>
                 <div className="mb-6">
                   <span className="font-display font-black text-3xl text-brand-red">{offer.price}</span>
-                  <span className="text-brand-steel text-sm ml-2 uppercase tracking-wide">{offer.period}</span>
+                  <span className="text-[#9CA3AF] text-sm ml-2 uppercase tracking-wide">{offer.period}</span>
                 </div>
-                <p className="text-brand-steel text-sm leading-relaxed flex-1 mb-8">{offer.description}</p>
+                <p className="text-[#9CA3AF] text-sm leading-relaxed flex-1 mb-8">{offer.description}</p>
                 <Link
                   href={offer.href}
                   className={`font-display font-black text-sm uppercase tracking-widest px-6 py-3 text-center transition-colors ${
@@ -212,7 +212,7 @@ export default function HomePage() {
                 </p>
                 <p className="text-brand-iron text-sm uppercase tracking-wide leading-snug flex-1">{label}</p>
                 {source && (
-                  <p className="text-brand-steel text-xs mt-3 tracking-wide">{source}</p>
+                  <p className="text-[#9CA3AF] text-xs mt-3 tracking-wide">{source}</p>
                 )}
               </div>
             ))}
@@ -230,7 +230,7 @@ export default function HomePage() {
           >
             Your Competitors Are Making Their Move. Are You?
           </h2>
-          <p className="text-brand-steel text-base md:text-lg max-w-2xl mx-auto mb-10 leading-relaxed">
+          <p className="text-[#9CA3AF] text-base md:text-lg max-w-2xl mx-auto mb-10 leading-relaxed">
             The window is open right now. Trades businesses that adopt AI in the next 18 months will operate at a level their competitors can&apos;t match.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">

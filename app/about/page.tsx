@@ -30,7 +30,7 @@ export default function AboutPage() {
           >
             Built for the People Who Do the Real Work.
           </h1>
-          <p className="text-brand-steel text-base md:text-lg max-w-2xl leading-relaxed">
+          <p className="text-[#9CA3AF] text-base md:text-lg max-w-2xl leading-relaxed">
             You get up early. You run a crew. You bid jobs, deal with customers, and keep it all together. The businesses pulling ahead right now aren&apos;t working harder — they&apos;ve figured out how to put AI to work on the stuff that eats your day: the follow-ups that slip, the quotes that sit, the busywork that piles up after a long day. You can do the same — you just need someone to show you how without the jargon.
           </p>
           <p className="text-white text-lg md:text-xl font-semibold max-w-2xl leading-relaxed mt-6">
@@ -226,16 +226,16 @@ export default function AboutPage() {
               <p className="font-display font-bold text-xs uppercase tracking-[0.3em] text-brand-red mb-6">
                 Co-Founder, Rugged<span className="text-white">AI</span>
               </p>
-              <p className="text-brand-steel text-base md:text-lg max-w-2xl leading-relaxed mb-4">
+              <p className="text-[#9CA3AF] text-base md:text-lg max-w-2xl leading-relaxed mb-4">
                 I started my first company a week after graduating from college and I&apos;ve been an entrepreneur ever since. Everything I&apos;ve built since then has been through Monkey Island Ventures — a company I co-founded with two of my best friends, Josh and Zack. We named it after a park we played at together since we were five years old.
               </p>
-              <p className="text-brand-steel text-base md:text-lg max-w-2xl leading-relaxed mb-4">
+              <p className="text-[#9CA3AF] text-base md:text-lg max-w-2xl leading-relaxed mb-4">
                 Over the years the three of us have built over a dozen software and service businesses. Along the way we built Augurian, a digital marketing agency, and Cloudburst, a custom software studio. The mission behind all of it has always been the same: share what we know and help create as many successful entrepreneurs as we can.
               </p>
-              <p className="text-brand-steel text-base md:text-lg max-w-2xl leading-relaxed mb-4">
+              <p className="text-[#9CA3AF] text-base md:text-lg max-w-2xl leading-relaxed mb-4">
                 RuggedAI is the next chapter. The trades are full of serious operators — real crews, real revenue — getting outpaced by competitors who figured out how to use AI first. Not because they&apos;re smarter. Because they moved faster. That gap is closeable, and closing it is what RuggedAI is built to do.
               </p>
-              <p className="text-brand-steel text-base md:text-lg max-w-2xl leading-relaxed mb-10">
+              <p className="text-[#9CA3AF] text-base md:text-lg max-w-2xl leading-relaxed mb-10">
                 My approach is direct. We sit down with your operation, find the highest-leverage places AI can help, and build them together. No jargon. No theory. No wasted time.
               </p>
               <Link
@@ -259,7 +259,7 @@ export default function AboutPage() {
           >
             Where the Experience Comes From.
           </h2>
-          <p className="text-brand-steel text-base md:text-lg max-w-2xl mb-16 leading-relaxed">
+          <p className="text-[#9CA3AF] text-base md:text-lg max-w-2xl mb-16 leading-relaxed">
             RuggedAI didn&apos;t come out of nowhere. It&apos;s backed by companies we own and operate — across marketing, software, and operations. That&apos;s the experience behind everything we do.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -296,7 +296,7 @@ export default function AboutPage() {
                   />
                 </div>
                 <p className="font-display font-bold text-xs uppercase tracking-[0.2em] text-brand-red mb-3">{co.role}</p>
-                <p className="text-brand-steel text-sm leading-relaxed mb-6 flex-1">{co.description}</p>
+                <p className="text-[#9CA3AF] text-sm leading-relaxed mb-6 flex-1">{co.description}</p>
                 <a
                   href={co.href}
                   target="_blank"

@@ -32,7 +32,7 @@ export default function BuildClient() {
           >
             Let's Build.
           </h1>
-          <p className="text-brand-steel text-base md:text-lg max-w-xl mb-12 leading-relaxed">
+          <p className="text-[#9CA3AF] text-base md:text-lg max-w-xl mb-12 leading-relaxed">
             Tell us about your business and we&apos;ll follow up within one business day to talk through the best fit.
           </p>
 
@@ -41,7 +41,7 @@ export default function BuildClient() {
               <h2 className="font-display font-black text-3xl uppercase text-white mb-4">
                 Message Received.
               </h2>
-              <p className="text-brand-steel text-base leading-relaxed">
+              <p className="text-[#9CA3AF] text-base leading-relaxed">
                 Thanks for reaching out. We&apos;ll follow up within one business day to talk through the best fit for your business.
               </p>
             </div>

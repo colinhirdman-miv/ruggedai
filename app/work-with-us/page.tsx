@@ -31,10 +31,10 @@ export default function WorkWithUsPage() {
             >
               Work Directly With Colin.
             </h1>
-            <p className="font-display font-bold text-xl md:text-2xl text-brand-steel uppercase tracking-wide mb-6 max-w-3xl">
+            <p className="font-display font-bold text-xl md:text-2xl text-[#9CA3AF] uppercase tracking-wide mb-6 max-w-3xl">
               Your highest-impact AI opportunities, built together.
             </p>
-            <p className="text-brand-steel text-base md:text-lg max-w-2xl mb-10 leading-relaxed">
+            <p className="text-[#9CA3AF] text-base md:text-lg max-w-2xl mb-10 leading-relaxed">
               You already know where your business is bleeding — the calls that go to voicemail, the estimates that go cold, the reviews you never got around to asking for. This is about fixing those specific holes in your specific operation. Not a course. Not a template. Your business, built to close more.
             </p>
             <Link
@@ -72,14 +72,14 @@ export default function WorkWithUsPage() {
               <h3 className="font-display font-black text-3xl uppercase text-white mb-2">
                 <span className="text-brand-red">Rugged</span>Kickstart
               </h3>
-              <p className="text-brand-steel text-base leading-relaxed max-w-2xl">
+              <p className="text-[#9CA3AF] text-base leading-relaxed max-w-2xl">
                 I spend 90 minutes — in your office or over video — showing your team exactly where AI can have the biggest impact on your operation — specific to your trade, your market, your roles. No slides. No theory. Real examples built around how you actually run your business. You&apos;ll leave with concrete AI opportunities specific to your trade — things you can act on right away. Pick any day, any time.
               </p>
             </div>
             <div className="flex-shrink-0 flex flex-col items-start md:items-end gap-4">
               <div>
                 <span className="font-display font-black text-brand-red" style={{ fontSize: "clamp(2rem, 3vw, 2.75rem)" }}>$500</span>
-                <span className="text-brand-steel text-sm ml-2 uppercase tracking-wide">flat</span>
+                <span className="text-[#9CA3AF] text-sm ml-2 uppercase tracking-wide">flat</span>
               </div>
               <Link
                 href="/build"
@@ -103,9 +103,9 @@ export default function WorkWithUsPage() {
                 >
                   $2,500
                 </span>
-                <span className="text-brand-steel text-sm ml-2 uppercase tracking-wide">two days on-site</span>
+                <span className="text-[#9CA3AF] text-sm ml-2 uppercase tracking-wide">two days on-site</span>
               </div>
-              <p className="text-brand-steel text-sm leading-relaxed mb-6">
+              <p className="text-[#9CA3AF] text-sm leading-relaxed mb-6">
                 We come to your team. Every role gets AI built for what they actually do — your ops manager, parts manager, sales team, and CSR all leave with tools specific to their job. Private, focused, and built around how your operation actually runs.
               </p>
               <ul className="space-y-3 mb-8 flex-1">
@@ -117,7 +117,7 @@ export default function WorkWithUsPage() {
                   "Custom to your trade and market",
                   "Post-session support included",
                 ].map((item) => (
-                  <li key={item} className="text-brand-steel text-sm flex items-start gap-3">
+                  <li key={item} className="text-[#9CA3AF] text-sm flex items-start gap-3">
                     <span className="w-2 h-2 bg-brand-steel flex-shrink-0 mt-1.5" />
                     {item}
                   </li>
@@ -146,7 +146,7 @@ export default function WorkWithUsPage() {
                 >
                   $4,500
                 </span>
-                <span className="text-brand-steel text-sm ml-2 uppercase tracking-wide">/ month</span>
+                <span className="text-[#9CA3AF] text-sm ml-2 uppercase tracking-wide">/ month</span>
               </div>
               <ul className="space-y-3 mb-8 flex-1">
                 {[
@@ -157,7 +157,7 @@ export default function WorkWithUsPage() {
                   "Monthly strategy and roadmap review",
                   "Specific to your trade and market",
                 ].map((item) => (
-                  <li key={item} className="text-brand-steel text-sm flex items-start gap-3">
+                  <li key={item} className="text-[#9CA3AF] text-sm flex items-start gap-3">
                     <span className="w-2 h-2 bg-brand-red flex-shrink-0 mt-1.5" />
                     {item}
                   </li>
@@ -248,7 +248,7 @@ export default function WorkWithUsPage() {
           >
             Let&apos;s Find Where AI Pays Off for You.
           </h2>
-          <p className="text-brand-steel text-base max-w-xl mx-auto mb-10 leading-relaxed">
+          <p className="text-[#9CA3AF] text-base max-w-xl mx-auto mb-10 leading-relaxed">
             We work with a small number of businesses at a time. That&apos;s intentional — the work only gets done right when we&apos;re fully in it together.
           </p>
           <Link

@@ -23,7 +23,7 @@ export default function Footer() {
           <Link href="/" className="font-display font-black text-2xl uppercase tracking-wider inline-block mb-4">
             <span className="text-brand-red">Rugged</span><span className="text-white">AI</span><sup className="text-white text-[0.5rem] align-super ml-0.5 font-bold">™</sup>
           </Link>
-          <p className="text-brand-steel text-sm mb-8 leading-relaxed max-w-xs">
+          <p className="text-[#9CA3AF] text-sm mb-8 leading-relaxed max-w-xs">
             AI that works as hard as you do. Built for the trades.
           </p>
           <nav className="flex flex-col gap-3">
@@ -53,7 +53,7 @@ export default function Footer() {
               <p className="font-display font-black text-white text-sm uppercase tracking-wide mb-1">
                 Message Received.
               </p>
-              <p className="text-brand-steel text-sm leading-relaxed">
+              <p className="text-[#9CA3AF] text-sm leading-relaxed">
                 We'll get back to you within one business day.
               </p>
             </div>
@@ -115,10 +115,10 @@ export default function Footer() {
       {/* Bottom bar */}
       <div className="border-t border-[#1a1a1a] px-6 py-6">
         <div className="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-3">
-          <p className="text-brand-steel text-xs uppercase tracking-widest">
+          <p className="text-[#9CA3AF] text-xs uppercase tracking-widest">
             AI that works as hard as you do.
           </p>
-          <p className="text-brand-steel text-xs">
+          <p className="text-[#9CA3AF] text-xs">
             &copy; {new Date().getFullYear()} RuggedAI™. All rights reserved.
           </p>
         </div>
