@@ -51,10 +51,10 @@ export default function AboutPage() {
               Close the Gap.
             </h2>
             <p className="text-[#374151] text-base leading-relaxed mb-4">
-              You&apos;re not competing with Fortune 500 companies. You&apos;re competing with the HVAC guy down the street who stopped losing jobs to voicemail. The plumber whose estimates follow up automatically. The pest control company that gets five-star reviews without ever asking.
+              You&apos;re not competing with Fortune 500 companies. You&apos;re competing with the HVAC guy down the street who got a head start on AI. The plumber who&apos;s not drowning in admin after a 12-hour day. The pest control company doing more without adding office staff.
             </p>
             <p className="text-[#374151] text-base leading-relaxed">
-              That gap is closeable. And we close it together — no tech team required, no big budget, no learning a new industry. Just the right systems built around the way you already operate.
+              That gap is closeable — and we close it together. No tech team required, no big budget, no learning a new industry. Just AI built around the way you already operate.
             </p>
           </div>
           <div>
