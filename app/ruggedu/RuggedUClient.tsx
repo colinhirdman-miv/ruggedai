@@ -359,41 +359,41 @@ export default function RuggedUClient() {
             What You&apos;ll Get.
           </h2>
           <p className="text-[#374151] text-base md:text-lg max-w-2xl mb-12 leading-relaxed">
-            Everything you need to start building AI into your business.
+            Everything you need to put AI to work in your trades business — and keep it running.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
             {[
               {
                 title: "3 Live Weekly Sessions",
-                body: "Live sessions with Colin. Build in real time, get specific answers for your trade.",
+                body: "Build live with Colin, three weeks running. Bring the real bottlenecks — estimates, dispatch, after-hours calls — and solve them on the spot.",
               },
               {
                 title: "Direct Access to Colin",
-                body: "Get unstuck between sessions, not just during them. Real answers for your business throughout the three weeks.",
+                body: "Hit a wall building something for your business between sessions? Get real answers from Colin all three weeks — not just during class.",
               },
               {
                 title: "Set Up on Claude",
-                body: "You leave with Claude configured and running for your business — not a trial you have to figure out alone.",
+                body: "You leave with Claude running for your business — trained on your services, your pricing, your customers. Not a trial you're left to figure out alone.",
               },
               {
                 title: "A Cohort of Peers",
-                body: "Build alongside other trades operators solving the same problems — a network you keep after.",
+                body: "Build alongside other trades operators — HVAC, plumbing, electrical, and more — fighting the same fires you are. A network you keep long after.",
               },
               {
                 title: "Forever Access to Recordings",
-                body: "Every session recorded. Watch and rewatch anytime, on your schedule.",
+                body: "Every session recorded. Miss one for an emergency call or a packed schedule? Watch and rewatch anytime — you never fall behind.",
               },
               {
                 title: "Templates & Prompts",
-                body: "Ready-to-use templates and prompts you can plug into your business and customize.",
+                body: "Ready-to-use templates built for trades work — quotes, follow-ups, review requests, customer replies. Plug them in and make them yours.",
               },
               {
                 title: "AI Tool Comparison Guide",
-                body: "Know which AI tool to reach for on every job — no more guessing or hype.",
+                body: "Know which AI tool to reach for on every job — what's worth paying for, what's hype, and what actually fits a trades business.",
               },
               {
                 title: "A Repeatable System",
-                body: "A method for building and connecting trade-specific AI tools long after the workshop ends.",
+                body: "A repeatable method for building trade-specific AI long after the workshop — so as your business changes, you keep building instead of starting over.",
               },
             ].map((item) => (
               <div key={item.title} className="border border-brand-iron/30 p-6 border-t-4 border-t-brand-red">
