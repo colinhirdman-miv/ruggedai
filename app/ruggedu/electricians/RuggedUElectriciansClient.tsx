@@ -185,14 +185,14 @@ export default function RuggedUElectriciansClient() {
             What We Build Together Over 3 Weeks
           </h2>
           <p className="text-[#374151] text-base md:text-lg max-w-2xl mb-12 leading-relaxed">
-            You already know how to solve problems on the job. This teaches you to solve them in software. Everything you build runs on Claude — Anthropic&apos;s AI platform — and you&apos;ll leave set up on Claude for Teams with workflows built for an electrical business. Every session is live, specific to electrical work, and ends with something running in your shop — not homework for later.
+            You already know how to solve problems on the job. This teaches you to solve them in software. Everything you build runs on Claude — Anthropic&apos;s AI — and you&apos;ll leave set up with workflows built for an electrical business. Every session is live, specific to electrical work, and ends with something running in your shop — not homework for later.
           </p>
           <div className="space-y-px bg-brand-iron/20">
             {[
               {
                 week: "Week 1",
                 title: "AI Fundamentals for Electricians",
-                body: "Understand how AI agents actually work and where they create the most leverage in an electrical business. Map your operation for opportunities — emergency calls, estimates, scheduling, dispatch. Get set up on Claude for Teams.",
+                body: "Understand how AI agents actually work and where they create the most leverage in an electrical business. Map your operation for opportunities — emergency calls, estimates, scheduling, dispatch. Get set up on Claude.",
               },
               {
                 week: "Week 2",
@@ -373,7 +373,7 @@ export default function RuggedUElectriciansClient() {
                 body: "Get unstuck between sessions, not just during them. Real answers for your shop throughout the three weeks.",
               },
               {
-                title: "Set Up on Claude for Teams",
+                title: "Set Up on Claude",
                 body: "You leave with Claude configured and running for your business — not a trial you have to figure out alone.",
               },
               {

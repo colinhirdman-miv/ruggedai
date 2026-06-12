@@ -147,8 +147,8 @@ export default function AboutPage() {
             <div className="space-y-6">
               {[
                 {
-                  title: "Claude for Teams",
-                  body: "Every participant gets set up on Claude for Teams — Anthropic's business platform. Skills, connectors, and custom workflows built around how your operation actually runs.",
+                  title: "Built on Claude",
+                  body: "Every participant gets set up on Claude — Anthropic's AI. Skills, connectors, and custom workflows built around how your operation actually runs.",
                 },
                 {
                   title: "Certified & Current",

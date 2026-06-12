@@ -29,7 +29,7 @@ const faqs = [
   },
   {
     q: "What does it cost to use Claude?",
-    a: "A personal Claude account runs $20/month and covers everything you'll do in the workshop. If you want to roll it out to your team afterward, Claude for Teams is available — we'll help you pick what fits. The $497 is for the workshop itself.",
+    a: "A Claude account runs $20/month and covers everything you'll do in the workshop. That's it — the $497 is for the workshop itself.",
   },
   {
     q: "Will sessions be recorded?",
@@ -196,7 +196,7 @@ export default function RuggedUClient() {
               {
                 week: "Week 1",
                 title: "Get Comfortable With Claude",
-                body: "Cut through the hype and understand what AI actually does and doesn't do. Learn how to talk to Claude and get real results. Get set up on Claude for Teams and start spotting where it could help in your business.",
+                body: "Cut through the hype and understand what AI actually does and doesn't do. Learn how to talk to Claude and get real results. Get set up on Claude and start spotting where it could help in your business.",
               },
               {
                 week: "Week 2",
@@ -369,7 +369,7 @@ export default function RuggedUClient() {
                 body: "Get unstuck between sessions, not just during them. Real answers for your business throughout the three weeks.",
               },
               {
-                title: "Set Up on Claude for Teams",
+                title: "Set Up on Claude",
                 body: "You leave with Claude configured and running for your business — not a trial you have to figure out alone.",
               },
               {
