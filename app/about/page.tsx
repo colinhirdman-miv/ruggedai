@@ -31,7 +31,7 @@ export default function AboutPage() {
             Built for the People Who Do the Real Work.
           </h1>
           <p className="text-brand-steel text-base md:text-lg max-w-2xl leading-relaxed">
-            You get up early. You run a crew. You bid jobs, deal with customers, and keep it all together. The businesses beating you to jobs right now aren&apos;t working harder — they have better systems. AI that follows up when you&apos;re on a ladder. AI that answers calls at 10pm. AI that turns a finished job into a five-star review before you&apos;ve packed up the truck. That&apos;s what this is about.
+            You get up early. You run a crew. You bid jobs, deal with customers, and keep it all together. The businesses pulling ahead right now aren&apos;t working harder — they&apos;ve figured out how to put AI to work on the stuff that eats your day: the follow-ups that slip, the quotes that sit, the busywork that piles up after a long day. Most owners haven&apos;t, because nobody&apos;s shown them how without the jargon. That&apos;s what RuggedAI is for — helping you put AI to work in your own business, built around how you actually run it, so you get your time back.
           </p>
         </div>
       </section>
