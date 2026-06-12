@@ -141,7 +141,7 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
             <div>
               <p className="text-[#374151] text-base leading-relaxed mb-4">
-                Every system we build runs on Claude — Anthropic&apos;s AI platform. Not because it&apos;s the most hyped. Because it&apos;s the best tool for what trades businesses actually need: complex, multi-step conversations that don&apos;t lose context, nuanced instruction-following, and real integration with your existing systems.
+                Every system we build runs on Claude — Anthropic&apos;s AI. Not because it&apos;s the most hyped. Because it&apos;s the best tool for what trades businesses actually need: it handles a real back-and-forth without losing the thread, it follows directions the way a sharp employee would, and it connects to the software you already use.
               </p>
               <p className="text-[#374151] text-base leading-relaxed">
                 We&apos;re certified in Claude. That means when you work with us, you&apos;re not getting someone figuring it out on your dime. You&apos;re getting someone who knows exactly how to configure it, prompt it, and connect it to your phone system, CRM, and scheduling software.
