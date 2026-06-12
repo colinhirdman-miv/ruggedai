@@ -153,7 +153,7 @@ export default function RuggedUClient() {
             className="font-display font-black uppercase leading-none text-brand-black mb-12"
             style={{ fontSize: "clamp(2.25rem, 5vw, 4rem)" }}
           >
-            Three Weeks. Real Work.
+            Three Weeks. AI That Works for You.
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {[
