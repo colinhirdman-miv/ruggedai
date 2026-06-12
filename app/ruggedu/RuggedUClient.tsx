@@ -49,7 +49,7 @@ const faqs = [
   },
   {
     q: "When does the next cohort start?",
-    a: "The next cohort runs three Tuesdays in a row — June 23, June 30, and July 7, 2026. Fill out the form to reserve your spot. If the timing doesn't work, let us know and we'll get you into the next one.",
+    a: "The next cohort runs three Tuesdays in a row — June 23, June 30, and July 7, 2026 — from 10:30am to noon CT. Fill out the form to reserve your spot. If the timing doesn't work, let us know and we'll get you into the next one.",
   },
 ];
 
@@ -103,6 +103,9 @@ export default function RuggedUClient() {
             </span>
             <span className="text-brand-steel uppercase tracking-wide text-sm">3-week workshop</span>
           </div>
+          <p className="font-display font-bold text-brand-iron text-sm uppercase tracking-wide mb-8">
+            Tuesdays · June 23, 30 &amp; July 7 · 10:30am–Noon CT
+          </p>
           <div className="border border-brand-red bg-[#130000] px-6 py-4 mb-10 max-w-xl flex items-start gap-4">
             <span className="text-brand-red font-black text-xl flex-shrink-0 mt-0.5">★</span>
             <div>
