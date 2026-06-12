@@ -201,7 +201,7 @@ export default function RuggedUClient() {
               {
                 week: "Week 2",
                 title: "Build Your Business Co-Pilot",
-                body: "Teach Claude your business — your services, your pricing, your voice — so it stops giving generic answers and starts working like it actually knows your shop. By the end of the week you have a co-pilot that gets your operation.",
+                body: "Teach Claude your business — your services, your pricing, your voice — so it stops giving generic answers and starts working like it actually knows your shop. By the end of this session you have a co-pilot that gets your operation.",
               },
               {
                 week: "Week 3",
