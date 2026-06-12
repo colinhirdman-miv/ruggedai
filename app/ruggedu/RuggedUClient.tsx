@@ -128,7 +128,7 @@ export default function RuggedUClient() {
 
       {/* ─── COHORT BAR ─── */}
       <div className="bg-brand-red px-6 py-4">
-        <div className="max-w-5xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-3 text-white">
+        <div className="max-w-5xl mx-auto flex flex-col sm:flex-row justify-center items-center gap-x-6 gap-y-3 text-white">
           <p className="font-display font-bold text-sm uppercase tracking-widest">
             Next Cohort Starts Tuesday, June 23
           </p>
