@@ -117,14 +117,15 @@ export default function HomePage() {
             Get Ahead of AI — and Get Your Time Back.
           </h2>
           <p className="text-[#374151] text-base md:text-lg max-w-3xl mb-16 leading-relaxed">
-            Whether you&apos;re growing fast or just trying to get your head above water, RuggedU helps you understand AI — and put it to work where it actually counts. Less time buried in busywork. More room to run your business. Three weeks, $497, and you&apos;ll see exactly what it can do for your operation.
+            Whether you&apos;re growing fast or just trying to get your head above water, there are two ways in. Learn to use AI yourself in the RuggedU workshop — or have us build it with you directly. Either way, the goal&apos;s the same: less time buried in busywork, more room to run your business.
           </p>
 
-          <RedLabel>Get to Work</RedLabel>
+          <RedLabel>Two Ways In</RedLabel>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {[
               {
+                tag: "Learn it yourself",
                 name: "RuggedU Workshop",
                 price: "$497",
                 period: "3-week workshop",
@@ -135,6 +136,7 @@ export default function HomePage() {
                 primary: true,
               },
               {
+                tag: "We build it with you",
                 name: "RuggedConsulting",
                 price: "Custom",
                 period: "multiple options",
@@ -153,6 +155,9 @@ export default function HomePage() {
                     : "border-[#1a1a1a] bg-brand-black"
                 }`}
               >
+                <p className={`font-display font-bold text-xs uppercase tracking-[0.2em] mb-3 ${offer.primary ? "text-brand-red" : "text-brand-iron"}`}>
+                  {offer.tag}
+                </p>
                 <h3 className="font-display font-black text-3xl md:text-4xl uppercase text-white leading-tight mb-2">
                   {offer.name.startsWith("Rugged") ? (
                     <><span className="text-brand-red">Rugged</span>{offer.name.slice(6)}</>
