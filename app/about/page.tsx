@@ -166,6 +166,38 @@ export default function AboutPage() {
               ))}
             </div>
           </div>
+
+          <div className="mt-16 border-t border-brand-iron/20 pt-12">
+            <RedLabel>Certifications</RedLabel>
+            <p className="text-[#374151] text-base leading-relaxed max-w-2xl mb-8">
+              Earned directly through Anthropic Education — verifiable, not self-awarded. Click any to confirm it.
+            </p>
+            <div className="space-y-px bg-brand-iron/20 border border-brand-iron/20">
+              {[
+                { title: "Claude Code 101", url: "https://verify.skilljar.com/c/6coa8btk9ew5" },
+                { title: "Introduction to Claude Cowork", url: "https://verify.skilljar.com/c/hszwcaegzht6" },
+                { title: "Introduction to Agent Skills", url: "https://verify.skilljar.com/c/f4fywuey6ndf" },
+                { title: "Claude Code in Action", url: "https://verify.skilljar.com/c/uzs7cn6k94xi" },
+                { title: "Introduction to Model Context Protocol", url: "https://verify.skilljar.com/c/u4mia89t5yjs" },
+              ].map((cert) => (
+                <a
+                  key={cert.title}
+                  href={cert.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-white px-6 py-5 flex items-center justify-between gap-4 hover:bg-brand-light transition-colors"
+                >
+                  <span className="font-display font-bold text-sm uppercase tracking-wide text-brand-black leading-snug">
+                    {cert.title}
+                  </span>
+                  <span className="font-display font-black text-xs uppercase tracking-widest text-brand-red flex-shrink-0 whitespace-nowrap">
+                    Verify →
+                  </span>
+                </a>
+              ))}
+            </div>
+            <p className="text-brand-steel text-xs mt-4 tracking-wide">Issued by Anthropic Education</p>
+          </div>
         </div>
       </section>
 
