@@ -101,7 +101,7 @@ export default function HomePage() {
             Your Business Should Work As Hard As You Do.
           </p>
           <p className="text-[#9CA3AF] text-base md:text-lg max-w-2xl mb-10 leading-relaxed">
-            The same mindset that gets you through a 12-hour service day — showing up, solving problems, handling what nobody else will touch — now works in software. Learn to build AI that answers your phones after hours, follows up on every estimate, requests reviews automatically, and closes more jobs. No technical background needed. No developers. Just you and systems that actually work.
+            The same mindset that gets you through a 12-hour service day — showing up, solving problems, handling what nobody else will touch — works in software too. Learn to put AI to work on the busywork that eats your day, built around how you actually run things. No technical background needed. No developers. Just you and AI that actually works.
           </p>
         </div>
       </section>
@@ -198,15 +198,14 @@ export default function HomePage() {
             The ones who move first are already pulling ahead.
           </p>
           <p className="text-[#374151] text-base md:text-lg max-w-3xl mb-16 leading-relaxed">
-            Every week your phone rings after hours and goes to voicemail. Estimates go out and nobody follows up. Customers finish a job and never get asked for a review. You know you should do something about it. You don&apos;t have the time or the expertise to figure out how. And every week you wait, a competitor who did figure it out is getting the jobs you should have closed.
+            Every week there&apos;s more to keep up with — quotes, scheduling, follow-ups, the admin that piles up after a long day. You know AI could help. You just don&apos;t have the time to figure out which tools matter, or someone you trust to show you how. And every week you wait, a competitor who did figure it out is pulling further ahead.
           </p>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
             {[
               { stat: "88%", label: "of your competitors haven't fully embedded AI — only 12% have moved", source: "ServiceTitan 2026" },
               { stat: "66%", label: "expect AI to meaningfully transform the trades within 1–3 years", source: "ServiceTitan 2026" },
               { stat: "3+", label: "hours saved per week by contractors already using AI tools", source: "ServiceTitan 2026" },
-              { stat: "60%", label: "reduction in missed calls for trades businesses using AI-powered call handling" },
             ].map(({ stat, label, source }) => (
               <div key={stat} className="bg-brand-black px-8 py-10 border-t-4 border-brand-red flex flex-col">
                 <p

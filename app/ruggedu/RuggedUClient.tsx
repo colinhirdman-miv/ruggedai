@@ -209,7 +209,7 @@ export default function RuggedUClient() {
               {
                 week: "Week 3",
                 title: "Put It to Work",
-                body: "Now make it run without you. Set up a routine that works in the background — a morning briefing, lead triage, whatever saves you the most time — so AI is handling real work while you're on the job. Make it reliable enough for your team, get an honest read on what to build versus buy, and leave with a roadmap for what to build next.",
+                body: "Now make it run without you. Set up a routine that works in the background — a morning briefing, lead triage, whatever saves you the most time — so AI is handling real work while you're on the job. Make it reliable enough for your team, learn what's worth building yourself versus paying for, and leave with a roadmap for what to build next.",
               },
             ].map((item, i) => (
               <div key={item.week} className="bg-white px-8 py-8 flex gap-8 items-start">
