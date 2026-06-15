@@ -23,7 +23,7 @@ export async function submitContact(
 
   try {
     await resend.emails.send({
-      from: "RuggedAI <onboarding@resend.dev>", // update to noreply@ruggedai.com once domain is verified
+      from: "RuggedAI <noreply@send.ruggedai.ai>", // requires send.ruggedai.ai verified in Resend
       to: "colin.hirdman@monkeyislandventures.com",
       subject: `New message from ${name} via RuggedAI`,
       text: `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`,
@@ -60,7 +60,7 @@ export async function submitBuild(
 
   try {
     await resend.emails.send({
-      from: "RuggedAI <onboarding@resend.dev>", // update to noreply@ruggedai.com once domain is verified
+      from: "RuggedAI <noreply@send.ruggedai.ai>", // requires send.ruggedai.ai verified in Resend
       to: "colin.hirdman@monkeyislandventures.com",
       replyTo: email,
       subject: `New RuggedAI inquiry from ${name} (${business})`,
