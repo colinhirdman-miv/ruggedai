@@ -109,12 +109,12 @@ export default function WorkWithUsPage() {
                 <span className="text-[#9CA3AF] text-sm ml-2 uppercase tracking-wide">two days on-site</span>
               </div>
               <p className="text-[#9CA3AF] text-sm leading-relaxed mb-6">
-                We come to your team. Every role gets AI built for what they actually do — your ops manager, parts manager, sales team, and CSR all leave with tools specific to their job. Private, focused, and built around how your operation actually runs.
+                We come to your team and work hands-on across the roles that run your operation — ops, parts, sales, dispatch. Together we put AI to work on what they actually do, day to day. Private to your company, and built around how your shop really runs.
               </p>
               <ul className="space-y-3 mb-8 flex-1">
                 {[
                   "Private — your company only",
-                  "Role-specific AI for each position",
+                  "Hands-on with each role's real work",
                   "Ops, parts, sales, dispatch covered",
                   "Live sessions with your full crew",
                   "Custom to your trade and market",
