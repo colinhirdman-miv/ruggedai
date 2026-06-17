@@ -233,6 +233,9 @@ export default function AboutPage() {
                 Over the years the three of us have built over a dozen software and service businesses. Along the way we built Augurian, a digital marketing agency, and Cloudburst, a custom software studio. The mission behind all of it has always been the same: share what we know and help create as many successful entrepreneurs as we can.
               </p>
               <p className="text-[#9CA3AF] text-base md:text-lg max-w-2xl leading-relaxed mb-4">
+                For the last twenty years I&apos;ve also been in real estate — through every up and down the market has handed out. That meant hiring dozens of contractors, managing more repairs and renovations than I can count, and leaning on HVAC techs, plumbers, electricians, and every trade in between to show up and do it right. I&apos;ve spent two decades on the customer&apos;s side of the invoice. I know what it&apos;s like to call after hours, get voicemail, and hire the next company on the list — because I&apos;ve done it. To me that&apos;s not a statistic. It&apos;s exactly the kind of job I&apos;ve watched good trades businesses lose, and it&apos;s why I know where AI actually moves the needle for you.
+              </p>
+              <p className="text-[#9CA3AF] text-base md:text-lg max-w-2xl leading-relaxed mb-4">
                 RuggedAI is the next chapter. The trades are full of serious operators — real crews, real revenue — getting outpaced by competitors who figured out how to use AI first. Not because they&apos;re smarter. Because they moved faster. That gap is closeable, and closing it is what RuggedAI is built to do.
               </p>
               <p className="text-[#9CA3AF] text-base md:text-lg max-w-2xl leading-relaxed mb-10">
