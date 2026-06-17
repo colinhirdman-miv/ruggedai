@@ -3,7 +3,7 @@ import RuggedUElectriciansClient from "./RuggedUElectriciansClient";
 
 export const metadata: Metadata = {
   title: "RuggedU for Electricians — AI Training for Electrical Contractors",
-  description: "A 3-week live workshop teaching electrical contractors to build real AI into their business — after-hours call handling, estimate follow-up, and more. $497.",
+  description: "A 3-week live workshop where electrical contractors learn to use Claude and build an AI co-pilot for their business. Live, hands-on, $497.",
   // Hidden page: not linked anywhere and excluded from search indexing.
   robots: { index: false, follow: false },
 };

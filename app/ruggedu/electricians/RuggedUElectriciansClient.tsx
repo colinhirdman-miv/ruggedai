@@ -21,11 +21,15 @@ const faqs = [
   },
   {
     q: "Is this really just for electricians?",
-    a: "Yes. Every example, script, and build is specific to electrical contractors — residential and commercial. After-hours emergency calls, estimate follow-up, the way you actually quote and close work.",
+    a: "Yes. Every example is specific to electrical contractors — residential and commercial — built around the way you actually quote, schedule, and run work.",
   },
   {
     q: "How long are the sessions?",
-    a: "Live, once a week for three weeks. Every session is recorded and available immediately, so you don't fall behind when a job runs long.",
+    a: "About 90 minutes each, live, once a week for three weeks. Every session is recorded and available immediately, so you don't fall behind when a job runs long.",
+  },
+  {
+    q: "What does it cost to use Claude?",
+    a: "A Claude account runs $20/month and covers everything you'll do in the workshop. That's it — the $497 is for the workshop itself.",
   },
   {
     q: "What if this isn't right for me after the first session?",
@@ -78,13 +82,13 @@ export default function RuggedUElectriciansClient() {
             className="font-display font-black uppercase leading-none text-white mb-6"
             style={{ fontSize: "clamp(2.5rem, 7vw, 5.5rem)", letterSpacing: "-0.01em" }}
           >
-            <span className="text-brand-red">Rugged</span>U <span className="text-brand-steel">for Electricians</span>
+            <span className="text-brand-red">Rugged</span>U <span className="text-[#9CA3AF]">for Electricians</span>
           </h1>
-          <p className="font-display font-bold text-xl md:text-2xl text-brand-steel uppercase tracking-wide mb-6 max-w-3xl">
-            A small group of electrical contractors building real AI into their businesses — together — over three weeks.
+          <p className="font-display font-bold text-xl md:text-2xl text-[#9CA3AF] uppercase tracking-wide mb-6 max-w-3xl">
+            You leave with an AI co-pilot that knows your electrical business — and works for you every day.
           </p>
-          <p className="text-brand-steel text-base md:text-lg max-w-2xl mb-8 leading-relaxed">
-            Live. Hands-on. Built around how electrical shops actually run — after-hours calls, estimates, dispatch, the works. You leave with working systems, not slides.
+          <p className="text-[#9CA3AF] text-base md:text-lg max-w-2xl mb-8 leading-relaxed">
+            Three weeks, live and hands-on, alongside a small group of electrical contractors facing the same things you are. You&apos;ll cut through the hype, learn how AI actually works in plain English, and put it to work where it counts in your shop.
           </p>
           <div className="flex items-baseline gap-3 mb-6">
             <span
@@ -93,7 +97,7 @@ export default function RuggedUElectriciansClient() {
             >
               $497
             </span>
-            <span className="text-brand-steel uppercase tracking-wide text-sm">3-week workshop</span>
+            <span className="text-[#9CA3AF] uppercase tracking-wide text-sm">3-week workshop</span>
           </div>
           <div className="border border-brand-red bg-[#130000] px-6 py-4 mb-10 max-w-xl flex items-start gap-4">
             <span className="text-brand-red font-black text-xl flex-shrink-0 mt-0.5">★</span>
@@ -101,7 +105,7 @@ export default function RuggedUElectriciansClient() {
               <p className="font-display font-black text-white text-sm uppercase tracking-wide mb-1">
                 Lifetime Cohort Access Included
               </p>
-              <p className="text-brand-steel text-sm leading-relaxed">
+              <p className="text-[#9CA3AF] text-sm leading-relaxed">
                 Enroll once and you&apos;re in every future cohort. The curriculum evolves with AI — and so will you.
               </p>
             </div>
@@ -117,7 +121,7 @@ export default function RuggedUElectriciansClient() {
 
       {/* ─── COHORT BAR ─── */}
       <div className="bg-brand-red px-6 py-4">
-        <div className="max-w-5xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-3 text-white">
+        <div className="max-w-5xl mx-auto flex flex-col sm:flex-row justify-center items-center gap-x-6 gap-y-3 text-white">
           <p className="font-display font-bold text-sm uppercase tracking-widest">
             Built for Electrical Contractors
           </p>
@@ -146,17 +150,17 @@ export default function RuggedUElectriciansClient() {
             className="font-display font-black uppercase leading-none text-brand-black mb-12"
             style={{ fontSize: "clamp(2.25rem, 5vw, 4rem)" }}
           >
-            Three Weeks. Real Work.
+            Three Weeks. AI That Works for You.
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {[
               {
-                title: "Working AI In Your Shop",
-                body: "Before the three weeks are up, you have real systems running. After-hours calls answered. Estimates followed up. Reviews coming in. Not theory — your actual operation, running better.",
+                title: "An AI Co-Pilot That Knows Your Shop",
+                body: "You leave with a co-pilot that knows your pricing, your service area, your services, and how you talk to customers — so it stops giving generic answers and starts answering like someone who actually works there. Yours to keep.",
               },
               {
-                title: "Built for Electrical Work",
-                body: "Not generic templates. Systems built around how electrical contractors actually operate — emergency calls, panel jobs, residential and commercial quotes, the way you close work.",
+                title: "Get Your Time Back",
+                body: "By week three your co-pilot isn't just answering questions — it's running on its own. You set up a routine that works in the background, like a morning briefing or lead triage, so AI is handling real work while you're out on a job.",
               },
               {
                 title: "A Room of Electricians",
@@ -167,7 +171,7 @@ export default function RuggedUElectriciansClient() {
                 <h3 className="font-display font-black text-xl uppercase text-white leading-tight mb-4">
                   {pillar.title}
                 </h3>
-                <p className="text-brand-steel text-sm leading-relaxed">{pillar.body}</p>
+                <p className="text-[#9CA3AF] text-sm leading-relaxed">{pillar.body}</p>
               </div>
             ))}
           </div>
@@ -185,26 +189,24 @@ export default function RuggedUElectriciansClient() {
             What We Build Together Over 3 Weeks
           </h2>
           <p className="text-[#374151] text-base md:text-lg max-w-2xl mb-12 leading-relaxed">
-            You already know how to solve problems on the job. This teaches you to solve them in software. Everything you build runs on Claude — Anthropic&apos;s AI — and you&apos;ll leave set up with workflows built for an electrical business. Every session is live, specific to electrical work, and ends with something running in your shop — not homework for later.
+            You already know how to solve problems on the job. This teaches you to solve them with AI. Over three weeks you learn to actually use Claude — the AI you&apos;ll build on — and put it to work on the stuff that eats your time. Every session is live, specific to electrical work, and ends with something running in your shop — not homework for later.
           </p>
           <div className="space-y-px bg-brand-iron/20">
             {[
               {
                 week: "Week 1",
-                title: "AI Fundamentals for Electricians",
-                body: "Understand how AI agents actually work and where they create the most leverage in an electrical business. Map your operation for opportunities — emergency calls, estimates, scheduling, dispatch. Get set up on Claude.",
+                title: "Get Comfortable With Claude",
+                body: "Cut through the hype and understand what AI actually does and doesn't do. Learn how to talk to Claude and get real results. Get set up on Claude and start spotting where it could help in your electrical business.",
               },
               {
                 week: "Week 2",
-                title: "After-Hours Call Handling",
-                body: "Build an AI that answers emergency calls, triages true emergencies from jobs that can wait, gives callers the right safety steps, and books work when you can't pick up. Residential and commercial paths built in.",
-                proof: "One trades company handled 7,000 calls in a single week during a cold snap with an AI voice agent running an 80–85% booking rate and average call time under five minutes. Another cut their missed call rate by 60%.",
-                source: "ServiceTitan State of AI in the Trades 2026",
+                title: "Build Your Business Co-Pilot",
+                body: "Teach Claude your business — your services, your pricing, your voice — so it stops giving generic answers and starts working like it actually knows your shop. By the end of this session you have a co-pilot that gets how an electrical business runs.",
               },
               {
                 week: "Week 3",
-                title: "Estimates, Follow-Up & Going Live",
-                body: "Build a workflow that drafts quotes in your voice using your pricing, chases down estimates that go cold, and requests reviews at the right moment — then connect it to the tools you already use and go live. Leave with everything running in your shop.",
+                title: "Put It to Work",
+                body: "Now make it run without you. Set up a routine that works in the background — a morning briefing, lead triage, whatever saves you the most time — so AI is handling real work while you're out on a job. Make it reliable enough for your crew, learn what's worth building yourself versus paying for, and leave with a roadmap for what to build next.",
               },
             ].map((item, i) => (
               <div key={item.week} className="bg-white px-8 py-8 flex gap-8 items-start">
@@ -224,12 +226,6 @@ export default function RuggedUElectriciansClient() {
                     {item.title}
                   </h3>
                   <p className="text-[#374151] text-sm leading-relaxed">{item.body}</p>
-                  {item.proof && (
-                    <p className="text-[#374151] text-sm leading-relaxed mt-3">{item.proof}</p>
-                  )}
-                  {item.source && (
-                    <p className="text-brand-steel text-xs mt-2 tracking-wide">{item.source}</p>
-                  )}
                 </div>
               </div>
             ))}
@@ -254,7 +250,7 @@ export default function RuggedUElectriciansClient() {
               >
                 Every Session is Recorded
               </h2>
-              <p className="text-brand-steel text-base md:text-lg leading-relaxed">
+              <p className="text-[#9CA3AF] text-base md:text-lg leading-relaxed">
                 Electrical work doesn&apos;t run on a 9-to-5. Emergency calls, long days, jobs that run over — your schedule isn&apos;t always your own. That&apos;s why every live session is recorded and available on-demand. Join live when you can, catch up when you can&apos;t. You won&apos;t fall behind.
               </p>
             </div>
@@ -285,10 +281,10 @@ export default function RuggedUElectriciansClient() {
               <p className="font-display font-bold text-xs uppercase tracking-[0.2em] text-brand-red mb-4">
                 Founder, Rugged<span className="text-white">AI</span>
               </p>
-              <p className="text-brand-steel text-base leading-relaxed mb-4 max-w-xl">
+              <p className="text-[#9CA3AF] text-base leading-relaxed mb-4 max-w-xl">
                 Colin has spent over two decades building companies. He co-founded Monkey Island Ventures and built Augurian, a digital marketing agency, and Cloudburst, a custom software studio. He&apos;s also spent two decades working with the trades — hiring and working alongside dozens of contractors through twenty years in real estate — so he knows the world you operate in. RuggedAI is where it all comes together — bringing the marketing, technology, and AI know-how he&apos;s built across industries to the trades.
               </p>
-              <p className="text-brand-steel text-base leading-relaxed max-w-xl">
+              <p className="text-[#9CA3AF] text-base leading-relaxed max-w-xl">
                 His approach is direct. No fluff. No jargon. Just practical, hands-on work focused on building AI that actually fits how your business runs.
               </p>
             </div>
@@ -314,7 +310,7 @@ export default function RuggedUElectriciansClient() {
               <ul className="space-y-4">
                 {[
                   "You run an electrical business — or help run one",
-                  "You're losing after-hours calls to voicemail",
+                  "You're buried in busywork and know AI could help",
                   "You want AI that actually works in your shop",
                   "You (or someone on your team) can commit three weeks",
                   "You're tired of tools built for someone else",
@@ -360,41 +356,41 @@ export default function RuggedUElectriciansClient() {
             What You&apos;ll Get.
           </h2>
           <p className="text-[#374151] text-base md:text-lg max-w-2xl mb-12 leading-relaxed">
-            Everything you need to start building AI into your electrical business.
+            What you need to start putting AI to work in your electrical business — and keep building after.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
             {[
               {
                 title: "3 Live Weekly Sessions",
-                body: "Live sessions with Colin. Build in real time, get specific answers for electrical work.",
+                body: "Build live with Colin, three weeks running. Bring the real bottlenecks — estimates, scheduling, dispatch — and work on them together, live.",
               },
               {
                 title: "Direct Access to Colin",
-                body: "Get unstuck between sessions, not just during them. Real answers for your shop throughout the three weeks.",
+                body: "Hit a wall building something between sessions? Reach Colin directly all three weeks — not just during class.",
               },
               {
                 title: "Set Up on Claude",
-                body: "You leave with Claude configured and running for your business — not a trial you have to figure out alone.",
+                body: "You leave with Claude set up around your business — your services, your pricing, the way you work. Not a trial you're left to figure out alone.",
               },
               {
                 title: "A Cohort of Electricians",
-                body: "Build alongside other electrical contractors solving the same problems — a network you keep after.",
+                body: "Build alongside other electrical contractors working through the same problems you are. A small group that gets it.",
               },
               {
                 title: "Forever Access to Recordings",
-                body: "Every session recorded. Watch and rewatch anytime, on your schedule.",
+                body: "Every session recorded. Miss one for an emergency call or a packed schedule? Watch and rewatch anytime, on your schedule.",
               },
               {
                 title: "Templates & Prompts",
-                body: "Ready-to-use templates and prompts built for electrical work — plug in your business and customize.",
+                body: "Prompts and templates to adapt for electrical work — quoting, follow-ups, scheduling — so you're not starting from a blank page.",
               },
               {
                 title: "AI Tool Comparison Guide",
-                body: "Know which AI tool to reach for on every job — no more guessing or hype.",
+                body: "A clear read on the AI tools out there — what's worth paying for, what's hype, and what fits an electrical business.",
               },
               {
                 title: "A Repeatable System",
-                body: "A method for building and connecting AI tools for your shop long after the workshop ends.",
+                body: "A repeatable way to keep building AI for your shop after the workshop — so as your business changes, you're not starting over.",
               },
             ].map((item) => (
               <div key={item.title} className="border border-brand-iron/30 p-6 border-t-4 border-t-brand-red">
@@ -446,10 +442,10 @@ export default function RuggedUElectriciansClient() {
             >
               $497
             </span>
-            <span className="text-brand-steel uppercase tracking-wide text-sm">3-week workshop · lifetime access</span>
+            <span className="text-[#9CA3AF] uppercase tracking-wide text-sm">3-week workshop · lifetime access</span>
           </div>
-          <p className="text-brand-steel text-base max-w-xl mx-auto mb-10 leading-relaxed">
-            Four weeks. Working systems built for electrical work. No fluff. If you show up to the first session and it&apos;s not right for you, full refund — no questions asked.
+          <p className="text-[#9CA3AF] text-base max-w-xl mx-auto mb-10 leading-relaxed">
+            Three weeks. Working systems built for electrical work. No fluff. If you show up to the first session and it&apos;s not right for you, full refund — no questions asked.
           </p>
           <Link
             href="/build"
