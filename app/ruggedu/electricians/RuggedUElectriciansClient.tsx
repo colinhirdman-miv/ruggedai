@@ -286,7 +286,7 @@ export default function RuggedUElectriciansClient() {
                 Founder, Rugged<span className="text-white">AI</span>
               </p>
               <p className="text-brand-steel text-base leading-relaxed mb-4 max-w-xl">
-                Colin has spent over two decades building companies. He co-founded Monkey Island Ventures and built Augurian, a digital marketing agency, and Cloudburst, a custom software studio. He&apos;s also spent twenty years in real estate — hiring dozens of contractors and relying on every trade there is — so he knows this business from the customer&apos;s side of the invoice. RuggedAI is where it all comes together — bringing the marketing, technology, and AI know-how he&apos;s built across industries to the trades.
+                Colin has spent over two decades building companies. He co-founded Monkey Island Ventures and built Augurian, a digital marketing agency, and Cloudburst, a custom software studio. He&apos;s also spent two decades working with the trades — hiring and working alongside dozens of contractors through twenty years in real estate — so he knows the world you operate in. RuggedAI is where it all comes together — bringing the marketing, technology, and AI know-how he&apos;s built across industries to the trades.
               </p>
               <p className="text-brand-steel text-base leading-relaxed max-w-xl">
                 His approach is direct. No fluff. No jargon. Just practical, hands-on work focused on building AI that actually fits how your business runs.
