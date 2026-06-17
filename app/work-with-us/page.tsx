@@ -73,7 +73,7 @@ export default function WorkWithUsPage() {
                 <span className="text-brand-red">Rugged</span>Kickstart
               </h3>
               <p className="text-[#9CA3AF] text-base leading-relaxed max-w-2xl">
-                I spend 90 minutes — in your office or over video — showing your team exactly where AI can have the biggest impact on your operation — specific to your trade, your market, your roles. No slides. No theory. Real examples built around how you actually run your business. You&apos;ll leave with concrete AI opportunities specific to your trade — things you can act on right away. Pick any day, any time.
+                A 90-minute AI 101 for the trades — in your office or over video, for you or your team. Plain English, no jargon: what AI actually is, what it can and can&apos;t do, and how other trades businesses are starting to use it. We&apos;ll talk through how it might fit an operation like yours, using real examples from your trade — so you walk away understanding the landscape instead of drowning in hype. Pick any day, any time.
               </p>
             </div>
             <div className="flex-shrink-0 flex flex-col items-start md:items-end gap-4">
