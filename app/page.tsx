@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "RuggedAI — AI Built for the Trades",
-  description: "AI consulting for HVAC, plumbing, pest control, and electrical businesses. Stop losing jobs to voicemail. RuggedU Workshop $497 or 1:1 consulting.",
+  description: "AI consulting and training for HVAC, plumbing, pest control, and electrical businesses. Learn to put AI to work in your operation. RuggedU Workshop $497 or 1:1 consulting.",
 };
 
 function RedLabel({ children }: { children: React.ReactNode }) {

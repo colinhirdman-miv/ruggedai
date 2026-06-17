@@ -109,8 +109,8 @@ export default function AboutPage() {
                 label: "expect AI to meaningfully transform the trades within 1–3 years",
               },
               {
-                stat: "60%",
-                label: "reduction in missed calls for trades using AI-powered call handling",
+                stat: "3+",
+                label: "hours saved per week by contractors already using AI tools",
               },
             ].map(({ stat, label }) => (
               <div key={stat} className="bg-brand-black px-8 py-10 border-t-4 border-brand-red">

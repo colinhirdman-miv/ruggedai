@@ -448,7 +448,7 @@ export default function RuggedUClient() {
             <span className="text-[#9CA3AF] uppercase tracking-wide text-sm">3-week workshop · lifetime access</span>
           </div>
           <p className="text-[#9CA3AF] text-base max-w-xl mx-auto mb-10 leading-relaxed">
-            Four weeks. Working systems. No fluff. If you show up to the first session and it&apos;s not right for you, full refund — no questions asked.
+            Three weeks. Working systems. No fluff. If you show up to the first session and it&apos;s not right for you, full refund — no questions asked.
           </p>
           <Link
             href="/build"

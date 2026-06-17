@@ -1,3 +1,9 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  robots: { index: false, follow: false },
+};
+
 const FONT = "var(--font-barlow-condensed), 'Barlow Condensed', 'Arial Narrow', Arial, sans-serif";
 const HEX_OUTER = "169.28,140 100,180 30.72,140 30.72,60 100,20 169.28,60";
 const HEX_INNER = "154.28,131 100,162 45.72,131 45.72,69 100,38 154.28,69";
