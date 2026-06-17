@@ -35,7 +35,7 @@ export default function WorkWithUsPage() {
               Your highest-impact AI opportunities, built together.
             </p>
             <p className="text-[#9CA3AF] text-base md:text-lg max-w-2xl mb-6 leading-relaxed">
-              You already know where your business is bleeding — the calls that go to voicemail, the estimates that go cold, the reviews you never got around to asking for. This is about fixing those specific holes in your specific operation. Not a course. Not a template. Your business, built to close more.
+              You already know where your business is bleeding — the busywork that eats your team&apos;s day, the work that should run itself, the things that slip through the cracks when everyone&apos;s slammed. Not a course. Not a template. We find the highest-impact fixes for your specific operation and build them with you.
             </p>
             <p className="text-[#9CA3AF] text-base md:text-lg max-w-2xl mb-10 leading-relaxed">
               Colin&apos;s spent two decades working with the trades — hiring and working alongside dozens of contractors through twenty years in real estate. He knows where these businesses lose work, and where AI actually closes the gap.
