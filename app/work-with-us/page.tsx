@@ -76,7 +76,7 @@ export default function WorkWithUsPage() {
                 <span className="text-brand-red">Rugged</span>Kickstart
               </h3>
               <p className="text-[#9CA3AF] text-base leading-relaxed max-w-2xl">
-                A 90-minute AI 101 for the trades — in your office or over video, for you or your team. Plain English, no jargon: what AI actually is, what it can and can&apos;t do, and how other trades businesses are starting to use it. We&apos;ll talk through how it might fit an operation like yours, using real examples from your trade — so you walk away understanding the landscape instead of drowning in hype. Pick any day, any time.
+                A 90-minute AI 101 for the trades — in your office or over video, for you or your team. Plain English, no jargon: what AI actually is, what it can and can&apos;t do, and how other trades businesses are starting to use it. We&apos;ll talk through how it might fit an operation like yours, using everyday examples from the trades — so you walk away understanding the landscape instead of drowning in hype. Pick any day, any time.
               </p>
             </div>
             <div className="flex-shrink-0 flex flex-col items-start md:items-end gap-4">
