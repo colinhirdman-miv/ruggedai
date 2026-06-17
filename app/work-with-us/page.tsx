@@ -34,8 +34,11 @@ export default function WorkWithUsPage() {
             <p className="font-display font-bold text-xl md:text-2xl text-[#9CA3AF] uppercase tracking-wide mb-6 max-w-3xl">
               Your highest-impact AI opportunities, built together.
             </p>
-            <p className="text-[#9CA3AF] text-base md:text-lg max-w-2xl mb-10 leading-relaxed">
+            <p className="text-[#9CA3AF] text-base md:text-lg max-w-2xl mb-6 leading-relaxed">
               You already know where your business is bleeding — the calls that go to voicemail, the estimates that go cold, the reviews you never got around to asking for. This is about fixing those specific holes in your specific operation. Not a course. Not a template. Your business, built to close more.
+            </p>
+            <p className="text-[#9CA3AF] text-base md:text-lg max-w-2xl mb-10 leading-relaxed">
+              Colin&apos;s spent twenty years in real estate — hiring dozens of contractors and relying on every trade there is. He&apos;s seen these holes from the customer&apos;s side of the invoice, and he knows where AI actually closes them.
             </p>
             <Link
               href="/build"

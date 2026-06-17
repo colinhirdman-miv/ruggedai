@@ -100,8 +100,11 @@ export default function HomePage() {
           >
             Your Business Should Work As Hard As You Do.
           </p>
-          <p className="text-[#9CA3AF] text-base md:text-lg max-w-2xl mb-10 leading-relaxed">
+          <p className="text-[#9CA3AF] text-base md:text-lg max-w-2xl mb-6 leading-relaxed">
             The same mindset that gets you through a 12-hour service day — showing up, solving problems, handling what nobody else will touch — works in software too. Learn to put AI to work on the busywork that eats your day, built around how you actually run things. No technical background needed. No developers. Just you and AI that actually works.
+          </p>
+          <p className="text-[#9CA3AF] text-sm md:text-base max-w-2xl leading-relaxed">
+            Built by someone who&apos;s spent 20 years in real estate hiring every trade there is — RuggedAI comes from your customer&apos;s side of the table, not a tech lab.
           </p>
         </div>
       </section>
