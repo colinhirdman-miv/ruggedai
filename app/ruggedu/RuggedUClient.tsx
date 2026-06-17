@@ -162,8 +162,8 @@ export default function RuggedUClient() {
                 body: "You leave with a co-pilot that knows your pricing, your service area, your services, and how you talk to customers — so it stops giving generic answers and starts answering like someone who actually works there. Yours to keep.",
               },
               {
-                title: "You Build What Matters to You",
-                body: "No cookie-cutter tool. You pick the work that's actually eating your time — quoting, follow-ups, dispatch, whatever it is — and build AI around that. It's your business, so it's your call what gets built.",
+                title: "AI That Works While You're on the Job",
+                body: "By week three your co-pilot isn't just answering questions — it's running on its own. You set up a routine that works in the background, like a morning briefing or lead triage, so AI is handling real work while you're out on a call.",
               },
               {
                 title: "You're Not in the Room Alone",
