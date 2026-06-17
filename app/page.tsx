@@ -104,7 +104,7 @@ export default function HomePage() {
             The same mindset that gets you through a 12-hour service day — showing up, solving problems, handling what nobody else will touch — works in software too. Learn to put AI to work on the busywork that eats your day, built around how you actually run things. No technical background needed. No developers. Just you and AI that actually works.
           </p>
           <p className="text-[#9CA3AF] text-sm md:text-base max-w-2xl leading-relaxed">
-            Built by someone who&apos;s spent 20 years working with the trades — and who actually knows the AI. You get both.
+            Built by someone who&apos;s spent 20 years working with the trades — and who actually knows the AI.
           </p>
         </div>
       </section>
