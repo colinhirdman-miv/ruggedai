@@ -192,7 +192,7 @@ export default function RuggedUClient() {
             Learn Claude. Build for Your Business.
           </h2>
           <p className="text-[#374151] text-base md:text-lg max-w-2xl mb-12 leading-relaxed">
-            This isn&apos;t a lecture series. Over three weeks you learn to actually use Claude — Anthropic&apos;s AI — and put it to work on the stuff that eats your time. You pick what to build for your own business, and you leave with it running plus the know-how to keep building.
+            This isn&apos;t a lecture series. Over three weeks you learn to actually use Claude — the AI you&apos;ll build on — and put it to work on the stuff that eats your time. You pick what to build for your own business, and you leave with it running plus the know-how to keep building.
           </p>
           <div className="space-y-px bg-brand-iron/20">
             {[
