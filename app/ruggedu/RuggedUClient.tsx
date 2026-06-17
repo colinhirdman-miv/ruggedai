@@ -92,7 +92,7 @@ export default function RuggedUClient() {
             You leave with an AI co-pilot that knows your business — and works for you every day.
           </p>
           <p className="text-[#9CA3AF] text-base md:text-lg max-w-2xl mb-8 leading-relaxed">
-            Built over three weeks, live and hands-on, alongside a small group of trades pros with the same problems you have. Not slides. Not theory. The real thing — and it&apos;s yours to keep.
+            Three weeks, live and hands-on, alongside a small group of trades pros facing the same things you are. You&apos;ll cut through the hype, learn how AI actually works in plain English, and put it to work where it counts in your business.
           </p>
           <div className="flex items-baseline gap-3 mb-6">
             <span
