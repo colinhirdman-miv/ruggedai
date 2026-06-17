@@ -136,9 +136,6 @@ export default function WorkWithUsPage() {
 
             {/* 1:1 Consulting */}
             <div className="border border-brand-red bg-brand-black p-10 flex flex-col border-t-4">
-              <p className="font-display font-bold text-xs uppercase tracking-[0.2em] text-brand-red mb-4">
-                Most Popular
-              </p>
               <h3 className="font-display font-black text-3xl uppercase text-white mb-2">
                 <span className="text-brand-red">Rugged</span>Consulting
               </h3>
