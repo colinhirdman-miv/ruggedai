@@ -35,18 +35,18 @@ export default function HostClient() {
       {/* ─── HERO ─── */}
       <section className="pt-36 pb-20 px-6 bg-brand-black">
         <div className="max-w-4xl mx-auto">
-          <RedLabel>Host an Event</RedLabel>
+          <RedLabel>For Trades Suppliers</RedLabel>
           <h1
             className="font-display font-black uppercase leading-none text-white mb-6"
             style={{ fontSize: "clamp(2.75rem, 7vw, 5.5rem)", letterSpacing: "-0.01em" }}
           >
-            Bring AI to Your People.
+            Bring AI to Your Contractors.
           </h1>
           <p className="font-display font-bold text-xl md:text-2xl text-[#9CA3AF] uppercase tracking-wide mb-6 max-w-3xl">
-            Give the trades businesses you serve a real, plain-English intro to AI.
+            Give the contractors who buy from you a real intro to AI — and a reason to keep choosing you.
           </p>
           <p className="text-[#9CA3AF] text-base md:text-lg max-w-2xl mb-10 leading-relaxed">
-            We&apos;ll run a free, no-pitch AI education session for your customers, members, or network. You bring the room and the invite list — we bring the content and run the whole thing. You look like the one who helped them get ahead of AI.
+            We&apos;ll run a free, no-pitch AI session for your pro accounts — at your branch or over video. You invite your contractors and provide the room; we bring the content and run the whole thing. You&apos;re the supplier who helped them get ahead of AI.
           </p>
           <a
             href="#host-form"
@@ -68,7 +68,7 @@ export default function HostClient() {
             An AI 101 for the Trades.
           </h2>
           <p className="text-[#374151] text-base md:text-lg max-w-2xl mb-8 leading-relaxed">
-            A roughly 60-minute session, in person at your location or over video, taught in plain English — no jargon, no hype, and no sales pitch. We cover what AI actually is, what it can and can&apos;t do, and how trades businesses are starting to put it to work. Your people leave understanding the landscape instead of feeling behind.
+            A roughly 60-minute session, in person at your location or over video, taught in plain English — no jargon, no hype, and no sales pitch. We cover what AI actually is, what it can and can&apos;t do, and how trades businesses are starting to put it to work. Your contractors leave understanding the landscape instead of feeling behind.
           </p>
           <ul className="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-2xl">
             {[
@@ -94,25 +94,25 @@ export default function HostClient() {
             className="font-display font-black uppercase leading-none text-brand-black mb-12"
             style={{ fontSize: "clamp(2.25rem, 5vw, 4rem)" }}
           >
-            It Makes You Look Good — At No Cost.
+            Loyalty, Traffic, and Goodwill — At No Cost.
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {[
               {
-                title: "Give Your Network Real Value",
-                body: "AI is the thing every trades owner is wondering about. Be the one who brought them a straight answer — no strings attached.",
+                title: "Give Them a Reason to Keep Choosing You",
+                body: "The supplier who helps contractors run a better business is the one they keep buying from. This is the kind of value that makes your accounts stick.",
               },
               {
-                title: "Position Yourself as Forward-Thinking",
-                body: "You become the partner helping your customers and members get ahead of where the industry is going, not just selling to them.",
+                title: "Stand Out From the Supplier Down the Road",
+                body: "Everyone else is competing on price and stock. You're the one bringing your contractors something genuinely useful — that's how you stay top of mind.",
+              },
+              {
+                title: "Get Your Pro Accounts in the Door",
+                body: "An hour of real value is a reason for your best customers to show up at your branch — face time you don't get on an ordinary sales day.",
               },
               {
                 title: "It Costs You Almost Nothing",
-                body: "You provide a room and an invite to your list. We handle the content, the teaching, and the follow-up. Minimal lift on your end.",
-              },
-              {
-                title: "Deepen the Relationships You Have",
-                body: "A room full of the trades businesses you serve, spending an hour with you as the host. That goodwill sticks.",
+                body: "You provide the room and the invite. We handle the content, the teaching, and the follow-up. Minimal lift on your end.",
               },
             ].map((card) => (
               <div key={card.title} className="bg-brand-black p-8 border-t-4 border-brand-red">
@@ -123,6 +123,9 @@ export default function HostClient() {
               </div>
             ))}
           </div>
+          <p className="text-[#374151] text-base md:text-lg max-w-2xl mt-10 leading-relaxed">
+            And the invite practically sends itself: it&apos;s free, genuinely useful, and there&apos;s no sales pitch. Your contractors get plenty of vendor invitations — this is the rare one they&apos;ll thank you for.
+          </p>
         </div>
       </section>
 
@@ -143,9 +146,9 @@ export default function HostClient() {
               </p>
               <ul className="space-y-4">
                 {[
-                  "A room (or a video link)",
-                  "An invite to your customers / members / network",
-                  "A date that works for your people",
+                  "Your space — a branch, showroom, or counter area (or a video link)",
+                  "An invite to your pro accounts and contractor customers",
+                  "A date that works for your buyers",
                 ].map((item) => (
                   <li key={item} className="text-brand-iron text-sm flex items-start gap-3">
                     <span className="w-2 h-2 bg-brand-red flex-shrink-0 mt-1.5" />
@@ -281,7 +284,7 @@ export default function HostClient() {
                     value={form.audience}
                     onChange={handleChange}
                     className="w-full bg-white border border-brand-iron/60 text-brand-black px-4 py-3 focus:outline-none focus:border-brand-red transition-colors text-sm"
-                    placeholder="Contractors we serve, association members…"
+                    placeholder="Our pro accounts, the contractors who buy from us…"
                   />
                 </div>
               </div>

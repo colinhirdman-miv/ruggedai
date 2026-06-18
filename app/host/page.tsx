@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import HostClient from "./HostClient";
 
 export const metadata: Metadata = {
-  title: "Host an AI for the Trades Event — RuggedAI",
-  description: "Partner with RuggedAI to host a free, no-pitch AI education session for the trades businesses you serve. We bring the content; you bring the room.",
+  title: "Host an AI Session for Your Contractors — RuggedAI",
+  description: "For trades suppliers: host a free, no-pitch AI session for the contractors who buy from you. We bring the content; you bring the room — and the loyalty that comes with it.",
   // Targeted send, not general traffic: kept out of search indexing.
   robots: { index: false, follow: false },
 };
