@@ -19,33 +19,31 @@ _Owner: Colin Hirdman · Created: 2026-06-22 · Companion to `launch-plan.md` an
 
 ## Cohort 1 sprint — day by day
 
-Context: today is **Mon June 22** (decision-gate day per `launch-plan.md`), kickoff is **Tue June 23**. You can't conjure a paid cohort overnight — today is a warm-list blitz, with a go/no-go call at ~6pm.
+Context: today is **Mon June 22**. Rather than rush a half-full first session, Cohort 1 kicks off **Tue June 30** — a full week to fill seats properly. Sessions run on consecutive Tuesdays, but Colin is **out the weeks of July 13 and July 27**, so the cadence skips the July 13 week.
 
-### Monday June 22 (today) — Blitz + Decision Gate
-- **Morning (2 hrs):** Write down 20–25 names who'd take your call — past real-estate contractors, MIV/Josh/Zack referrals, any trades owner you know personally. Warm only. Note name + best channel + one personal line each.
-- **Midday (3 hrs):** Call the warmest 5–8 directly (phone, not text — this is where founding seats come from). Pitch: "First small group, tomorrow, three Tuesday sessions, you walk out with an AI co-pilot for your business — I want you in it." Text/DM the rest using the warm variant (lead with the ask).
+**Confirmed schedule:**
+- **Session 1 — Tue June 30:** "Get Comfortable With Claude"
+- **Session 2 — Tue July 7:** "Build Your Business Co-Pilot" (the magic session)
+- _(skip week of July 13 — out)_
+- **Session 3 — Tue July 21:** "Put It to Work"
+
+### This week (June 22–26) — Fill the cohort
+- **Build the warm list (2 hrs):** 20–25 names who'd take your call — past real-estate contractors, MIV/Josh/Zack referrals, any trades owner you know personally. Warm only. Note name + best channel + one personal line each.
+- **Call the warmest 5–8 directly** (phone, not text — this is where founding seats come from). Pitch: "First small group, three Tuesday sessions starting June 30, you walk out with an AI co-pilot for your business — I want you in it." Text/DM the rest using the warm variant (lead with the ask).
 - Post **one** LinkedIn announcement (build-in-public voice, personal feed).
-- **Late afternoon (30 min):** Test the contact form lands at colin.hirdman@ruggedai.ai. Have Zoom link + calendar invite + "$20 Claude account" setup instructions ready.
-- **~6pm — DECISION GATE:**
-  - **3+ committed →** run it. Send invites + Zoom + Claude setup tonight.
-  - **1–2 committed →** run it anyway as a founding pilot. Proof is the goal, not revenue.
-  - **0 committed →** don't fake a cohort. Text warmest prospects "moving the first session to next Tuesday," roll momentum forward.
+- **Partner outreach:** 2 suppliers (`ruggedai.ai/host`) + 1 association (`ruggedai.ai/associations`).
+- **Prep (30 min):** Test the contact form lands at colin.hirdman@ruggedai.ai. Have Zoom link + calendar invite + "$20 Claude account" setup instructions ready to send the moment someone commits.
 
-### Tuesday June 23 — Session 1 (or the slip)
-- If running: deliver Session 1 ("Get Comfortable With Claude"). **Record it.** Get verbal "mind if I quote you later?" up front. After: one-line recap + homework, same day.
-- If slipped: re-run the blitz, deeper.
+### Decision gate — ~Fri June 26
+- **3+ committed →** confirmed. Send invites + Zoom + Claude setup.
+- **1–2 committed →** run it as a founding pilot. Proof is the goal, not revenue.
+- **0 committed →** push the warm list harder over the weekend and reassess Monday June 29. If still empty, slip kickoff one more week (start July 7 — but note that pushes the finish to Aug 4 around the July 13/27 out-weeks).
 
-### Wed June 24 – Fri June 26 — Capture + keep filling
-- **Wed:** Post one thing from Session 1 ("here's what a contractor built in 90 min").
-- **Thu:** Follow up with "maybes" (they're August seeds). Book 2–3 discovery calls.
-- **Fri:** First partner outreach — 2 suppliers (`ruggedai.ai/host`) + 1 association (`ruggedai.ai/associations`).
+### Session weeks
+- **Tue June 30 — Session 1 ("Get Comfortable With Claude"):** **Record it.** Get verbal "mind if I quote you later?" up front. Same day: one-line recap + homework.
+- **Wed July 1:** Post one thing from Session 1 ("here's what a contractor built in 90 min"). Follow up with "maybes."
+- **Tue July 7 — Session 2 ("Build Your Business Co-Pilot"):** the magic session. Capture a before/after. First testimonial ask while hot; open August enrollment conversations.
+- **Week of July 13:** out — no session.
+- **Tue July 21 — Session 3 ("Put It to Work"):** Ask every grad for 2 referrals.
 
-### Sat–Sun — Light
-- Prep Session 2. Check metrics: touches → replies → calls → seats. Low replies = list too cold; replies but no closes = pitch needs work.
-
-### Following week
-- **Tue June 30:** Session 2 ("Build Your Business Co-Pilot") — the magic session. Capture a before/after.
-- **Wed–Thu:** First testimonial ask while hot. Open August enrollment conversations.
-- **Mon July 7:** Session 3 ("Put It to Work"). Ask every grad for 2 referrals.
-
-**The one thing that matters today:** get on the phone with 5–8 people before 6pm. Everything else is secondary.
+**The one thing that matters this week:** get on the phone with 5–8 people and lock 3+ committed seats for June 30. Everything else is secondary.
