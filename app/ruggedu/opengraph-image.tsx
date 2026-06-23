@@ -5,7 +5,12 @@ import { join } from "node:path";
 export const alt =
   "RuggedU — a three-week live workshop where trades businesses build an AI co-pilot that knows their business. Tuesdays June 30, July 7 & July 21, 2026.";
 
-export const size = { width: 1200, height: 630 };
+// Rendered at 2x (2400×1260) for a sharper result on high-DPI displays and
+// when platforms upscale. Aspect ratio stays the standard 1.91:1.
+const SCALE = 2;
+const px = (n: number) => n * SCALE;
+
+export const size = { width: 1200 * SCALE, height: 630 * SCALE };
 
 export const contentType = "image/png";
 
@@ -26,7 +31,7 @@ export default async function Image() {
           justifyContent: "space-between",
           backgroundColor: "#0A0A0A",
           color: "#FFFFFF",
-          padding: "72px 80px",
+          padding: `${px(72)}px ${px(80)}px`,
           position: "relative",
           fontFamily: "Barlow Condensed",
         }}
@@ -38,7 +43,7 @@ export default async function Image() {
             top: 0,
             left: 0,
             bottom: 0,
-            width: 18,
+            width: px(18),
             backgroundColor: "#C41E1E",
             display: "flex",
           }}
@@ -49,9 +54,9 @@ export default async function Image() {
           <div
             style={{
               display: "flex",
-              fontSize: 30,
+              fontSize: px(30),
               fontWeight: 600,
-              letterSpacing: 10,
+              letterSpacing: px(10),
               color: "#C41E1E",
             }}
           >
@@ -60,10 +65,10 @@ export default async function Image() {
           <div
             style={{
               display: "flex",
-              marginTop: 14,
-              fontSize: 168,
+              marginTop: px(14),
+              fontSize: px(168),
               fontWeight: 800,
-              letterSpacing: -3,
+              letterSpacing: px(-3),
               lineHeight: 1,
               textTransform: "uppercase",
             }}
@@ -74,11 +79,11 @@ export default async function Image() {
           <div
             style={{
               display: "flex",
-              marginTop: 26,
-              fontSize: 48,
+              marginTop: px(26),
+              fontSize: px(48),
               fontWeight: 600,
               color: "#FFFFFF",
-              maxWidth: 940,
+              maxWidth: px(940),
               lineHeight: 1.12,
             }}
           >
@@ -91,7 +96,7 @@ export default async function Image() {
           <div
             style={{
               display: "flex",
-              fontSize: 34,
+              fontSize: px(34),
               fontWeight: 600,
               color: "#D1D1D1",
             }}
@@ -103,23 +108,23 @@ export default async function Image() {
               display: "flex",
               alignItems: "flex-end",
               justifyContent: "space-between",
-              marginTop: 22,
+              marginTop: px(22),
             }}
           >
             <div style={{ display: "flex", alignItems: "baseline" }}>
               <span
-                style={{ fontSize: 68, fontWeight: 800, color: "#C41E1E" }}
+                style={{ fontSize: px(68), fontWeight: 800, color: "#C41E1E" }}
               >
                 $497
               </span>
               <span
                 style={{
-                  fontSize: 30,
+                  fontSize: px(30),
                   fontWeight: 600,
                   color: "#6B7280",
-                  marginLeft: 18,
+                  marginLeft: px(18),
                   textTransform: "uppercase",
-                  letterSpacing: 2,
+                  letterSpacing: px(2),
                 }}
               >
                 3-Week Live Workshop
@@ -128,10 +133,10 @@ export default async function Image() {
             <div
               style={{
                 display: "flex",
-                fontSize: 30,
+                fontSize: px(30),
                 fontWeight: 600,
                 color: "#FFFFFF",
-                letterSpacing: 1,
+                letterSpacing: px(1),
               }}
             >
               ruggedai.ai/ruggedu
