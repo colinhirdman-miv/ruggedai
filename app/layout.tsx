@@ -17,6 +17,7 @@ const barlow = Barlow({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.ruggedai.ai"),
   title: "RuggedAI — AI Built for Home Service Businesses",
   description: "AI that works as hard as you do. Built for HVAC, pest control, plumbing, electrical, and more.",
 };
