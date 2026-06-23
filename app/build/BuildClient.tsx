@@ -3,7 +3,12 @@
 import { useActionState, useState } from "react";
 import { submitBuild } from "@/actions/contact.action";
 
-export default function BuildClient() {
+export default function BuildClient({
+  interest,
+}: {
+  interest?: "ruggedu";
+}) {
+  const isRuggedU = interest === "ruggedu";
   const [state, formAction, pending] = useActionState(submitBuild, null);
   const [form, setForm] = useState({
     name: "",
@@ -24,29 +29,40 @@ export default function BuildClient() {
       <section className="pt-36 pb-24 px-6 bg-brand-black">
         <div className="max-w-3xl mx-auto">
           <p className="font-display font-bold text-xs uppercase tracking-[0.3em] text-brand-red mb-4">
-            Get Started
+            {isRuggedU ? "RuggedU · First Cohort" : "Get Started"}
           </p>
           <h1
             className="font-display font-black uppercase leading-none text-white mb-6"
             style={{ fontSize: "clamp(3rem, 7vw, 5.5rem)", letterSpacing: "-0.01em" }}
           >
-            Let's Build.
+            {isRuggedU ? "Reserve Your Seat." : "Let's Build."}
           </h1>
           <p className="text-[#9CA3AF] text-base md:text-lg max-w-xl mb-12 leading-relaxed">
-            Tell us about your business and we&apos;ll follow up within one business day to talk through the best fit.
+            {isRuggedU
+              ? "Three Tuesdays — June 30, July 7 & July 21, 10:30am–Noon CT. Fill this out and Colin will follow up personally to lock in your spot. Seats are limited."
+              : "Tell us about your business and we'll follow up within one business day to talk through the best fit."}
           </p>
 
           {state?.success ? (
             <div className="border border-brand-red bg-[#130000] p-10">
               <h2 className="font-display font-black text-3xl uppercase text-white mb-4">
-                Message Received.
+                {isRuggedU ? "You're on the List." : "Message Received."}
               </h2>
               <p className="text-[#9CA3AF] text-base leading-relaxed">
-                Thanks for reaching out. We&apos;ll follow up within one business day to talk through the best fit for your business.
+                {isRuggedU
+                  ? "Thanks for reserving your spot. Colin will follow up personally — usually same day — to confirm your RuggedU seat and send setup details."
+                  : "Thanks for reaching out. We'll follow up within one business day to talk through the best fit for your business."}
               </p>
             </div>
           ) : (
             <form action={formAction} className="space-y-6">
+              {isRuggedU && (
+                <input
+                  type="hidden"
+                  name="interest"
+                  value="RuggedU — First Cohort (Jun 30 / Jul 7 / Jul 21)"
+                />
+              )}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div>
                   <label className="block font-display font-bold text-xs uppercase tracking-widest text-brand-iron mb-2">
