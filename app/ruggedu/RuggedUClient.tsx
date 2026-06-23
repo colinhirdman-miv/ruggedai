@@ -118,10 +118,10 @@ export default function RuggedUClient() {
             </div>
           </div>
           <Link
-            href="/build"
+            href="/build?from=ruggedu"
             className="inline-block font-display font-black text-base uppercase tracking-widest bg-brand-red text-white px-10 py-4 hover:bg-red-700 transition-colors"
           >
-            Join RuggedU →
+            Reserve Your Spot →
           </Link>
         </div>
       </section>
@@ -137,7 +137,7 @@ export default function RuggedUClient() {
             3 Live Weekly Sessions
           </p>
           <Link
-            href="/build"
+            href="/build?from=ruggedu"
             className="font-display font-black text-xs uppercase tracking-widest bg-white text-brand-red px-5 py-2 hover:bg-brand-iron transition-colors"
           >
             Reserve Your Spot →
@@ -410,6 +410,26 @@ export default function RuggedUClient() {
         </div>
       </section>
 
+      {/* ─── MID-PAGE CTA ─── */}
+      <section className="py-16 px-6 bg-brand-red">
+        <div className="max-w-4xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6 text-center md:text-left">
+          <div>
+            <h2 className="font-display font-black text-2xl md:text-3xl uppercase text-white leading-tight mb-2">
+              Seats Are Limited. Lock In Yours.
+            </h2>
+            <p className="text-white/80 text-sm md:text-base">
+              Tuesdays · June 30, July 7 &amp; July 21 · 10:30am–Noon CT · $497 · Full refund after session one.
+            </p>
+          </div>
+          <Link
+            href="/build?from=ruggedu"
+            className="flex-shrink-0 inline-block font-display font-black text-base uppercase tracking-widest bg-white text-brand-red px-10 py-4 hover:bg-brand-iron transition-colors"
+          >
+            Reserve Your Spot →
+          </Link>
+        </div>
+      </section>
+
       {/* ─── FAQ ─── */}
       <section className="py-24 px-6 bg-brand-light">
         <div className="max-w-3xl mx-auto">
@@ -451,7 +471,7 @@ export default function RuggedUClient() {
             Three weeks. Working systems. No fluff. If you show up to the first session and it&apos;s not right for you, full refund — no questions asked.
           </p>
           <Link
-            href="/build"
+            href="/build?from=ruggedu"
             className="inline-block font-display font-black text-base uppercase tracking-widest bg-brand-red text-white px-12 py-5 hover:bg-red-700 transition-colors"
           >
             Reserve Your Spot — $497

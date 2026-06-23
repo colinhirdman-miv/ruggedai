@@ -51,6 +51,7 @@ export async function submitBuild(
   const phone = (formData.get("phone") as string)?.trim();
   const business = (formData.get("business") as string)?.trim();
   const message = (formData.get("message") as string)?.trim();
+  const interest = (formData.get("interest") as string)?.trim();
 
   if (!name || !email || !business) {
     return { success: false, error: "Please fill out all required fields." };
@@ -58,18 +59,23 @@ export async function submitBuild(
 
   const resend = new Resend(process.env.RESEND_API_KEY);
 
+  const subject = interest
+    ? `New RuggedU seat request from ${name} (${business})`
+    : `New RuggedAI inquiry from ${name} (${business})`;
+
   try {
     await resend.emails.send({
       from: "RuggedAI <noreply@send.ruggedai.ai>", // requires send.ruggedai.ai verified in Resend
       to: "colin.hirdman@ruggedai.ai",
       replyTo: email,
-      subject: `New RuggedAI inquiry from ${name} (${business})`,
-      text: `Name: ${name}\nEmail: ${email}\nPhone: ${phone || "—"}\nBusiness: ${business}\n\nMessage:\n${message || "—"}`,
+      subject,
+      text: `Name: ${name}\nEmail: ${email}\nPhone: ${phone || "—"}\nBusiness: ${business}${interest ? `\nInterest: ${interest}` : ""}\n\nMessage:\n${message || "—"}`,
       html: `
         <p><strong>Name:</strong> ${name}</p>
         <p><strong>Email:</strong> ${email}</p>
         <p><strong>Phone:</strong> ${phone || "—"}</p>
         <p><strong>Business:</strong> ${business}</p>
+        ${interest ? `<p><strong>Interest:</strong> ${interest}</p>` : ""}
         <br />
         <p><strong>Message:</strong></p>
         <p>${(message || "—").replace(/\n/g, "<br />")}</p>
