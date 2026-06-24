@@ -88,7 +88,7 @@ export default function RuggedUHvacClient() {
             You leave with an AI co-pilot that knows your HVAC business — and works for you every day.
           </p>
           <p className="text-[#9CA3AF] text-base md:text-lg max-w-2xl mb-8 leading-relaxed">
-            Three weeks, live and hands-on, alongside a small group of HVAC contractors facing the same things you are. You&apos;ll cut through the hype, learn how AI actually works in plain English, and put it to work where it counts in your shop.
+            Three weeks, live and hands-on, alongside a small group of HVAC contractors facing the same things you are. You&apos;ll cut through the hype, learn how AI actually works in plain English, and put it to work where it counts in your shop. No code and no tech background required — if you can describe how your shop runs, you can do this.
           </p>
           <div className="flex items-baseline gap-3 mb-6">
             <span
@@ -156,11 +156,11 @@ export default function RuggedUHvacClient() {
             {[
               {
                 title: "An AI Co-Pilot That Knows Your Shop",
-                body: "You leave with a co-pilot that knows your pricing, your service area, your services, and how you talk to customers — so it stops giving generic answers and starts answering like someone who actually works there. Yours to keep.",
+                body: "You leave with a co-pilot that knows your pricing, your service area, your services, and how you talk to customers — so it stops giving generic answers and starts answering like someone who actually works there. Yours to keep — and it's not just for you: what you build works for your whole team, so the payoff multiplies as they put it to use.",
               },
               {
                 title: "Get Your Time Back",
-                body: "By week three your co-pilot isn't just answering questions — it's running on its own. You set up a routine that works in the background, like a morning briefing or lead triage, so AI is handling real work while you're out on a call.",
+                body: "By week three your co-pilot isn't just answering questions — it's running on its own. You set up a routine that works in the background, like a morning briefing or lead triage, so AI is handling real work while you're out on a call. The few hours you put in pay themselves back in time saved that first month — and that only compounds from there.",
               },
               {
                 title: "A Room of HVAC Pros",
@@ -310,6 +310,7 @@ export default function RuggedUHvacClient() {
               <ul className="space-y-4">
                 {[
                   "You run an HVAC business — or help run one",
+                  "You've never written a line of code — and never will",
                   "You're buried in busywork and know AI could help",
                   "You want AI that actually works in your shop",
                   "You (or someone on your team) can commit three weeks",
